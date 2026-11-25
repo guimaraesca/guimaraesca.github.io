@@ -1,0 +1,160 @@
+cv:
+  name: Carlos Artur Guimarães
+  label: Governança de dados educacionais · Product Owner · IA aplicada
+  email: carlosarturguimaraes@protonmail.com
+  location: Brasil
+  image: ""
+  summary: >
+    Consultor em governança de dados educacionais (EMIS), Product Owner e pesquisador.
+    Atuo na interseção entre governo digital, governança de dados e políticas educacionais,
+    com DAMA-DMBOK, LGPD, ISO/IEC 38500 e COBIT, e IA/GenAI aplicada à produção de materiais
+    didáticos. Frentes com MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco.
+
+  social_networks:
+    - network: GitHub
+      username: guimaraesca
+    - network: LinkedIn
+      username: carlosarturguimaraes
+
+  sections:
+    Educação:
+      - institution: UFRN — PPGITE
+        location: Natal, RN
+        area: Inovação em Tecnologias Educacionais
+        studyType: Mestrado
+        start_date: 2023
+        end_date: 2025
+        highlights:
+          - "Defesa em 04/09/2025 · orientador Charles Madeira."
+          - "Dissertação: pensamento computacional via desenvolvimento de jogos digitais."
+      - institution: UNIVESP
+        location: São Paulo (EAD)
+        area: Ciência de Dados
+        studyType: Bacharelado (em curso)
+        start_date: 2025
+        end_date: 2029
+      - institution: Instituto Eldorado / PUC-Campinas
+        location: Campinas, SP
+        area: Residência Tecnológica em IA (PBIA-Softex)
+        studyType: Residência (em curso)
+        start_date: 2026
+        end_date: 2027
+      - institution: UFRN
+        location: Natal, RN
+        area: Gestão de Políticas Públicas
+        studyType: Bacharelado
+        start_date: 2012
+        end_date: 2018
+        highlights:
+          - "TCC: Portal de Transparência do TCE-RN."
+      - institution: ESAB
+        location: EAD
+        area: Redes de Computadores
+        studyType: MBA
+        start_date: 2012
+        end_date: 2013
+      - institution: UFRN
+        location: Natal, RN
+        area: Filosofia
+        studyType: Licenciatura
+        start_date: 2005
+        end_date: 2008
+
+    Experiência:
+      - company: SEPLAG-CE · Ceará Mais Digital (via BID/EGPCE)
+        position: Consultor — Tecnologias Digitais e Educação Digital
+        location: Ceará
+        start_date: 2026
+        end_date: 2027
+        summary: Alfabetização Digital Básica e capacitação de servidores.
+      - company: OEI · SEDUC-RS
+        position: Consultor — Redução da Evasão Escolar
+        location: Rio Grande do Sul
+        start_date: 2026
+        end_date: 2027
+        summary: Proteção à Trajetória do Estudante na rede estadual.
+      - company: MEC/SEB (via UNESCO)
+        position: Consultor de Governança e Product Owner — SGP 2.0 / Gestão Presente
+        location: Brasília, DF
+        start_date: 2025
+        end_date: 2026
+        summary: Projeto 914BRZ1159. Governança de dados/EMIS, interoperabilidade e transição SGP 2.0.
+        highlights:
+          - "DAMA-DMBOK, ISO/IEC 38500, COBIT; matriz de governança e critérios de prontidão."
+      - company: Instituto Sapien · Goiás 2050
+        position: Analista — Frente de Capital Humano
+        location: Goiás
+        start_date: 2025
+        end_date: 2026
+        summary: Análise territorial e de dados (IBGE/PNAD/CAGED/RAIS), cenários e painéis.
+      - company: Hachura Estúdio
+        position: Editor Geral — coleção "Educação Digital" (PNLD 2027)
+        location: PJ
+        start_date: 2025
+        end_date: 2026
+        summary: IA generativa, rubricas e governança editorial (TRILHA-IA).
+      - company: OEI · SME Recife
+        position: Consultor — EducaCode / Clube de Programação
+        location: Recife, PE
+        start_date: 2024
+        end_date: 2025
+        summary: Currículo e formação em Computação; produtos P1–P6.
+      - company: Instituto Unibanco
+        position: Analista de Dados Sênior e Product Owner — SIGAE
+        location: São Paulo, SP
+        start_date: 2023
+        end_date: 2025
+        summary: Produto de dados para gestão educacional em redes estaduais.
+        highlights:
+          - "Reconhecimento \"Profissional destaque Data Driven\" (2024)."
+      - company: Brasscom (patrocínio Intuit)
+        position: Consultor — Escola Digital e Conectada
+        location: Brasil
+        start_date: 2021
+        end_date: 2026
+        summary: Itinerários de programação, mídias digitais e material docente.
+      - company: HUB-UnB · Ebserh (via UNESCO)
+        position: Consultor — TIC e ensino na Rede Ebserh
+        location: Brasília, DF
+        start_date: 2021
+        end_date: 2022
+      - company: IMD/UFRN
+        position: Coordenador de Tutoria e de Professores Mediadores (EAD)
+        location: Natal, RN
+        start_date: 2012
+        end_date: 2021
+        summary: GameLab/GAMEDU; jogos digitais, pensamento computacional e formação docente.
+        highlights:
+          - "Orientou estudante do IMD/UFRN cujo projeto Lucy recebeu menção honrosa do Google Play (2019); o reconhecimento é da estudante."
+      - company: IFRN
+        position: Professor Mediador e Coordenador de tutoria (EAD)
+        location: Natal, RN
+        start_date: 2018
+        end_date: 2021
+      - company: Kroton · Pitágoras
+        position: Coordenador Geral de Polo
+        location: Natal, RN
+        start_date: 2019
+        end_date: 2019
+      - company: UNIFACEX
+        position: Professor de ensino superior (TI/Computação)
+        location: Natal, RN
+        start_date: 2013
+        end_date: 2015
+
+    Competências:
+      - name: Governança de dados
+        icon: fa-solid fa-database
+        keywords: "DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT, EMIS, interoperabilidade"
+      - name: Dados e BI
+        icon: fa-solid fa-chart-line
+        keywords: "Python, R, SQL, BigQuery, Power BI, Looker"
+      - name: Produto e IA
+        icon: fa-solid fa-diagram-project
+        keywords: "Product Ownership, IA/GenAI, RAG, rubricas, governança editorial"
+
+    Idiomas:
+      - name: Português
+        summary: "Nativo"
+      - name: Inglês
+        summary: "Leitura técnica e comunicação profissional"

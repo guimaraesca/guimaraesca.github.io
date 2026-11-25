@@ -1,0 +1,15 @@
+{
+  "basics": {
+    "name": "Carlos Artur Guimarães",
+    "label": "Governança de dados educacionais · Product Owner · IA aplicada",
+    "email": "carlosarturguimaraes@protonmail.com",
+    "summary": "Consultor em governança de dados educacionais (EMIS), Product Owner e pesquisador.",
+    "location": { "countryCode": "BR", "region": "Brasil" },
+    "profiles": [
+      { "network": "GitHub", "username": "guimaraesca", "url": "https://github.com/guimaraesca" },
+      { "network": "LinkedIn", "username": "carlosarturguimaraes", "url": "https://www.linkedin.com/in/carlosarturguimaraes" }
+    ]
+  },
+  "work": [], "education": [], "publications": [], "projects": [],
+  "volunteer": [], "awards": [], "certificates": [], "skills": [], "languages": [], "interests": [], "references": []
+}
