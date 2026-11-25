@@ -9,9 +9,16 @@ category: governança de dados
 
 > **Nota de governança de dados.** Visão de alto nível, respeitando o sigilo do produto e das redes parceiras.
 
-**Desafio.** Apoiar a gestão educacional de redes estaduais com um produto digital de dados — indicadores, dashboards, acompanhamento pedagógico e rotinas de gestão.
+**Contexto.** O **SIGAE** é um sistema de apoio à gestão educacional em redes estaduais, integrando produto digital, dados, indicadores, acompanhamento pedagógico e rotinas de gestão.
 
-**Papel e decisões.** Analista de Dados Sênior e **Product Owner** (vínculo 2023–2025). Gestão de backlog e priorização, organização de demandas de dados e indicadores, articulação entre produto, tecnologia, dados e gestão pedagógica, e formação executiva de gestores públicos.
+**Papel.** **Analista de Dados Sênior e Product Owner** (vínculo 2023–2025), articulando times de produto, dados, tecnologia, gestão pedagógica e redes parceiras.
+
+**O que levei para a mesa.**
+
+- Gestão de backlog e priorização de funcionalidades, alinhando as necessidades das redes às entregas técnicas.
+- Organização de demandas de dados, indicadores, dashboards e uso pedagógico das informações.
+- Formação executiva de gestores públicos em governança de dados e indicadores educacionais.
+- Apoio aos ciclos de uso do sistema por secretarias, regionais e escolas.
 
 **Escala do ambiente (documentada).**
 
@@ -23,5 +30,7 @@ category: governança de dados
 | Gestores públicos formados | 50+ |
 
 **Reconhecimento.** "Profissional destaque Data Driven" (2024).
+
+**Em uma frase.** Conectei produto, dados e decisão educacional em escala estadual, traduzindo demandas de redes públicas em backlog, indicadores, formação e rotinas de uso.
 
 *A escala descreve o programa; não é atribuída como resultado individual.*

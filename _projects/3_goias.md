@@ -7,9 +7,16 @@ importance: 3
 category: governança de dados
 ---
 
-**Desafio.** Planejamento estratégico de longo prazo para orientar políticas públicas e o desenvolvimento econômico, social e territorial de Goiás até 2050.
+**Contexto.** Projeto de **planejamento estratégico de longo prazo** para orientar políticas públicas e o desenvolvimento econômico, social e territorial de Goiás até 2050.
 
-**Papel e decisões.** Análise de capital humano, dados socioeconômicos e indicadores territoriais; modelo de vetores de desenvolvimento humano e social; cenários quantitativos.
+**Papel.** Frente de **Capital Humano**: análise de dados socioeconômicos, indicadores territoriais e cenários de desenvolvimento.
+
+**O que levei para a mesa.**
+
+- Consolidação de evidências sobre desenvolvimento regional, capital humano e combate à pobreza.
+- Análise territorial de municípios e regiões de planejamento.
+- Modelo de **vetores de desenvolvimento humano e social**.
+- Cenários 2050 com técnicas quantitativas (Holt exponencial, ARIMA e combinação ponderada).
 
 **Escala (documentada).**
 
@@ -19,4 +26,6 @@ category: governança de dados
 | Regiões de planejamento | 10 |
 | Cenários estratégicos até 2050 | 3 |
 
-**Stack.** Bases IBGE/PNAD/CAGED/RAIS, IPEA, IMB-GO, OCDE/PISA, PNUD, Banco Mundial e FMI; Python/R e Looker; técnicas de Holt exponencial, ARIMA e combinação ponderada.
+**Bases e ferramentas.** IBGE, PNAD, CAGED, RAIS, IPEA, IMB-GO, SEPLAN-GO, OCDE/PISA, UNESCO, PNUD, Banco Mundial e FMI; Python/R e Looker.
+
+**Em uma frase.** Traduzi dados educacionais, demográficos e socioeconômicos em leitura territorial e cenários de longo prazo para apoiar planejamento público orientado por evidências.

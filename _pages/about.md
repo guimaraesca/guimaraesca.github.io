@@ -23,8 +23,12 @@ latest_posts:
   enabled: false
 ---
 
-Sou **Carlos Artur Guimarães**, consultor em **governança de dados educacionais (EMIS)**, Product Owner e pesquisador. Atuo na interseção entre governo digital, governança de dados e políticas educacionais — traduzindo política pública em produtos de dados, indicadores, arquitetura e rotinas de gestão que redes de ensino, ministérios e organismos internacionais conseguem executar.
+Sou **Carlos Artur Guimarães** — consultor em governança de dados educacionais, Product Owner e pesquisador. Trabalho no ponto em que a política pública encontra o dado: transformo diretrizes educacionais em sistemas, indicadores, arquiteturas e rotinas de governança que ministérios, organismos internacionais e redes de ensino conseguem operar no dia a dia.
 
-Meu trabalho se apoia em dois pilares. **(1) Governança de dados educacionais:** qualidade, catalogação e interoperabilidade de sistemas de larga escala, com DAMA-DMBOK, LGPD, ISO/IEC 38500 e COBIT. **(2) IA/GenAI aplicada:** produção e avaliação de materiais didáticos com IA generativa sob governança editorial, rubricas e rastreabilidade. Conduzi frentes com **MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco**, além de redes estaduais e municipais.
+Minha atuação se organiza em **dois pilares que se reforçam**. O primeiro é a **governança de dados educacionais (EMIS)**: estruturo qualidade, catalogação, interoperabilidade e ciclos de decisão de sistemas de larga escala, ancorado em DAMA-DMBOK, LGPD, ISO/IEC 38500 e COBIT — do dado bruto à informação que um gestor público usa para agir. O segundo é a **IA/GenAI aplicada**: levo a inteligência artificial generativa para a educação pública com responsabilidade, na produção e avaliação de materiais didáticos sob governança editorial, com rubricas, ontologias, RAG e rastreabilidade.
 
-Mestre em Inovação em Tecnologias Educacionais (PPGITE/UFRN, 2025). Veja os **cases por ator** — com nota de governança de dados onde há sigilo contratual — e as **publicações**.
+Essa combinação se traduziu em frentes com **MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco**, além de secretarias estaduais e redes municipais. Fui Product Owner de produtos de dados em escala estadual e nacional, consultor de governança na transição do **SGP 2.0 (Gestão Presente)**, Editor Geral de obras do **PNLD 2027** com IA generativa e analista em projetos de planejamento territorial — sempre conectando currículo, tecnologia, avaliação e formação docente.
+
+Minha base vem da tecnologia educacional: anos de EAD, jogos digitais, pensamento computacional e formação de professores no **IMD/UFRN**, que deram o rigor metodológico que hoje aplico a dados e IA. Sou **mestre em Inovação em Tecnologias Educacionais (PPGITE/UFRN, 2025)**, com bacharelado em Gestão de Políticas Públicas e licenciatura em Filosofia, e sigo me atualizando em Ciência de Dados (UNIVESP) e numa Residência em IA (Eldorado/PUC-Campinas).
+
+Explore os **cases por ator** — cada um com nota de governança onde há sigilo contratual —, as **publicações** e o **CV completo**. Estou aberto a consultorias, bancas e projetos.

@@ -9,9 +9,16 @@ category: governança de dados
 
 > **Nota de governança de dados.** Em respeito ao sigilo contratual e às regras de governança do projeto, este case apresenta uma visão de alto nível — arquitetura e método —, sem expor dados sensíveis ou artefactos internos.
 
-**Desafio.** Fortalecer a gestão educacional e a interoperabilidade de dados da educação básica, articulando sistemas como SGP, GPE, CMDEB e a gestão de demanda por vaga em creche, rumo a uma infraestrutura nacional de dados da educação.
+**Contexto.** Projeto MEC/UNESCO voltado ao fortalecimento da gestão educacional, à interoperabilidade e ao uso padronizado de dados na educação básica. O escopo articula sistemas e iniciativas como **SGP, GPE, CMDEB** e a **gestão de demanda por vaga em creche**, com a discussão de uma **infraestrutura nacional de dados da educação**.
 
-**Papel e decisões.** Consultor de Governança / Product Owner. Conduzi cronogramas integrados, matriz de governança operacional, critérios de prontidão, pontos de controle, a transição do **SGP 2.0** e a internalização **Dataprev**, com referências de ITIL 4, PMBOK 7, ISO/IEC 38500, COBIT 2019, DAMA-DMBOK, LGPD e e-PING.
+**Papel.** Consultor de Governança e **Product Owner**, atuando em cronogramas integrados, matriz de governança operacional, critérios de prontidão, pontos de controle, a **transição para o SGP 2.0** e a **internalização Dataprev**, articulando equipes técnicas e áreas de gestão.
+
+**O que levei para a mesa.**
+
+- Produto técnico consolidado: cronograma integrado, roteiro analítico e critérios operacionais dos módulos.
+- Matriz de governança operacional para acompanhar entregas, riscos, dependências e sprints.
+- Análise de internalização, prontidão operacional, fluxos de deploy, backlog priorizado e ritos de governança.
+- Organização do referencial técnico: ITIL 4, PMBOK 7, ISO/IEC 38500, COBIT 2019, DAMA-DMBOK, LGPD e e-PING.
 
 **Escala do ambiente (documentada).**
 
@@ -23,6 +30,6 @@ category: governança de dados
 | Profissionais cadastrados | 220 mil |
 | Frequências mensais do Ensino Médio | ~95% |
 
-**Artefactos.** Produto técnico consolidado (cronograma integrado, roteiro analítico e critérios operacionais dos módulos) e matriz de governança operacional (entregas, riscos, dependências e sprints).
+**Em uma frase.** Estruturei instrumentos de governança para transformar sistemas educacionais complexos em uma operação acompanhável — cronogramas, critérios de prontidão, backlog, rotinas de decisão, matriz de riscos e indicadores que sustentam interoperabilidade e gestão baseada em dados.
 
 *A escala descreve o programa; não é atribuída como resultado individual.*
