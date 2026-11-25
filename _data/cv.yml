@@ -18,7 +18,7 @@ cv:
       username: carlosarturguimaraes
 
   sections:
-    Educação:
+    Education:
       - institution: UFRN — PPGITE
         location: Natal, RN
         area: Inovação em Tecnologias Educacionais
@@ -61,7 +61,7 @@ cv:
         start_date: 2005
         end_date: 2008
 
-    Experiência:
+    Experience:
       - company: SEPLAG-CE · Ceará Mais Digital (via BID/EGPCE)
         position: Consultor — Tecnologias Digitais e Educação Digital
         location: Ceará
@@ -163,7 +163,7 @@ cv:
         start_date: 2013
         end_date: 2015
 
-    Competências:
+    Skills:
       - name: Governança de dados
         icon: fa-solid fa-database
         keywords: "DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT, EMIS, interoperabilidade, e-PING"
@@ -177,19 +177,19 @@ cv:
         icon: fa-solid fa-graduation-cap
         keywords: "BNCC Computação, pensamento computacional, STEAM, formação docente, H5P, SCORM, xAPI"
 
-    Prêmios:
+    Awards:
       - title: Profissional destaque Data Driven
         date: 2024
         awarder: Instituto Unibanco
         summary: Reconhecimento interno à atuação orientada a dados.
 
-    Idiomas:
+    Languages:
       - name: Português
         summary: "Nativo"
       - name: Inglês
         summary: "Leitura técnica e comunicação profissional"
 
-    Publicações:
+    Publications:
       - title: "Integrando o Pensamento Computacional via Desenvolvimento de Jogos Digitais na Formação de Educadores: Uma Revisão Sistemática da Literatura"
         authors: ["Guimarães, C. A.", "Madeira, C."]
         publisher: "Metodologias e Aprendizado, v. 8, p. 360–379"
