@@ -20,7 +20,7 @@ nav_order: 1
   transition:transform .17s ease,filter .2s ease}
 .pz.gov{--face:#fceeeb;--edge:#DC2A17}.pz.edu{--face:#eceef6;--edge:#1b1b4d}
 .pz.case{--face:#ffffff}
-@media (prefers-color-scheme: dark){.pz{--face:#211f1a}.pz.gov{--face:#2b1a16}.pz.edu{--face:#191b27}.pz.case{--face:#2a2822}}
+@media (prefers-color-scheme: dark){.pz{--face:#211f1a}.pz.gov{--face:#2b1a16}.pz.edu{--face:#191b27}}
 .pz:hover{transform:translateY(-8px) scale(1.06) rotate(-2deg);filter:drop-shadow(0 12px 16px rgba(0,0,0,.32));z-index:6}
 .pz .ring{position:absolute;inset:0;pointer-events:none;-webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;box-shadow:inset 0 0 0 2.5px var(--edge,rgba(127,127,127,.35))}
 .pz.case img{max-width:72%;max-height:56%}
