@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CG">
+  <rect width="64" height="64" fill="#16150F"/>
+  <rect x="8" y="8" width="16" height="16" fill="#DC2A17"/>
+  <text x="32" y="46" font-family="Inter, Helvetica, Arial, sans-serif" font-size="24" font-weight="700"
+        fill="#F2EFE8" text-anchor="middle" letter-spacing="-1">CG</text>
+</svg>
