@@ -3,6 +3,7 @@ layout: page
 title: IMD/UFRN — Tecnologia educacional e jogos
 description: EAD, GameLab, jogos digitais, pensamento computacional e formação docente.
 img: assets/img/case_imd.png
+logo: assets/img/logos/ufrn.png
 importance: 3
 category: educação digital
 ---

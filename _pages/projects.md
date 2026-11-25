@@ -2,55 +2,66 @@
 layout: page
 title: cases
 permalink: /projects/
-description: Destaques por ator, organizados por categoria. Passe o mouse para o detalhe; clique para abrir o case completo.
+description: Um quebra-cabeça das experiências e parcerias. Passe o mouse sobre uma peça para o detalhe; clique para abrir.
 nav: true
 nav_order: 1
 ---
 
 <style>
-.case-cats{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 1.6rem}
-.case-cats a{font-family:var(--mono,ui-monospace,monospace);font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;border:1px solid currentColor;padding:5px 12px;border-radius:999px;opacity:.65;text-decoration:none;color:inherit}
-.case-cats a:hover{opacity:1;border-color:#DC2A17;color:#DC2A17}
-.case-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin:0 0 2.6rem}
-.case-card{position:relative;display:block;border:1px solid rgba(127,127,127,.28);border-radius:12px;overflow:hidden;text-decoration:none;color:inherit;background:rgba(127,127,127,.05);transition:transform .18s ease,box-shadow .22s ease,border-color .18s ease}
-.case-card:hover{transform:translateY(-5px);box-shadow:0 14px 32px rgba(0,0,0,.20);border-color:#DC2A17}
-.case-card .cover{width:100%;aspect-ratio:11/7;object-fit:cover;display:block}
-.case-card .meta{padding:13px 15px 15px}
-.case-card .cat{font-family:var(--mono,ui-monospace,monospace);font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;color:#DC2A17}
-.case-card h3{margin:.3rem 0 0;font-size:1.04rem;line-height:1.18;letter-spacing:-.01em}
-.case-card .pixel{position:absolute;top:9px;right:9px;width:34px;height:34px;image-rendering:pixelated;image-rendering:crisp-edges;filter:drop-shadow(0 1px 2px rgba(0,0,0,.35));transition:transform .18s ease,filter .18s ease;z-index:3}
-.case-card:hover .pixel{transform:scale(1.3) rotate(-7deg);filter:drop-shadow(0 0 7px #DC2A17)}
-.case-card .detail{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top,rgba(8,8,8,.94),rgba(8,8,8,.80) 72%,transparent);color:#f2efe8;padding:20px 15px 13px;transform:translateY(101%);opacity:0;transition:transform .24s ease,opacity .2s ease}
-.case-card:hover .detail{transform:translateY(0);opacity:1}
-.case-card .detail p{margin:0;font-size:.82rem;line-height:1.45}
-.case-card .detail .open{display:inline-block;margin-top:9px;font-family:var(--mono,ui-monospace,monospace);font-size:.68rem;letter-spacing:.07em;color:#fff;border-bottom:1.5px solid #DC2A17;padding-bottom:1px}
-@media (prefers-reduced-motion: reduce){.case-card,.case-card .pixel,.case-card .detail{transition:none}}
+.pz-legend{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:0 0 1rem;font-family:var(--mono,ui-monospace,monospace);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;opacity:.75}
+.pz-legend .dot{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+.pz-legend .gov{background:#DC2A17}.pz-legend .edu{background:#1b1b4d}
+.puzzle{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:7px;background:repeating-linear-gradient(45deg,rgba(127,127,127,.06),rgba(127,127,127,.06) 12px,rgba(127,127,127,.11) 12px,rgba(127,127,127,.11) 24px);padding:9px;border-radius:16px;border:1px solid rgba(127,127,127,.2)}
+.pz{position:relative;aspect-ratio:1/1;border-radius:9px;background:var(--pz-face,#fbfaf6);border:1px solid rgba(127,127,127,.3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;text-align:center;padding:10px;text-decoration:none;color:inherit;overflow:hidden;transition:transform .16s ease,box-shadow .2s ease,border-color .16s ease}
+@media (prefers-color-scheme: dark){.pz{--pz-face:#201f1a}}
+.pz:hover{transform:translateY(-7px) scale(1.06);box-shadow:0 16px 34px rgba(0,0,0,.28);border-color:#DC2A17;z-index:6}
+.pz.gov{border-top:3px solid #DC2A17}.pz.edu{border-top:3px solid #1b1b4d}
+/* jigsaw knobs: aparecem no hover */
+.pz .knob{position:absolute;width:15px;height:15px;background:#DC2A17;border-radius:50%;opacity:0;transition:opacity .16s ease,transform .16s ease}
+.pz .knob.t{top:-8px;left:calc(50% - 7px)}.pz .knob.r{right:-8px;top:calc(50% - 7px)}
+.pz:hover .knob{opacity:1}
+.pz img{max-width:78%;max-height:52%;object-fit:contain}
+.pz .nm{font-weight:700;font-size:.82rem;line-height:1.1;letter-spacing:-.01em}
+.pz .yr{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.05em;color:#DC2A17}
+.pz .face{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;height:100%}
+.pz .det{position:absolute;inset:0;background:rgba(8,8,8,.94);color:#f2efe8;display:flex;flex-direction:column;justify-content:center;padding:12px;opacity:0;transform:scale(.95);transition:opacity .18s ease,transform .18s ease}
+.pz:hover .det{opacity:1;transform:scale(1)}
+.pz .det b{font-size:.78rem;line-height:1.15}
+.pz .det span{font-size:.66rem;margin-top:5px;line-height:1.3;color:#d9d6ce}
+.pz .det em{font-size:.62rem;margin-top:7px;font-style:normal;font-family:var(--mono,ui-monospace,monospace);color:#fff;border-top:1px solid #DC2A17;padding-top:4px;align-self:flex-start}
+@media (prefers-reduced-motion: reduce){.pz,.pz .knob,.pz .det{transition:none}}
 </style>
 
-{% assign cats = "governança de dados,educação digital" | split: "," %}
-
-<nav class="case-cats" aria-label="Categorias">
-{% for c in cats %}<a href="#{{ c | slugify }}">{{ c }}</a>{% endfor %}
-</nav>
-
-{% for c in cats %}
-<h2 id="{{ c | slugify }}" class="category">{{ c }}</h2>
-<div class="case-grid">
-{% assign items = site.projects | where: "category", c | sort: "importance" %}
-{% for p in items %}
-{% if c == "governança de dados" %}{% assign px = "/assets/img/pixel_gov.png" %}{% else %}{% assign px = "/assets/img/pixel_edu.png" %}{% endif %}
-<a class="case-card" href="{{ p.url | relative_url }}" aria-label="Abrir case: {{ p.title }}">
-  <img class="cover" src="{{ p.img | relative_url }}" alt="{{ p.title }}" loading="lazy">
-  <img class="pixel" src="{{ px | relative_url }}" alt="" aria-hidden="true">
-  <div class="meta">
-    <span class="cat">{{ p.category }}</span>
-    <h3>{{ p.title }}</h3>
-  </div>
-  <div class="detail">
-    <p>{{ p.description }}</p>
-    <span class="open">abrir case &rarr;</span>
-  </div>
-</a>
-{% endfor %}
+<div class="pz-legend">
+  <span><span class="dot gov"></span>governança de dados</span>
+  <span><span class="dot edu"></span>educação digital</span>
+  <span style="opacity:.6">16 peças · clique as com logo para abrir o case</span>
 </div>
-{% endfor %}
+
+<div class="puzzle">
+{%- assign order = "1_mec,2_sigae,3_goias,4_educacode,5_trilhaia,6_imd" | split: "," -%}
+{%- comment -%} peças-case (com logo, clicáveis) {%- endcomment -%}
+{%- for p in site.projects -%}
+  {%- if p.category == "governança de dados" -%}{%- assign cl = "gov" -%}{%- else -%}{%- assign cl = "edu" -%}{%- endif -%}
+  <a class="pz {{ cl }}" href="{{ p.url | relative_url }}" aria-label="Abrir case: {{ p.title }}">
+    <span class="knob t"></span><span class="knob r"></span>
+    <div class="face">
+      <img src="{{ p.logo | relative_url }}" alt="{{ p.title }}">
+    </div>
+    <div class="det"><b>{{ p.title }}</b><span>{{ p.description }}</span><em>abrir case &rarr;</em></div>
+  </a>
+{%- endfor -%}
+{%- comment -%} peças-experiência (texto, levam ao CV) {%- endcomment -%}
+{%- assign exps = "SEPLAG-CE|2026–2027|gov|Consultor — Tecnologias Digitais e Educação Digital (via BID/EGPCE);OEI · SEDUC-RS|2026–2027|gov|Consultor — Redução da Evasão Escolar (Proteção à Trajetória);Brasscom|2021–2026|edu|Escola Digital e Conectada (patrocínio Intuit);HUB-UnB · Ebserh|2021–2022|gov|Consultor em TIC e ensino (via UNESCO);Tomara|2025|gov|Analista de Dados e Especialista em EPT;MEC · Banco Mundial|2022|gov|Consultor e avaliador — STEAM e PNLD;IFRN|2018–2021|edu|Professor Mediador e Coordenador de tutoria (EAD);Kroton · Pitágoras|2019|edu|Coordenador Geral de Polo (Natal/RN);UNIFACEX|2013–2015|edu|Professor de ensino superior (TI/Computação);GAMEDU|2014–2017|edu|Coordenador de Projetos — jogos digitais" | split: ";" -%}
+{%- for e in exps -%}
+  {%- assign f = e | split: "|" -%}
+  <a class="pz {{ f[2] }}" href="{{ '/cv/' | relative_url }}" aria-label="{{ f[0] }} — ver no CV">
+    <span class="knob t"></span><span class="knob r"></span>
+    <div class="face">
+      <span class="nm">{{ f[0] }}</span>
+      <span class="yr">{{ f[1] }}</span>
+    </div>
+    <div class="det"><b>{{ f[0] }}</b><span>{{ f[3] }}</span><em>ver no CV &rarr;</em></div>
+  </a>
+{%- endfor -%}
+</div>

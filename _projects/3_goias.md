@@ -3,6 +3,7 @@ layout: page
 title: Instituto Sapien — Goiás 2050
 description: Capital humano, análise territorial e cenários de longo prazo.
 img: assets/img/case_goias.png
+logo: assets/img/logos/sapien.png
 importance: 3
 category: governança de dados
 ---

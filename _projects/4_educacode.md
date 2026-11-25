@@ -3,6 +3,7 @@ layout: page
 title: OEI · Recife — EducaCode
 description: Currículo e formação em Computação; clubes de programação na rede municipal.
 img: assets/img/case_educacode.png
+logo: assets/img/logos/oei.png
 importance: 1
 category: educação digital
 ---

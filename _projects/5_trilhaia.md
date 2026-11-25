@@ -3,6 +3,7 @@ layout: page
 title: Hachura · PNLD 2027 — TRILHA-IA
 description: IA generativa com governança editorial para produção de material didático.
 img: assets/img/case_trilhaia.png
+logo: assets/img/logos/hachura.png
 importance: 2
 category: educação digital
 ---

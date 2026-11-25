@@ -3,6 +3,7 @@ layout: page
 title: Instituto Unibanco — SIGAE
 description: Product Ownership de um produto de dados para gestão educacional em redes estaduais.
 img: assets/img/case_sigae.png
+logo: assets/img/logos/unibanco.png
 importance: 2
 category: governança de dados
 ---

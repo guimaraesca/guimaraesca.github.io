@@ -3,6 +3,7 @@ layout: page
 title: MEC · UNESCO — Gestão Presente / SGP 2.0
 description: Governança de dados, interoperabilidade e transição do SGP 2.0 na educação básica.
 img: assets/img/case_mec.png
+logo: assets/img/logos/mec.png
 importance: 1
 category: governança de dados
 ---
