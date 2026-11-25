@@ -7,14 +7,15 @@ importance: 3
 category: educação digital
 ---
 
-**Contexto.** Atuação em tecnologia educacional, jogos digitais, pensamento computacional, formação docente e materiais didáticos para cursos técnicos e educação básica no **Instituto Metrópole Digital (IMD/UFRN)**.
+**Período.** 2012–2021 · Coordenador de Tutoria e de Professores Mediadores · Instituto Metrópole Digital (IMD/UFRN).
 
-**Papel.** **Coordenador de Tutoria e de Professores Mediadores** (EAD/Moodle, 2012–2021); coordenação no **GameLab/GAMEDU**; pesquisador e produtor de materiais didáticos.
+**Contexto.** Atuação em tecnologia educacional, jogos digitais, pensamento computacional, formação docente e materiais didáticos para cursos técnicos e educação básica. É a base metodológica que hoje aplico a dados e IA: anos de experimentação aplicada em sala e em ambiente EAD.
 
-**O que construí.**
+**Papel e decisões.**
 
-- Produção e gestão de material didático para cursos técnicos EAD.
-- Participação no **GameLab** e em **8 edições do Desafio GamEdu** (2014–2021).
+- **Coordenação de tutoria e de professores mediadores** (EAD/Moodle) ao longo de quase uma década.
+- Produção e **gestão de material didático** para cursos técnicos EAD.
+- Atuação no **GameLab/GAMEDU** e participação em **8 edições do Desafio GamEdu** (2014–2021).
 - Projetos e publicações sobre pensamento computacional, jogos digitais, learning analytics e formação docente.
 - Articulação entre universidade, escola pública, design de jogos, metodologias ativas e tecnologia educacional.
 

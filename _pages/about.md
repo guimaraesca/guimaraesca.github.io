@@ -13,7 +13,7 @@ profile:
     <p>Aberto a consultorias e bancas</p>
     <p>Brasil</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:

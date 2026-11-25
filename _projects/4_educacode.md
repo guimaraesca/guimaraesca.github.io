@@ -7,16 +7,18 @@ importance: 1
 category: educação digital
 ---
 
-**Contexto.** Política municipal de **educação digital** no Recife — estudos de programação, clubes de programação, cultura digital, pensamento computacional, robótica e STEAM na rede municipal.
+**Período.** 2024–2025 · Consultor (Fase I, Projeto OEI/BRA/22/003) · OEI / Prefeitura do Recife.
 
-**Papel.** Consultor responsável pela **Fase I do Projeto OEI/BRA/22/003**, com produtos **P1 a P6**.
+**Contexto.** Política municipal de **educação digital** no Recife — estudos de programação, clubes de programação, cultura digital, pensamento computacional, robótica e STEAM na rede municipal. O desafio é sair do discurso e entregar currículo, formação, recursos e avaliação que cheguem à escola.
 
-**O que levei para a mesa.**
+**Papel e decisões.** Responsável pela **Fase I**, com produtos **P1 a P6**:
 
-- Estruturação curricular e tecnológica do EducaCode.
-- Organização do **Framework RECIFE**: Raízes culturais, Educação ética, Colaboração, Inovação, Foco integral e Engajamento comunitário.
-- Proposta de **learning analytics, rubricas, portfólio digital e indicadores** (IPPC e TPCT).
+- **Estruturação curricular e tecnológica** do EducaCode.
+- Organização do **Framework RECIFE** — Raízes culturais, Educação ética, Colaboração, Inovação, Foco integral e Engajamento comunitário.
+- Proposta de **learning analytics, rubricas, portfólio digital e indicadores** (IPPC — Índice de Progresso em Pensamento Computacional; TPCT).
 - Materiais e referências para programação, robótica, pensamento computacional e cultura digital.
+
+**Entregáveis.** Seis produtos (P1–P6): matriz curricular, framework, trilhas formativas, modelo de avaliação/indicadores e apresentações de resultados.
 
 **Escala (documentada).**
 

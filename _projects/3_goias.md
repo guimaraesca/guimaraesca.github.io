@@ -7,16 +7,20 @@ importance: 3
 category: governança de dados
 ---
 
-**Contexto.** Projeto de **planejamento estratégico de longo prazo** para orientar políticas públicas e o desenvolvimento econômico, social e territorial de Goiás até 2050.
+**Período.** 2025–2026 · Frente de Capital Humano · Instituto Sapien (Projeto Goiás 2050).
 
-**Papel.** Frente de **Capital Humano**: análise de dados socioeconômicos, indicadores territoriais e cenários de desenvolvimento.
+**Contexto.** Projeto de **planejamento estratégico de longo prazo** para orientar políticas públicas e o desenvolvimento econômico, social e territorial de Goiás até 2050 — um exercício de ler o presente com rigor de dados e projetar futuros plausíveis para apoiar a decisão pública.
 
-**O que levei para a mesa.**
+**Desafio.** Transformar um grande volume de dados socioeconômicos e territoriais em uma leitura acionável de capital humano e desenvolvimento regional, com cenários defensáveis metodologicamente.
 
-- Consolidação de evidências sobre desenvolvimento regional, capital humano e combate à pobreza.
-- Análise territorial de municípios e regiões de planejamento.
+**Papel e decisões.** Na frente de Capital Humano:
+
+- Consolidação de evidências sobre **desenvolvimento regional, capital humano e combate à pobreza**.
+- **Análise territorial** de municípios e regiões de planejamento.
 - Modelo de **vetores de desenvolvimento humano e social**.
-- Cenários 2050 com técnicas quantitativas (Holt exponencial, ARIMA e combinação ponderada).
+- **Cenários 2050** com técnicas quantitativas (Holt exponencial, ARIMA e combinação ponderada).
+
+**Entregáveis.** Relatório consolidado de capital humano; leitura territorial por região de planejamento; três cenários estratégicos; painéis de indicadores.
 
 **Escala (documentada).**
 
