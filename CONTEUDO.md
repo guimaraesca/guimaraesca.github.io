@@ -1,138 +1,92 @@
 # CONTEÚDO — fonte editável do site
 
-> Este arquivo é a fonte de conteúdo legível do site (`index.html`).
-> Edite aqui e replique as mudanças no HTML. Conteúdo conferido contra o
-> **Memorial de Carreira (sheet `Itens_Fonte`, snapshot jun/2026)** e contra o
-> conteúdo curado validado por Carlos Artur Guimarães.
+> Fonte de conteúdo legível de `index.html`. Edite aqui e replique no HTML.
+> Conferido contra o **Memorial de Carreira (Itens_Fonte)**, a **carteira de
+> trabalho digital (CTPS/eSocial)**, e-mails/Drive e o conteúdo curado validado
+> por Carlos Artur Guimarães.
 >
-> Regras de integridade aplicadas: só itens verificados; sem valores em R$;
-> sem CPF/dados pessoais; sem métricas fabricadas; logos de terceiros só com
-> arquivo oficial (por ora, wordmark em texto).
+> Integridade: só itens verificados; sem R$; sem CPF/dados pessoais; sem métricas
+> fabricadas; logos de terceiros como wordmark em texto (trocar por SVG oficial se
+> fornecido).
 
 ---
 
 ## Identidade
-
 - **Nome:** Carlos Artur Guimarães
-- **Proposta de valor (hero):** Governança de dados para a educação pública
-- **Subtítulo (1 linha):** Mestre em Tecnologias Educacionais · Governança de dados e EMIS · Product Ownership · IA/GenAI aplicada à educação pública
+- **Proposta (hero):** Governança de dados para a educação pública
+- **Lede:** Mestre em Tecnologias Educacionais. Governança de dados educacionais
+  (EMIS), Product Ownership e IA/GenAI aplicada a sistemas públicos de ensino em
+  escala estadual e nacional.
 
----
+## Perfil (2 pilares)
+- **P1 — Governança de dados educacionais (EMIS):** DAMA-DMBOK, LGPD, ISO/IEC
+  38500, COBIT; qualidade, catalogação, interoperabilidade.
+- **P2 — IA/GenAI aplicada:** rubricas, governança editorial, análise de dados,
+  formação docente.
+- **Chips:** Governança de dados · DAMA-DMBOK · LGPD · ISO/IEC 38500 · COBIT ·
+  EMIS · Product Ownership · Power BI/Python/R/Looker · IA/GenAI · Pensamento
+  computacional · Formação docente.
 
-## Sobre (perfil em H — 2 pilares)
+## Atuação (mais recente → origem)
+**A. Governança de dados e política pública educacional**
+- 2026–2027 · SEPLAG-CE · Ceará Mais Digital (via BID/EGPCE) — Consultor.
+- 2026–2027 · OEI · SEDUC-RS — Consultor, Redução da Evasão Escolar.
+- 2025–2026 · MEC/SEB (via UNESCO, proj. 914BRZ1159) — Consultor de Governança e PO, SGP 2.0 / Gestão Presente.
+- 2025–2026 · Instituto Sapien · Goiás 2050 — Analista, Capital Humano.
+- 2024–2025 · OEI · SME Recife — Consultor, EducaCode.
+- 2023–2025 · Instituto Unibanco — Analista de Dados Sênior e PO, SIGAE. *(CTPS confirma 22/05/2023–10/02/2025, cargo ANL DADOS SR.)* Reconhecimento "Profissional destaque Data Driven" (2024).
+- 2022 · MEC/SEB (via Banco Mundial) — Consultor e avaliador (STEAM/Itinerários; PNLD).
 
-**Pilar 1 — Governança de dados educacionais (EMIS).** Estruturo e opero a
-governança de dados de sistemas educacionais de larga escala, apoiado em
-DAMA-DMBOK, LGPD, ISO/IEC 38500 e COBIT — da qualidade e catalogação do dado
-à tomada de decisão de gestores públicos.
+**B. Educação digital e tecnologia educacional**
+- 2025–2026 · Hachura Estúdio (PJ) — Editor Geral, coleção "Educação Digital" (PNLD 2027).
+- 2025 · Tomara Educação e Cultura (PJ) — Analista de Dados e Especialista em EPT.
+- 2021–2026 · Brasscom (patrocínio Intuit) — Consultor, Escola Digital e Conectada.
+- 2021–2022 · HUB-UnB · Ebserh (via UNESCO) — Consultor, TIC e ensino.
 
-**Pilar 2 — IA/GenAI aplicada.** Traduzo IA generativa em produtos e processos
-de educação pública com responsabilidade: rubricas, governança editorial,
-análise de dados e apoio à formação docente.
+**C. Trajetória de origem**
+- 2012–2021 · IMD/UFRN — Coordenador de Tutoria e de Professores Mediadores (EAD).
+- 2018–2021 · IFRN — Professor Mediador e Coordenador de tutoria (EAD, Natal-Central).
+- 2019 · Kroton · Pitágoras — Coordenador Geral de Polo (Natal/RN). *(Documentado por e-mails corporativos @pitagoras/@kroton e boletins acadêmicos 2019.)*
+- 2014–2017 · IMD/UFRN · GAMEDU — Coordenador de Projetos (jogos digitais).
+- 2013–2015 · UNIFACEX — Professor de ensino superior (TI/Computação).
 
-### Competências (chips)
-Governança de dados (DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT) · EMIS ·
-Product Ownership · Análise de dados/BI (Power BI, Python, R, Looker) ·
-IA/GenAI aplicada · Pensamento computacional · Formação docente
+## Cases por ator (escala documentada dos programas)
+- **MEC · UNESCO — Gestão Presente / SGP 2.0:** 20,7 mi matrículas · 32,7 mil escolas · 220 mil profissionais.
+- **Instituto Unibanco — SIGAE:** 6 redes estaduais · 3 mil escolas · ~120 mil usuários · 50+ gestores formados.
+- **OEI · Recife — EducaCode:** 40 escolas · 50 clubes · Framework RECIFE (produtos P1–P6).
+- **Instituto Sapien — Goiás 2050:** 246 municípios · 10 regiões · 3 cenários a 2050.
+- **Hachura · PNLD 2027 — TRILHA-IA:** rubrica RV-DIA (10 dimensões) · pipeline de 7 estágios · GenAI com governança editorial.
+- **IMD/UFRN — Tecnologia educacional & jogos:** coordenação EAD 2012–2021 · 8 edições Desafio GamEdu · Moodle.
 
----
-
-## Experiência
-
-### Governança de dados e política pública educacional
-
-- **SEPLAG-CE / Ceará Mais Digital (BID)** — Consultor Individual: Tecnologias
-  Digitais e Inovação; Educação Digital e Alfabetização Digital Básica
-  (capacitação de servidores, via EGPCE). *2026–2027.*
-- **OEI / SEDUC-RS** — Consultor, Redução da Evasão Escolar (Proteção à
-  Trajetória do Estudante), rede estadual do RS. *2026–2027.*
-- **MEC/SEB (via UNESCO)** — Consultor de Governança e Product Owner do SGP 2.0
-  (Gestão Presente). Projeto 914BRZ1159. Governança de dados/EMIS em rede de
-  ~19 mi de estudantes; DAMA-DMBOK, ISO/IEC 38500, COBIT. *2025–2026.*
-- **Instituto Sapien / Projeto Goiás 2050** — Frente de Capital Humano: análise
-  de dados (IBGE/PNAD/CAGED/RAIS), Python/R, Looker e painéis de cenários.
-  *2025–2026.*
-- **OEI / SME Recife** — Consultor, EducaCode / Clube de Programação (currículo
-  e formação em computação). *2024–2025.*
-- **Instituto Unibanco** — Analista de Dados Sênior e Product Owner do SIGAE.
-  Produto de dados para gestão educacional em larga escala; reconhecimento
-  "Profissional destaque Data Driven" (2024). *2023–2025.*
-- **MEC/SEB (via Banco Mundial)** — Consultor e avaliador: eixo STEAM dos
-  Itinerários Formativos do Novo Ensino Médio e avaliação do PNLD. *2022.*
-
-### Educação digital e tecnologia educacional
-
-- **Hachura Estúdio** — Editor Geral da coleção "Educação Digital" (PNLD 2027):
-  IA generativa, rubricas e governança editorial. *2025–2026 (PJ).*
-- **Tomara Educação e Cultura** — Analista de Dados e Especialista em EPT (PJ).
-  *2025.*
-- **Brasscom (patrocínio Intuit)** — Consultor do projeto Escola Digital e
-  Conectada: itinerários de programação e mídias digitais e material para
-  professores. *2021–2026.*
-- **HUB-UnB / Ebserh (via UNESCO)** — Consultor em TIC e ensino na Rede Ebserh.
-  *2021–2022.*
-
-### Trajetória de origem (EAD, docência e jogos digitais)
-
-- **IMD/UFRN** — Coordenador de Tutoria e de Professores Mediadores (EAD/Moodle).
-  *2012–2021.*
-- **IFRN** — Professor Mediador e Coordenador de tutoria (EAD, Campus
-  Natal-Central). *2018–2021.*
-- **Kroton / Pitágoras** — Coordenador Geral de Polo (Natal/RN). *2019.*
-- **IMD/UFRN (GAMEDU)** — Coordenador de Projetos de jogos digitais educacionais.
-  *2014–2017.*
-- **UNIFACEX** — Professor de ensino superior (TI/Computação). *2013–2015.*
-
----
+## Instituições e parceiros (wordmarks)
+MEC/SEB · UNESCO · Banco Mundial · BID · OEI · Instituto Unibanco · Itaú Educação
+e Trabalho · Brasscom · Instituto Sapien · SEDUC-RS · SEPLAG-CE · Hachura ·
+UFRN·IMD · IFRN.
 
 ## Formação
+**Concluída:** Mestrado em Inovação em Tecnologias Educacionais (PPGITE/UFRN, 2025;
+defesa 04/09/2025; orientador Charles Madeira) · Bacharelado em Gestão de Políticas
+Públicas (UFRN, 2018; TCC Portal de Transparência TCE-RN) · Licenciatura em
+Filosofia (UFRN, 2008) · MBA em Redes de Computadores (ESAB, 2013).
+**Em curso:** Bacharelado em Ciência de Dados (UNIVESP, desde 2025) · Residência
+Tecnológica em IA (Eldorado/PUC-Campinas, PBIA-Softex, 2026–2027).
 
-### Concluída
-- **Mestrado Profissional em Inovação em Tecnologias Educacionais** — PPGITE/UFRN,
-  2025 (defesa 04/09/2025; orientador Charles Madeira; dissertação: pensamento
-  computacional via desenvolvimento de jogos digitais).
-- **Bacharelado em Gestão de Políticas Públicas** — UFRN, 2018 (TCC: Portal de
-  Transparência do TCE-RN).
-- **Licenciatura em Filosofia** — UFRN, 2008.
-- **MBA em Redes de Computadores** — ESAB, 2013.
-
-### Em curso
-- **Bacharelado em Ciência de Dados** — UNIVESP (desde 2025).
-- **Residência Tecnológica em IA** — Instituto Eldorado / PUC-Campinas
-  (PBIA-Softex), 2026–2027.
-
----
+**Orientação (2019):** orientou estudante do curso técnico do IMD/UFRN cujo projeto
+**Lucy** recebeu menção honrosa em desafio do Google Play. *O reconhecimento é da
+estudante — consta como mentoria, nunca como prêmio pessoal.*
 
 ## Publicações
-
-1. Guimarães, C. A.; Madeira, C. (2025). Integrando o Pensamento Computacional via
-   Desenvolvimento de Jogos Digitais na Formação de Educadores: Uma Revisão
-   Sistemática da Literatura. *Metodologias e Aprendizado*, v. 8, p. 360–379.
-2. Pires, G.; Guimarães, C.; Bulcão, J. S. B.; Calisto, P.; Madeira, C.;
-   Campos, A. (2019). Arrow: jogo digital para apoio à aprendizagem de vetores.
-   *Anais do WIE (SBC)*, v. 25(1), p. 1034–1043.
-3. Bulcão, J. S. B.; Madeira, C. A. G.; Guimarães, C. A. S.; Sousa, C. A. (2021).
-   Capacitando Professores no Programa Norte-rio-grandense de Pensamento
-   Computacional. *RBIE*, v. 29, p. 1178–1201 (Qualis A2).
-4. Bulcão, J. S. B.; Madeira, C. A. G.; Guimarães, C. A.; Sousa, C. A. (2021).
-   Formação Continuada de Professores em Pensamento Computacional: Um Relato de
-   Experiência do PENSA-RN. *Anais do EduComp (SBC)*, p. 219–226.
-5. Guimarães, C. A.; Nunes, I.; Pires, A. K.; Alencar, E. E. S. (2020). A Produção
-   de Learning Analytics e Predição de Desempenho Acadêmico por Pesquisadores
-   Brasileiros: Uma Revisão Sistemática. *Anais do Ctrl+E (SBC)*, p. 306–315.
-
-> **DOIs por artigo:** não foram incluídos links por publicação porque os DOIs
-> públicos não constavam na fonte canônica (política: não inventar). Para
-> verificação, o site aponta para Lattes, Google Scholar e ORCID. Adicione DOIs
-> aqui e em `index.html` quando disponíveis.
-
----
+1. Guimarães & Madeira (2025). Integrando o Pensamento Computacional via Desenvolvimento de Jogos Digitais... *Metodologias e Aprendizado*, v. 8, p. 360–379.
+2. Bulcão; Madeira; Guimarães; Sousa (2021). Capacitando Professores... PENSA-RN. *RBIE*, v. 29, p. 1178–1201 (Qualis A2).
+3. Bulcão; Madeira; Guimarães; Sousa (2021). Formação Continuada... PENSA-RN. *EduComp (SBC)*, p. 219–226.
+4. Guimarães; Nunes; Pires; Alencar (2020). Learning Analytics... *Ctrl+E (SBC)*, p. 306–315.
+5. Pires; Guimarães; et al. (2019). Arrow: jogo digital para vetores. *WIE (SBC)*, v. 25(1), p. 1034–1043.
+> DOIs por artigo não incluídos (não constavam na fonte; política de não inventar). Verificação via Lattes/Scholar/ORCID.
 
 ## Contato
-
-- **E-mail:** carlosarturguimaraes@protonmail.com
-- **GitHub:** https://github.com/guimaraesca
-- **Lattes:** http://lattes.cnpq.br/8972138029785555
-- **ORCID:** https://orcid.org/0000-0003-0885-3916
-- **Google Scholar:** https://scholar.google.com/citations?user=XfzydjwAAAAJ
-- **LinkedIn:** https://www.linkedin.com/in/carlosarturguimaraes
+- E-mail: carlosarturguimaraes@protonmail.com
+- LinkedIn: https://www.linkedin.com/in/carlosarturguimaraes
+- GitHub: https://github.com/guimaraesca
+- Lattes: http://lattes.cnpq.br/8972138029785555
+- ORCID: https://orcid.org/0000-0003-0885-3916
+- Google Scholar: https://scholar.google.com/citations?user=XfzydjwAAAAJ
