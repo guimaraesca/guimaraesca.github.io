@@ -37,7 +37,8 @@ latest_posts:
 .cgroup{margin:.5rem 0}
 .cgroup .cl{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin-bottom:5px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
-.chips span{font-family:var(--mono,ui-monospace,monospace);font-size:.66rem;border:1px solid rgba(127,127,127,.38);border-radius:999px;padding:4px 10px;opacity:.9}
+.chips span{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;border:1px solid rgba(127,127,127,.28);border-radius:999px;padding:3px 9px;opacity:.82}
+.cgroup{margin:.35rem 0}
 @media(max-width:820px){.mx{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.mx{grid-template-columns:1fr}}
 </style>
@@ -86,14 +87,12 @@ Veja os **[cases]({{ '/projects/' | relative_url }})**, as **[publicações]({{ 
 
 ## Competências técnicas
 
-<div class="cgroup"><div class="cl">Ciência de Dados &amp; analytics</div><div class="chips"><span>Python</span><span>R</span><span>SQL</span><span>GCP BigQuery</span><span>Apache Parquet</span><span>Power BI</span><span>Looker</span><span>Plotly/Dash</span><span>estatística</span><span>modelagem preditiva (evasão)</span><span>cenários (Holt · ARIMA)</span><span>learning analytics</span><span>Censo · SAEB · IDEB · PNAD · RAIS · CAGED</span></div></div>
+<div class="cgroup"><div class="cl">Ciência de Dados &amp; analytics</div><div class="chips"><span>Python · R · SQL</span><span>GCP BigQuery</span><span>Power BI · Looker</span><span>modelagem preditiva</span><span>learning analytics</span></div></div>
 
-<div class="cgroup"><div class="cl">Governança de dados</div><div class="chips"><span>DAMA-DMBOK</span><span>LGPD · RIPD</span><span>ISO/IEC 38500</span><span>COBIT 2019</span><span>e-PING</span><span>ITIL 4 · PMBOK 7</span><span>EMIS</span><span>interoperabilidade</span><span>qualidade e catalogação</span></div></div>
+<div class="cgroup"><div class="cl">Governança de dados</div><div class="chips"><span>DAMA-DMBOK</span><span>LGPD</span><span>ISO/IEC 38500 · COBIT</span><span>EMIS · interoperabilidade</span></div></div>
 
-<div class="cgroup"><div class="cl">IA generativa &amp; LLMs</div><div class="chips"><span>LLMs open-weight (Llama 3 · Mistral · Qwen)</span><span>vLLM · Ollama</span><span>PEFT · LoRA/QLoRA</span><span>orquestração de agentes (LangGraph · LangChain)</span><span>Pydantic · JSON Schema</span><span>guardrails · PII</span><span>IA responsável · fairness</span></div></div>
+<div class="cgroup"><div class="cl">IA generativa</div><div class="chips"><span>LLMs open-weight</span><span>RAG híbrido (BGE-m3)</span><span>LoRA/QLoRA</span><span>Pydantic · JSON Schema</span><span>IA responsável</span></div></div>
 
-<div class="cgroup"><div class="cl">RAG &amp; engenharia de IA</div><div class="chips"><span>embeddings BGE-m3</span><span>busca híbrida (BM25 + vetorial · RRF)</span><span>reranking (Cross-Encoders)</span><span>bancos vetoriais (Qdrant · sqlite-vec · Pgvector)</span><span>Python assíncrono · FastAPI</span><span>Docker · Pytest</span></div></div>
-
-<div class="cgroup"><div class="cl">Educação &amp; currículo</div><div class="chips"><span>BNCC Computação</span><span>pensamento computacional</span><span>STEAM</span><span>formação docente · EPT</span><span>Moodle · H5P</span><span>SCORM · cmi5 · xAPI</span><span>Scratch · micro:bit · Arduino</span><span>Product Ownership</span></div></div>
+<div class="cgroup"><div class="cl">Educação &amp; currículo</div><div class="chips"><span>BNCC Computação</span><span>pensamento computacional</span><span>formação docente · EPT</span><span>SCORM · xAPI · H5P</span></div></div>
 
 **Disponível para consultorias individuais, assessorias técnicas e bancas.** [carlosarturguimaraes@protonmail.com](mailto:carlosarturguimaraes@protonmail.com)
