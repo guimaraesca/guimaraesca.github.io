@@ -38,16 +38,16 @@ profile:
 @media(max-width:820px){.msh-legs,.epe,.mgrid{grid-template-columns:1fr}}
 </style>
 
-<p class="lead">For over <strong>fifteen years</strong> I have worked at the intersection of educational technology, data governance and public policy — helping governments, multilateral organizations, the third sector and companies turn <strong>educational data into decisions</strong>, and decisions into policy that actually reaches the classroom. I began coordinating distance learning and mentor teachers at UFRN's Instituto Metrópole Digital, where I learned first-hand how teachers and students really use technology. Since then I have been Product Owner of data products for six Brazilian state networks, led the technical migration of a national school-management system at the Ministry of Education, and today I build generative-AI engines for textbook production.</p>
+<p class="lead">Before data and algorithms came the classroom. I started teaching in 2009 at <strong>CENEP-RN</strong>, in the state school network of Rio Grande do Norte, and spent more than a decade in teaching — coordinating tutors and mentor teachers at UFRN's Instituto Metrópole Digital (IMD), and lecturing at IFRN and UNIFACEX. That experience taught me how students and teachers actually relate to technology, and it remains the yardstick for everything I build. Then came data products for six state networks at Instituto Unibanco, the technical migration of a national school-management system at the Ministry of Education and, today, generative-AI engines for textbook production.</p>
 
 <p class="lead">My method rests on a demanding premise: <strong>trustworthy AI depends on governed data, and governed data depends on knowing who decides, with what evidence, and under which safeguards.</strong> Every project therefore weaves three layers that rarely talk to each other. <strong>Engineering</strong> builds the pipelines, predictive models and dashboards that run the operation. <strong>Governance</strong> defines roles, quality, interoperability and data-protection compliance, so data is reliable at the source. And <strong>evaluation</strong> sets the indicators that show, without self-deception, whether the policy is producing its intended effect.</p>
 
-<p class="lead">What lets me move across these layers is an unusual, <strong>M-shaped</strong> background: three deep vertical legs connected by a transversal beam — public education — that gives everything its purpose. Philosophy provides the criteria of evidence, explainability and limits of use that become safeguards; Public Policy, the theory of change, indicators and capacity building; Data Science and AI, the engineering that turns an idea into a system at scale.</p>
+<p class="lead">Three degrees support this path. Each offers its own depth — criteria of evidence and ethical limits, program design and evaluation, engineering and statistical modeling — and all converge on a shared axis: public education.</p>
 
-## M-shaped background
+## Education
 
 <div>
-  <div class="msh-top">Transversal beam — public education · evidence · ethics · governance</div>
+  <div class="msh-top">Public education · evidence · ethics · governance</div>
   <div class="msh-legs">
     <div class="msh-leg" style="--c:#5A5A72"><b>Philosophy · UFRN</b><span>epistemology · applied ethics · explainability · limits of use → safeguards</span></div>
     <div class="msh-leg" style="--c:#DC2A17"><b>Public Policy · UFRN</b><span>theory of change · indicators · program evaluation · capacity building</span></div>
@@ -58,7 +58,7 @@ profile:
 ## Teaching, research &amp; extension
 
 <div class="epe">
-  <div class="ep" style="--c:#5A5A72"><b>Teaching</b><span>Coordinator of tutoring and mentor teachers at IMD/UFRN (distance learning); lecturer at IFRN, UNIFACEX and Pitágoras; continuing teacher education in computational thinking.</span></div>
+  <div class="ep" style="--c:#5A5A72"><b>Teaching</b><span>State-network teacher at CENEP-RN (2009–2014); coordinator of tutoring and mentor teachers at IMD/UFRN (2012–2021); lecturer at IFRN, UNIFACEX and Pitágoras; continuing teacher education in computational thinking.</span></div>
   <div class="ep" style="--c:#DC2A17"><b>Research</b><span>M.Sc. at PPGITE/UFRN (computational thinking through digital games); publications in RBIE (Qualis A2), WIE, EduComp and Ctrl+E; and PENSA-RN.</span></div>
   <div class="ep" style="--c:#1b1b4d"><b>Extension</b><span>Programs that reach the school: EducaCode (Recife), Connected Digital School (Brasscom), the GamEdu Challenge and the open book <a href="{{ '/colossus/' | relative_url }}"><strong>Colossus</strong></a>, a memorial of computational thinking for K-12.</span></div>
 </div>

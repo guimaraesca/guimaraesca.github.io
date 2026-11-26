@@ -59,3 +59,10 @@
 /* case meta line + audience tag */
 .case-meta{font-family:var(--mono,ui-monospace,monospace);font-size:.72rem;letter-spacing:.02em;opacity:.72;margin:.1rem 0 1.1rem;line-height:1.5}
 .case-meta b{color:var(--c,#DC2A17)}
+
+/* seções sempre abaixo da foto flutuante (evita sobreposição ao reorganizar) */
+.post article h2, .post article .clear-all { clear: both; }
+.post article h2[id] { margin-top: 2.2rem; padding-top: .9rem; border-top: 1px solid rgba(127,127,127,.18); }
+
+/* blocos largos nunca extrapolam a coluna */
+.post article .mgrid, .post article .msh, .post article .epe, .post article .ct, .post article .tl { max-width: 100%; }

@@ -164,6 +164,12 @@ cv:
         location: Natal, RN
         start_date: 2013
         end_date: 2015
+      - company: CENEP-RN · SEEC-RN
+        position: Professor da rede estadual
+        location: Natal, RN
+        start_date: 2009
+        end_date: 2014
+        summary: Docência na rede estadual; ali surgiu o grupo de estudos que inspirou o livro Colossus.
 
     Skills:
       - name: Ciência de Dados e analytics

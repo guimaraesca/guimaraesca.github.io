@@ -4,7 +4,7 @@ title: cases
 permalink: /projects/
 description: Cases e experiências organizados pelas frentes da matriz de consultoria. Cada peça indica o público atendido.
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 <style>
@@ -28,7 +28,7 @@ nav_order: 1
 
 <p class="pz-intro">Cases e experiências organizados pelas mesmas frentes da matriz de consultoria. Cada peça indica o público atendido. Passe o mouse para levantar a peça e clique para abrir. Os números de escala descrevem os programas, não resultados individuais.</p>
 
-{%- assign exps = "SEPLAG-CE|2026–2027|t1|Governos|Consultor em Tecnologias Digitais e Educação Digital (via BID/EGPCE);HUB-UnB · Ebserh|2021–2022|t1|Governos|Consultor em TIC e ensino (via UNESCO);OEI · SEDUC-RS|2026–2027|t2|Governos|Consultor em avaliação da política de redução da evasão escolar;MEC · Banco Mundial|2022|t2|Governos|Consultor e avaliador em STEAM e PNLD;Tomara|2025|t2|Terceiro setor|Analista de Dados e Especialista em EPT;Brasscom|2021–2026|t2|Setor privado|Escola Digital e Conectada (patrocínio Intuit);IFRN|2018–2021|t4||Professor Mediador e Coordenador de tutoria (EAD);GAMEDU|2014–2017|t4||Coordenador de Projetos em jogos digitais;Kroton · Pitágoras|2019|t4||Coordenador Geral de Polo (Natal/RN);UNIFACEX|2013–2015|t4||Professor de ensino superior (TI/Computação)" | split: ";" -%}
+{%- assign exps = "SEPLAG-CE|2026–2027|t1|Governos|Consultor em Tecnologias Digitais e Educação Digital (via BID/EGPCE);HUB-UnB · Ebserh|2021–2022|t1|Governos|Consultor em TIC e ensino (via UNESCO);OEI · SEDUC-RS|2026–2027|t2|Governos|Consultor em avaliação da política de redução da evasão escolar;MEC · Banco Mundial|2022|t2|Governos|Consultor e avaliador em STEAM e PNLD;Tomara|2025|t2|Terceiro setor|Analista de Dados e Especialista em EPT;Brasscom|2021–2026|t2|Setor privado|Escola Digital e Conectada (patrocínio Intuit);CENEP-RN · SEEC-RN|2009–2014|t4||Professor da rede estadual do Rio Grande do Norte;IFRN|2018–2021|t4||Professor Mediador e Coordenador de tutoria (EAD);GAMEDU|2014–2017|t4||Coordenador de Projetos em jogos digitais;Kroton · Pitágoras|2019|t4||Coordenador Geral de Polo (Natal/RN);UNIFACEX|2013–2015|t4||Professor de ensino superior (TI/Computação)" | split: ";" -%}
 {%- assign themes = "t1~Transformação Digital~sistemas, dados e governança~#DC2A17;t2~Educação~política, currículo e formação~#1b1b4d;t3~Inovação~IA, modelagem e cenários~#0E7C86;t4~Base de origem — EAD, docência e jogos digitais~onde o método foi formado~#5A5A72" | split: ";" -%}
 
 {%- for tt in themes -%}
