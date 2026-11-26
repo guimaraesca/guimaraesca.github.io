@@ -1,15 +1,15 @@
 cv:
   name: Carlos Artur Guimarães
-  label: Governança de dados educacionais · Product Owner · IA aplicada
+  label: Especialista em governança de dados educacionais (EMIS) e IA generativa aplicada · Product Owner
   email: carlosarturguimaraes@protonmail.com
   location: Brasil
   image: ""
   summary: >
-    Consultor em governança de dados educacionais (EMIS), Product Owner e pesquisador.
-    Atuo na interseção entre governo digital, governança de dados e políticas educacionais,
-    com DAMA-DMBOK, LGPD, ISO/IEC 38500 e COBIT, e IA/GenAI aplicada à produção de materiais
-    didáticos. Frentes com MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco,
-    além de redes estaduais e municipais.
+    Especialista técnico em governança de dados educacionais (EMIS) e IA generativa aplicada.
+    Desenho arquitetura de dados, padrões de governança (DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT, e-PING)
+    e pipelines de IA (LLMs, RAG, LoRA/QLoRA, JSON Schema, ontologias) para sistemas educacionais de
+    larga escala. Product Owner de produtos de dados (SIGAE, SGP 2.0) e pesquisador, com frentes junto
+    a MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco.
 
   social_networks:
     - network: GitHub
@@ -79,7 +79,7 @@ cv:
         location: Brasília, DF
         start_date: 2025
         end_date: 2026
-        summary: Projeto 914BRZ1159. Governança de dados/EMIS, interoperabilidade e transição SGP 2.0.
+        summary: Projeto 914BRZ1159. Arquitetura de governança de dados/EMIS, interoperabilidade e transição técnica do SGP 2.0 (internalização Dataprev).
         highlights:
           - "DAMA-DMBOK, ISO/IEC 38500, COBIT; matriz de governança e critérios de prontidão."
           - "Ambiente documentado: 20,7 mi de matrículas e 32,7 mil escolas."
@@ -96,7 +96,7 @@ cv:
         location: PJ
         start_date: 2025
         end_date: 2026
-        summary: IA generativa, rubricas e governança editorial (TRILHA-IA).
+        summary: Concepção do TRILHA-IA — pipeline de IA generativa com schema, ontologia, rubrica e RAG sob governança editorial.
         highlights:
           - "Pipeline de 7 estágios, JSON Schema de 28 campos, rubrica RV-DIA de 10 dimensões, RAG."
       - company: Tomara Educação e Cultura
