@@ -6,6 +6,7 @@ img: assets/img/case_goias.png
 logo: assets/img/logos/sapien.png
 importance: 3
 category: governança de dados
+theme: t1
 ---
 
 **Período.** 2025–2026 · Frente de Capital Humano · Instituto Sapien (Projeto Goiás 2050).

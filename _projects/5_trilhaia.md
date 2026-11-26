@@ -6,6 +6,7 @@ img: assets/img/case_trilhaia.png
 logo: assets/img/logos/hachura.png
 importance: 2
 category: educação digital
+theme: t2
 ---
 
 > **Nota de governança editorial.** Visão de alto nível do método; artefactos e dados de produção permanecem sob sigilo editorial.

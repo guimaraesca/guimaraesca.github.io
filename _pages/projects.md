@@ -2,66 +2,53 @@
 layout: page
 title: cases
 permalink: /projects/
-description: Um quebra-cabeça das experiências e parcerias. Passe o mouse sobre uma peça para o detalhe; clique para abrir.
+description: Experiências e parcerias em três frentes temáticas. Passe o mouse para levantar a peça; clique para abrir.
 nav: true
 nav_order: 1
 ---
 
 <style>
-.pz-legend{display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin:0 0 1.1rem;font-family:var(--mono,ui-monospace,monospace);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;opacity:.78}
-.pz-legend .dot{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
-.pz-legend .gov{background:#DC2A17}.pz-legend .edu{background:#1b1b4d}
-.pz-head{font-family:var(--mono,ui-monospace,monospace);font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;opacity:.65;margin:1.6rem 0 .5rem}
-.puzzle{display:grid;gap:5px;padding:2px 0}
-.puzzle.big{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}
-.puzzle.small{grid-template-columns:repeat(auto-fill,minmax(132px,1fr))}
-.pz{position:relative;aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;text-align:center;padding:14px 30px;text-decoration:none;color:inherit;overflow:hidden;background:var(--face,#fbfaf6);
+.theme{margin:1.4rem 0 2.1rem}
+.theme-h{font-size:1.02rem;font-weight:700;border-left:4px solid var(--acc);padding-left:11px;margin:0 0 .3rem;letter-spacing:-.01em}
+.theme-s{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;opacity:.55;margin:0 0 1rem;padding-left:15px}
+.pzgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(146px,1fr));gap:18px 11px}
+.cell{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit}
+.pz{position:relative;width:100%;aspect-ratio:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:15px 26px;background:#fff;overflow:hidden;
   -webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;
-  transition:transform .17s ease,filter .2s ease}
-.pz.gov{--face:#fceeeb;--edge:#DC2A17}.pz.edu{--face:#eceef6;--edge:#1b1b4d}
-.pz.case{--face:#ffffff}
-@media (prefers-color-scheme: dark){.pz{--face:#211f1a}.pz.gov{--face:#2b1a16}.pz.edu{--face:#191b27}.pz.case{--face:#ffffff}}
-.pz:hover{transform:translateY(-8px) scale(1.06) rotate(-2deg);filter:drop-shadow(0 12px 16px rgba(0,0,0,.32));z-index:6}
-.pz .ring{position:absolute;inset:0;pointer-events:none;-webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;box-shadow:inset 0 0 0 2.5px var(--edge,rgba(127,127,127,.35))}
-.pz.case img{max-width:72%;max-height:56%}
-.pz img{max-width:66%;max-height:46%;object-fit:contain;z-index:1}
-.pz .nm{font-weight:700;font-size:.72rem;line-height:1.08;letter-spacing:-.01em;word-break:break-word;z-index:1}
-.pz .yr{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.05em;color:#DC2A17;z-index:1}
-.pz .det{position:absolute;inset:0;background:rgba(8,8,8,.95);color:#f2efe8;display:flex;flex-direction:column;justify-content:center;padding:18px 26px;opacity:0;transition:opacity .18s ease}
-.pz:hover .det{opacity:1}
-.pz .det b{font-size:.78rem;line-height:1.15}
-.pz .det span{font-size:.66rem;margin-top:5px;line-height:1.3;color:#d9d6ce}
-.pz .det em{font-size:.62rem;margin-top:7px;font-style:normal;font-family:var(--mono,ui-monospace,monospace);color:#fff;border-top:1px solid #DC2A17;padding-top:4px;align-self:flex-start}
-@media (prefers-reduced-motion: reduce){.pz,.pz .det{transition:none}}
+  transition:transform .18s ease,filter .2s ease}
+.cell:hover .pz{transform:translateY(-9px) scale(1.05) rotate(-2deg);filter:drop-shadow(0 13px 17px rgba(0,0,0,.30))}
+.pz .ring{position:absolute;inset:0;pointer-events:none;-webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;box-shadow:inset 0 0 0 2.5px var(--acc)}
+.pz img{max-width:74%;max-height:62%;object-fit:contain}
+.pz .nm{font-weight:700;font-size:.78rem;line-height:1.08;letter-spacing:-.01em;color:#16150f;word-break:break-word}
+.cap{margin-top:9px;text-align:center;max-width:168px}
+.cap .t{display:block;font-weight:600;font-size:.78rem;line-height:1.16}
+.cap .d{display:block;font-size:.67rem;opacity:.68;margin-top:3px;line-height:1.3}
+.cell:hover .cap .t{color:var(--acc)}
+@media (prefers-reduced-motion: reduce){.pz{transition:none}}
 </style>
 
-<div class="pz-legend">
-  <span><span class="dot gov"></span>governança de dados</span>
-  <span><span class="dot edu"></span>educação digital</span>
-</div>
+{%- assign exps = "SEPLAG-CE|2026–2027|t1|Consultor — Tecnologias Digitais e Educação Digital (via BID/EGPCE);OEI · SEDUC-RS|2026–2027|t1|Consultor — Redução da Evasão Escolar;Tomara|2025|t1|Analista de Dados e Especialista em EPT;MEC · Banco Mundial|2022|t1|Consultor e avaliador — STEAM e PNLD;HUB-UnB · Ebserh|2021–2022|t2|Consultor em TIC e ensino (via UNESCO);Brasscom|2021–2026|t2|Escola Digital e Conectada (patrocínio Intuit);IFRN|2018–2021|t3|Professor Mediador e Coordenador de tutoria (EAD);Kroton · Pitágoras|2019|t3|Coordenador Geral de Polo (Natal/RN);UNIFACEX|2013–2015|t3|Professor de ensino superior (TI/Computação);GAMEDU|2014–2017|t3|Coordenador de Projetos — jogos digitais" | split: ";" -%}
+{%- assign themes = "t1~Governança de dados e política pública educacional~#DC2A17;t2~Educação digital e tecnologia educacional~#1b1b4d;t3~Trajetória de origem — EAD, docência e jogos digitais~#5A5A72" | split: ";" -%}
 
-<p class="pz-head">Cases — clique para abrir</p>
-<div class="puzzle big">
-{%- for p in site.projects -%}
-  {%- if p.category == "governança de dados" -%}{%- assign cl = "gov" -%}{%- else -%}{%- assign cl = "edu" -%}{%- endif -%}
-  <a class="pz case {{ cl }}" href="{{ p.url | relative_url }}" aria-label="Abrir case: {{ p.title }}">
-    <span class="ring"></span>
-    <img src="{{ p.logo | relative_url }}" alt="{{ p.title }}">
-    <div class="det"><b>{{ p.title }}</b><span>{{ p.description }}</span><em>abrir case &rarr;</em></div>
-  </a>
+{%- for tt in themes -%}
+{%- assign tp = tt | split: "~" -%}{%- assign tid = tp[0] -%}
+<section class="theme" style="--acc:{{ tp[2] }}">
+  <h2 class="theme-h">{{ tp[1] }}</h2>
+  <p class="theme-s">cases + experiências</p>
+  <div class="pzgrid">
+  {%- assign cs = site.projects | where: "theme", tid | sort: "importance" -%}
+  {%- for p in cs -%}
+    <a class="cell" href="{{ p.url | relative_url }}" aria-label="Abrir case: {{ p.title }}">
+      <span class="pz"><span class="ring"></span><img src="{{ p.logo | relative_url }}" alt="{{ p.title }}"></span>
+      <span class="cap"><span class="t">{{ p.title }}</span><span class="d">{{ p.description }}</span></span>
+    </a>
+  {%- endfor -%}
+  {%- for e in exps -%}{%- assign f = e | split: "|" -%}{%- if f[2] == tid -%}
+    <a class="cell" href="{{ '/cv/' | relative_url }}" aria-label="{{ f[0] }} — ver no CV">
+      <span class="pz"><span class="ring"></span><span class="nm">{{ f[0] }}</span></span>
+      <span class="cap"><span class="t">{{ f[0] }} · {{ f[1] }}</span><span class="d">{{ f[3] }}</span></span>
+    </a>
+  {%- endif -%}{%- endfor -%}
+  </div>
+</section>
 {%- endfor -%}
-</div>
-
-<p class="pz-head">Experiências &amp; parcerias — ver no CV</p>
-<div class="puzzle small">
-{%- assign exps = "SEPLAG-CE|2026–2027|gov|Consultor — Tecnologias Digitais e Educação Digital (via BID/EGPCE);OEI · SEDUC-RS|2026–2027|gov|Consultor — Redução da Evasão Escolar (Proteção à Trajetória);Brasscom|2021–2026|edu|Escola Digital e Conectada (patrocínio Intuit);HUB-UnB · Ebserh|2021–2022|gov|Consultor em TIC e ensino (via UNESCO);Tomara|2025|gov|Analista de Dados e Especialista em EPT;MEC · Banco Mundial|2022|gov|Consultor e avaliador — STEAM e PNLD;IFRN|2018–2021|edu|Professor Mediador e Coordenador de tutoria (EAD);Kroton · Pitágoras|2019|edu|Coordenador Geral de Polo (Natal/RN);UNIFACEX|2013–2015|edu|Professor de ensino superior (TI/Computação);GAMEDU|2014–2017|edu|Coordenador de Projetos — jogos digitais" | split: ";" -%}
-{%- for e in exps -%}
-  {%- assign f = e | split: "|" -%}
-  <a class="pz {{ f[2] }}" href="{{ '/cv/' | relative_url }}" aria-label="{{ f[0] }} — ver no CV">
-    <span class="ring"></span>
-    <span class="nm">{{ f[0] }}</span>
-    <span class="yr">{{ f[1] }}</span>
-    <div class="det"><b>{{ f[0] }}</b><span>{{ f[3] }}</span><em>ver no CV &rarr;</em></div>
-  </a>
-{%- endfor -%}
-</div>

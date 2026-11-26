@@ -6,6 +6,7 @@ img: assets/img/case_imd.png
 logo: assets/img/logos/ufrn.png
 importance: 3
 category: educação digital
+theme: t3
 ---
 
 **Período.** 2012–2021 · Coordenador de Tutoria e de Professores Mediadores · Instituto Metrópole Digital (IMD/UFRN).

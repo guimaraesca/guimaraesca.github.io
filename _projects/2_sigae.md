@@ -6,6 +6,7 @@ img: assets/img/case_sigae.png
 logo: assets/img/logos/unibanco.png
 importance: 2
 category: governança de dados
+theme: t1
 ---
 
 > **Nota de governança de dados.** Visão de alto nível, respeitando o sigilo do produto e das redes parceiras.

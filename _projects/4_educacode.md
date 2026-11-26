@@ -6,6 +6,7 @@ img: assets/img/case_educacode.png
 logo: assets/img/logos/oei.png
 importance: 1
 category: educação digital
+theme: t2
 ---
 
 **Período.** 2024–2025 · Consultor (Fase I, Projeto OEI/BRA/22/003) · OEI / Prefeitura do Recife.
