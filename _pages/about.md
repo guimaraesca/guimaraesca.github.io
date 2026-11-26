@@ -2,14 +2,14 @@
 layout: about
 title: sobre
 permalink: /
-subtitle: Especialista técnico em <strong>governança de dados educacionais (EMIS)</strong> e <strong>IA aplicada</strong> · Consultoria para organismos multilaterais, terceiro setor e instituições
+subtitle: <strong>Ciência de Dados</strong> e <strong>IA</strong> aplicadas à educação pública · Governança de dados (EMIS) · Consultoria para terceiro setor, governos e setor privado
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false
   more_info: >
-    <p>EMIS · Governança de dados · IA responsável</p>
+    <p>Ciência de Dados · IA · Governança (EMIS)</p>
     <p>Consultorias · assessorias · bancas</p>
     <p>MEC · UNESCO · Banco Mundial · BID · OEI</p>
 
@@ -24,58 +24,76 @@ latest_posts:
 ---
 
 <style>
-.chips{display:flex;flex-wrap:wrap;gap:7px;margin:.4rem 0 .2rem}
-.chips span{font-family:var(--mono,ui-monospace,monospace);font-size:.68rem;letter-spacing:.02em;border:1px solid rgba(127,127,127,.4);border-radius:999px;padding:5px 11px;opacity:.9}
-.frentes{display:grid;gap:11px;margin:.3rem 0 .4rem}
-.frente{border-left:4px solid var(--c);padding:7px 0 7px 13px}
-.frente b{display:block;font-size:.97rem}
-.frente span{font-size:.87rem;opacity:.78}
-.offer{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:.4rem 0 .3rem}
-.offer .o{border:1px solid rgba(127,127,127,.3);border-radius:10px;padding:13px 15px}
-.offer .o b{display:block;font-size:.9rem;margin-bottom:3px}
-.offer .o span{font-size:.8rem;opacity:.78;line-height:1.35}
-.aud{font-family:var(--mono,ui-monospace,monospace);font-size:.66rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin:.2rem 0 0}
+.vlist{display:grid;gap:11px;margin:.3rem 0 .4rem}
+.v{border-left:4px solid var(--c);padding:7px 0 7px 13px}
+.v b{display:block;font-size:.97rem}
+.v span{font-size:.87rem;opacity:.78}
+.mx-cap{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;opacity:.55;margin:.2rem 0 .6rem}
+.mx{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mc{border:1px solid rgba(127,127,127,.3);border-top:3px solid var(--c);border-radius:9px;padding:12px 13px}
+.mc .mt{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:var(--c);display:block}
+.mc .ma{font-weight:700;font-size:.82rem;display:block;margin:2px 0 5px}
+.mc p{font-size:.79rem;opacity:.82;line-height:1.35;margin:0}
+.cgroup{margin:.5rem 0}
+.cgroup .cl{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin-bottom:5px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chips span{font-family:var(--mono,ui-monospace,monospace);font-size:.66rem;border:1px solid rgba(127,127,127,.38);border-radius:999px;padding:4px 10px;opacity:.9}
+@media(max-width:820px){.mx{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.mx{grid-template-columns:1fr}}
 </style>
 
-Sou **Carlos Artur Guimarães**, **especialista técnico em governança de dados educacionais (EMIS) e IA generativa aplicada**. Presto consultoria para **organismos multilaterais, terceiro setor e instituições privadas**, com histórico verificável em projetos do **MEC/SEB, UNESCO, Banco Mundial, BID e OEI** — de arquitetura de dados e interoperabilidade à IA responsável para a educação pública.
+Sou **Carlos Artur Guimarães**, especialista em **Ciência de Dados e IA aplicadas à educação pública**, com base sólida em **governança de dados (EMIS)**. Presto consultoria para **organismos multilaterais, terceiro setor, governos e instituições privadas**, com histórico verificável em projetos do **MEC/SEB, UNESCO, Banco Mundial, BID e OEI** — da engenharia de dados e interoperabilidade à IA responsável.
 
-Meu diferencial é transformar uma **trajetória de três formações em um método técnico**: a Filosofia me dá o "por quê" e as salvaguardas; a Gestão de Políticas Públicas, a governança e a avaliação; as Tecnologias, a engenharia de dados e IA. Essa combinação é exatamente o que os sistemas educacionais pedem hoje — dados confiáveis, decisões baseadas em evidências e IA usada com responsabilidade.
+Meu diferencial é transformar três vetores de formação em um método técnico: a **Filosofia** dá o rigor crítico e as salvaguardas; a **Gestão de Políticas Públicas**, a governança e a avaliação; a **Ciência de Dados e a IA**, a engenharia que faz tudo funcionar em escala.
 
-## Três formações, uma especialidade
+## Formação
 
-<div class="frentes">
-  <div class="frente" style="--c:#5A5A72">
-    <b>Filosofia (UFRN) — a ponte para a educação e a ética da tecnologia</b>
-    <span>Pensamento crítico, epistemologia e ética: hoje a base da <strong>governança de dados e da IA responsável</strong> — o lado das salvaguardas, cada vez mais exigido por organismos internacionais.</span>
+<div class="vlist">
+  <div class="v" style="--c:#5A5A72">
+    <b>Filosofia (UFRN) — pensamento crítico e ética</b>
+    <span>A ponte para a educação e para a <strong>ética da tecnologia</strong>: epistemologia e salvaguardas que hoje ancoram a governança de dados e a IA responsável.</span>
   </div>
-  <div class="frente" style="--c:#DC2A17">
+  <div class="v" style="--c:#DC2A17">
     <b>Gestão de Políticas Públicas (UFRN) — governança e avaliação</b>
-    <span>Desenho, <strong>governança e avaliação de políticas e programas</strong> educacionais; evidências para decisão, monitoramento e fortalecimento institucional.</span>
+    <span>Desenho, <strong>governança e avaliação</strong> de políticas e programas educacionais; evidências para decisão e fortalecimento institucional.</span>
   </div>
-  <div class="frente" style="--c:#1b1b4d">
-    <b>Tecnologias — arquitetura de dados, EMIS e IA</b>
-    <span>MBA em Redes · Ciência de Dados (UNIVESP) · Residência em IA (Eldorado/PUC-Campinas) · Mestrado em Tecnologias Educacionais (PPGITE/UFRN). <strong>Arquitetura de dados, EMIS, interoperabilidade, learning analytics e engenharia de IA</strong> aplicada à educação.</span>
+  <div class="v" style="--c:#1b1b4d">
+    <b>Ciência de Dados e IA — o foco técnico</b>
+    <span>Ciência de Dados (UNIVESP) · Residência em IA (Eldorado/PUC-Campinas · PBIA) · MBA em Redes · Mestrado em Tecnologias Educacionais (PPGITE/UFRN). <strong>Engenharia de dados, analytics e IA generativa</strong> aplicados à educação.</span>
   </div>
 </div>
 
-Na prática, isso é desenhar matrizes de governança, critérios de prontidão e fluxos de interoperabilidade (DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT, e-PING), conduzir transições de sistemas críticos — como o **SGP 2.0 / Dataprev** no MEC/UNESCO — e projetar motores de IA generativa sob controle editorial (pipeline, JSON Schema, ontologia, rubricas, RAG, LoRA/QLoRA), de ponta a ponta com Python, R, SQL, BigQuery, Power BI e Looker.
+Na prática: pipelines de dados (ETL/ELT) em **GCP BigQuery** e Apache Parquet; modelos preditivos em **Python/R**; painéis em **Looker/Power BI**; governança com **DAMA-DMBOK, ISO/IEC 38500, COBIT, LGPD e e-PING**; e motores de IA generativa com **RAG híbrido (BGE-m3, reranking)**, validação determinística (**Pydantic/JSON Schema**) e salvaguardas.
 
-## Consultoria — o que ofereço
+## Consultoria — uma matriz de atuação
 
-<p class="aud">para multilaterais · terceiro setor · instituições privadas</p>
-<div class="offer">
-  <div class="o"><b>Governança de dados e EMIS</b><span>Diagnóstico e fortalecimento de EMIS, interoperabilidade, qualidade e catalogação de dados; padrões DAMA-DMBOK, ISO/IEC 38500, COBIT, LGPD.</span></div>
-  <div class="o"><b>Transformação digital e dados para decisão</b><span>Arquitetura de dados, indicadores, dashboards e learning analytics; evidências, monitoramento e avaliação (M&amp;A).</span></div>
-  <div class="o"><b>IA responsável aplicada à educação</b><span>Produção e avaliação de material didático com IA sob governança — schema, ontologia, rubricas, RAG, salvaguardas e rastreabilidade.</span></div>
-  <div class="o"><b>Currículo de Computação e capacidades</b><span>BNCC Computação, pensamento computacional, formação docente e EPT; assessoria técnica e bancas.</span></div>
+<p class="mx-cap">temas (linhas) × públicos (colunas: terceiro setor · governos · indústria/setor privado)</p>
+<div class="mx">
+  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Terceiro setor</span><p>Produtos de dados, indicadores e dashboards para gestão e monitoramento de programas.</p></div>
+  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Governos</span><p>Sistemas de informação educacional (EMIS), interoperabilidade e governança de dados; transição de sistemas críticos.</p></div>
+  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Indústria / privado</span><p>Arquitetura de dados em nuvem (BigQuery), ETL/ELT e Product Ownership de produtos de dados.</p></div>
+
+  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Terceiro setor</span><p>Currículo de Computação, pensamento computacional e formação docente (BNCC).</p></div>
+  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Governos</span><p>Políticas de educação digital, avaliação de programas e educação profissional (EPT).</p></div>
+  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Indústria / privado</span><p>Material e conteúdo didático, inclusive PNLD, com produção assistida por IA.</p></div>
+
+  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Terceiro setor</span><p>Pilotos e prototipação de IA para programas educacionais; learning analytics e telemetria.</p></div>
+  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Governos</span><p>IA responsável, salvaguardas e explicabilidade; modelagem preditiva e de cenários.</p></div>
+  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Indústria / privado</span><p>Motores de IA generativa: RAG híbrido, rubricas, ontologias e validação determinística.</p></div>
 </div>
 
 Veja os **[cases]({{ '/projects/' | relative_url }})**, as **[publicações]({{ '/publications/' | relative_url }})** e o **[CV]({{ '/cv/' | relative_url }})**.
 
 ## Competências técnicas
 
-<div class="chips">
-  <span>Governança de dados (DAMA-DMBOK)</span><span>EMIS · interoperabilidade</span><span>LGPD · ISO/IEC 38500 · COBIT · e-PING</span><span>Arquitetura de dados</span><span>Python · R · SQL · BigQuery</span><span>Power BI · Looker</span><span>Learning analytics · M&amp;A</span><span>IA generativa · LLM · RAG · LoRA/QLoRA</span><span>JSON Schema · ontologias</span><span>SCORM · cmi5 · xAPI · H5P</span><span>Product Ownership</span><span>Pensamento computacional · BNCC</span>
-</div>
+<div class="cgroup"><div class="cl">Ciência de Dados &amp; analytics</div><div class="chips"><span>Python</span><span>R</span><span>SQL</span><span>GCP BigQuery</span><span>Apache Parquet</span><span>Power BI</span><span>Looker</span><span>Plotly/Dash</span><span>estatística</span><span>modelagem preditiva (evasão)</span><span>cenários (Holt · ARIMA)</span><span>learning analytics</span><span>Censo · SAEB · IDEB · PNAD · RAIS · CAGED</span></div></div>
+
+<div class="cgroup"><div class="cl">Governança de dados</div><div class="chips"><span>DAMA-DMBOK</span><span>LGPD · RIPD</span><span>ISO/IEC 38500</span><span>COBIT 2019</span><span>e-PING</span><span>ITIL 4 · PMBOK 7</span><span>EMIS</span><span>interoperabilidade</span><span>qualidade e catalogação</span></div></div>
+
+<div class="cgroup"><div class="cl">IA generativa &amp; LLMs</div><div class="chips"><span>LLMs open-weight (Llama 3 · Mistral · Qwen)</span><span>vLLM · Ollama</span><span>PEFT · LoRA/QLoRA</span><span>orquestração de agentes (LangGraph · LangChain)</span><span>Pydantic · JSON Schema</span><span>guardrails · PII</span><span>IA responsável · fairness</span></div></div>
+
+<div class="cgroup"><div class="cl">RAG &amp; engenharia de IA</div><div class="chips"><span>embeddings BGE-m3</span><span>busca híbrida (BM25 + vetorial · RRF)</span><span>reranking (Cross-Encoders)</span><span>bancos vetoriais (Qdrant · sqlite-vec · Pgvector)</span><span>Python assíncrono · FastAPI</span><span>Docker · Pytest</span></div></div>
+
+<div class="cgroup"><div class="cl">Educação &amp; currículo</div><div class="chips"><span>BNCC Computação</span><span>pensamento computacional</span><span>STEAM</span><span>formação docente · EPT</span><span>Moodle · H5P</span><span>SCORM · cmi5 · xAPI</span><span>Scratch · micro:bit · Arduino</span><span>Product Ownership</span></div></div>
 
 **Disponível para consultorias individuais, assessorias técnicas e bancas.** [carlosarturguimaraes@protonmail.com](mailto:carlosarturguimaraes@protonmail.com)

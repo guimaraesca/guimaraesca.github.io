@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Instituto Unibanco — SIGAE
-description: Product Ownership técnico de um produto de dados para gestão educacional em redes estaduais.
+description: Engenharia de dados e Product Ownership de um produto de dados para gestão educacional em redes estaduais.
 img: assets/img/case_sigae.png
 logo: assets/img/logos/unibanco.png
 importance: 2
@@ -15,16 +15,17 @@ category: governança de dados
 
 **Contexto.** O **SIGAE** é um sistema de apoio à gestão educacional em redes estaduais, integrando produto digital, dados, indicadores, acompanhamento pedagógico e rotinas de gestão.
 
-**Desafio.** Equilibrar as necessidades de seis redes com a capacidade técnica de entrega, mantendo qualidade e governança do dado — um produto de dados público que precisa ser, ao mesmo tempo, confiável e usável.
+**Desafio.** Sustentar, em nuvem e em escala, um produto de dados público confiável — equilibrando as necessidades de seis redes com qualidade, governança e capacidade técnica de entrega.
 
-**Decisões técnicas e de produto.**
+**Engenharia de dados e decisões técnicas.**
 
-- Gestão de **backlog** e priorização, traduzindo demandas das redes em requisitos técnicos.
-- Desenho do **catálogo de indicadores e dashboards** e do uso pedagógico dos dados.
+- **Pipelines ETL/ELT em GCP BigQuery**, processando microdados governamentais particionados em **Apache Parquet** de alta performance.
+- **Modelos preditivos** em **Python** (Pandas, Scikit-learn) e **R** para previsão precoce de **risco de evasão escolar**.
+- Painéis executivos em **Looker** e **Power BI** para secretários de estado e gestores de rede.
+- **Product Ownership**: backlog, priorização, catálogo de indicadores e tradução de demandas das redes em requisitos técnicos.
 - **Formação técnica de gestores** em governança de dados e indicadores educacionais.
-- Rotinas de acompanhamento de uso e adoção por secretarias, regionais e escolas.
 
-**Entregáveis.** Roadmap e backlog priorizado; catálogo de indicadores e dashboards; trilhas de formação; rotinas de adoção.
+**Entregáveis.** Pipelines de dados; catálogo de indicadores e dashboards; modelo de risco de evasão; trilhas de formação; rotinas de adoção por secretarias, regionais e escolas.
 
 **Escala do ambiente (documentada).**
 
@@ -37,6 +38,6 @@ category: governança de dados
 
 **Reconhecimento.** "Profissional destaque Data Driven" (2024).
 
-**Em uma frase.** Conectei produto, dados e decisão educacional em escala estadual, traduzindo demandas de redes públicas em backlog, indicadores, formação e adoção.
+**Stack.** GCP BigQuery · Apache Parquet · Python (Pandas, Scikit-learn) · R · SQL avançado · Looker · Power BI.
 
 *A escala descreve o programa; não é atribuída como resultado individual.*

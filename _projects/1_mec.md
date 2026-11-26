@@ -13,7 +13,7 @@ category: governança de dados
 
 **Período.** 2025–2026 · Consultor de Governança e Product Owner · MEC/SEB via UNESCO (Projeto 914BRZ1159).
 
-**Contexto.** Projeto MEC/UNESCO de fortalecimento da gestão educacional, interoperabilidade e uso padronizado de dados na educação básica, articulando **SGP** (Gestão Presente), **GPE**, **CMDEB** e a **gestão de demanda por vaga em creche**, rumo a uma **infraestrutura nacional de dados da educação**.
+**Contexto.** Projeto MEC/UNESCO de fortalecimento da gestão educacional, interoperabilidade e uso padronizado de dados na educação básica, articulando **SGP** (Gestão Presente), **GPE**, **CMDEB** e a **gestão de demanda por vaga em creche**, rumo à **Infraestrutura Nacional de Dados Educacionais (INDE)**.
 
 **Desafio.** Transformar um conjunto de sistemas complexos — muitos atores, bases e regras — em uma operação governável e auditável, conduzindo a transição tecnológica sem perda de governança.
 
@@ -21,7 +21,8 @@ category: governança de dados
 
 - Desenho da **matriz de governança operacional** (entregas, riscos, dependências, sprints), dos **critérios de prontidão** e dos pontos de controle.
 - Condução técnica da **transição para o SGP 2.0** e da **internalização Dataprev**: análise de prontidão operacional, fluxos de deploy e backlog priorizado.
-- **Interoperabilidade** e padronização ancoradas em ITIL 4, PMBOK 7, ISO/IEC 38500, COBIT 2019, DAMA-DMBOK, LGPD e e-PING.
+- **Interoperabilidade** e padronização ancoradas em ITIL 4, PMBOK 7, ISO/IEC 38500, COBIT 2019, DAMA-DMBOK, LGPD (com RIPD) e e-PING.
+- Análises técnicas em **Python, SQL e GCP BigQuery** sobre a base federal, em articulação com a **Dataprev**.
 
 **Entregáveis.** Produto técnico consolidado (cronograma integrado, roteiro analítico e critérios operacionais dos módulos); matriz de governança; análises de internalização e prontidão.
 

@@ -1,15 +1,15 @@
 cv:
   name: Carlos Artur Guimarães
-  label: Especialista em governança de dados educacionais (EMIS) e IA generativa aplicada · Product Owner
+  label: Ciência de Dados, governança de dados e IA aplicadas à educação · Product Owner
   email: carlosarturguimaraes@protonmail.com
   location: Brasil
   image: ""
   summary: >
-    Especialista técnico em governança de dados educacionais (EMIS) e IA generativa aplicada.
-    Desenho arquitetura de dados, padrões de governança (DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT, e-PING)
-    e pipelines de IA (LLMs, RAG, LoRA/QLoRA, JSON Schema, ontologias) para sistemas educacionais de
-    larga escala. Product Owner de produtos de dados (SIGAE, SGP 2.0) e pesquisador, com frentes junto
-    a MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco.
+    Especialista em Ciência de Dados e IA aplicadas à educação pública, com base sólida em governança
+    de dados (EMIS). Projeto pipelines de dados (ETL/ELT em GCP BigQuery), modelos preditivos e painéis;
+    padrões de governança (DAMA-DMBOK, ISO/IEC 38500, COBIT, LGPD, e-PING); e motores de IA generativa
+    (LLMs, RAG híbrido, LoRA/QLoRA, Pydantic/JSON Schema). Product Owner de produtos de dados (SIGAE,
+    SGP 2.0), com frentes junto a MEC/SEB, UNESCO, Banco Mundial, BID, OEI e Instituto Unibanco.
 
   social_networks:
     - network: GitHub
@@ -82,6 +82,7 @@ cv:
         summary: Projeto 914BRZ1159. Arquitetura de governança de dados/EMIS, interoperabilidade e transição técnica do SGP 2.0 (internalização Dataprev).
         highlights:
           - "DAMA-DMBOK, ISO/IEC 38500, COBIT; matriz de governança e critérios de prontidão."
+          - "Articulação técnica com a Dataprev; Infraestrutura Nacional de Dados Educacionais (INDE)."
           - "Ambiente documentado: 20,7 mi de matrículas e 32,7 mil escolas."
       - company: Instituto Sapien · Goiás 2050
         position: Analista — Frente de Capital Humano
@@ -121,6 +122,7 @@ cv:
         summary: Produto de dados para gestão educacional em 6 redes estaduais.
         highlights:
           - "~120 mil usuários, 3 mil+ escolas, 50+ gestores formados."
+          - "Pipelines ETL/ELT em GCP BigQuery/Parquet e modelo preditivo de evasão (Python/R, Scikit-learn)."
           - "Reconhecimento \"Profissional destaque Data Driven\" (2024)."
       - company: MEC/SEB (via Banco Mundial)
         position: Consultor e avaliador
@@ -164,18 +166,24 @@ cv:
         end_date: 2015
 
     Skills:
+      - name: Ciência de Dados e analytics
+        icon: fa-solid fa-chart-line
+        keywords: "Python, R, SQL, GCP BigQuery, Apache Parquet, Power BI, Looker, estatística, modelagem preditiva, cenários (Holt/ARIMA), learning analytics"
       - name: Governança de dados
         icon: fa-solid fa-database
-        keywords: "DAMA-DMBOK, LGPD, ISO/IEC 38500, COBIT, EMIS, interoperabilidade, e-PING"
-      - name: Dados, BI e análise
-        icon: fa-solid fa-chart-line
-        keywords: "Python, R, SQL, BigQuery, Power BI, Looker, Plotly/Dash"
-      - name: Produto e IA
+        keywords: "DAMA-DMBOK, LGPD/RIPD, ISO/IEC 38500, COBIT 2019, e-PING, ITIL 4, PMBOK 7, EMIS, interoperabilidade"
+      - name: IA generativa e LLMs
+        icon: fa-solid fa-robot
+        keywords: "LLMs open-weight (Llama 3, Mistral, Qwen), vLLM, Ollama, LoRA/QLoRA, LangGraph/LangChain, Pydantic, JSON Schema, IA responsável/fairness"
+      - name: RAG e engenharia de IA
         icon: fa-solid fa-diagram-project
-        keywords: "Product Ownership, backlog, IA/GenAI, RAG, LoRA/QLoRA, rubricas, governança editorial"
-      - name: Currículo e formação
+        keywords: "BGE-m3, busca híbrida (BM25 + vetorial), reranking, Qdrant/sqlite-vec/Pgvector, FastAPI, Docker, Pytest"
+      - name: Educação e currículo
         icon: fa-solid fa-graduation-cap
-        keywords: "BNCC Computação, pensamento computacional, STEAM, formação docente, H5P, SCORM, xAPI"
+        keywords: "BNCC Computação, pensamento computacional, STEAM, formação docente, EPT, Moodle, H5P, SCORM, cmi5, xAPI"
+      - name: Produto e gestão
+        icon: fa-solid fa-list-check
+        keywords: "Product Ownership, backlog, sprints, monitoramento e avaliação (M&A), fortalecimento institucional"
 
     Awards:
       - title: Profissional destaque Data Driven

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hachura · PNLD 2027 — TRILHA-IA
-description: Arquitetura de um motor de IA generativa com governança editorial para material didático.
+description: Arquitetura de um motor de IA generativa com RAG híbrido e governança editorial para material didático.
 img: assets/img/case_trilhaia.png
 logo: assets/img/logos/hachura.png
 importance: 2
@@ -19,13 +19,15 @@ category: educação digital
 
 **Arquitetura do TRILHA-IA (decisões técnicas).**
 
-- **Arquitetura dual de LLMs** e **pipeline de 7 estágios**.
-- **JSON Schema** com 28 campos, **ontologia controlada** e **rubrica RV-DIA de 10 dimensões**.
-- **RAG** com sqlite-vec / BGE-m3 e adaptação com **LoRA/QLoRA**.
+- **Pipeline de múltiplos estágios** com **arquitetura dual de LLMs** e **validação determinística** via **Pydantic** e **JSON Schema** (28 campos) — mitigando alucinações.
+- **RAG híbrido**: embeddings **BGE-m3**, busca densa + esparsa (**BM25**) e **reranking** com Cross-Encoders, para fundamentação documental e rastreabilidade.
+- **Ontologia controlada** e **rubrica RV-DIA de 10 dimensões** para avaliação; adaptação com **LoRA/QLoRA**.
 - Integração com **H5P, SCORM, cmi5, xAPI, BPMN 2.0 e Moodle**.
 
-**Entregáveis.** Motor TRILHA-IA; JSON Schema e ontologia; rubrica RV-DIA; pipeline documentado; governança editorial do processo.
+**Entregáveis.** Motor TRILHA-IA; JSON Schema e ontologia; rubrica RV-DIA; pipeline RAG documentado; governança editorial do processo.
 
 **Resultado.** Qualidade editorial, alinhamento curricular, aprendizagem ativa e rastreabilidade integrados em um fluxo único de produção.
 
-**Em uma frase.** Projetei um motor de IA educacional que controla estrutura, qualidade, alinhamento, revisão e rastreabilidade — engenharia de IA aplicada à produção didática, não apenas geração de texto.
+**Stack.** LLMs · RAG (BGE-m3 · BM25 · reranking) · sqlite-vec · LoRA/QLoRA · Pydantic · JSON Schema · Python · H5P/SCORM/xAPI.
+
+**Em uma frase.** Projetei um motor de IA educacional que controla estrutura, qualidade, alinhamento, revisão e rastreabilidade — engenharia de IA aplicada à produção didática.
