@@ -69,17 +69,17 @@ Na prática: pipelines de dados (ETL/ELT) em **GCP BigQuery** e Apache Parquet; 
 
 <p class="mx-cap">temas (linhas) × públicos (colunas: terceiro setor · governos · indústria/setor privado)</p>
 <div class="mx">
-  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Terceiro setor</span><p>Produtos de dados, indicadores e dashboards para gestão e monitoramento de programas.</p></div>
-  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Governos</span><p>Sistemas de informação educacional (EMIS), interoperabilidade e governança de dados; transição de sistemas críticos.</p></div>
-  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Indústria / privado</span><p>Arquitetura de dados em nuvem (BigQuery), ETL/ELT e Product Ownership de produtos de dados.</p></div>
+  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Terceiro setor</span><p>Indicadores de impacto, dashboards e monitoramento de programas — dados confiáveis para doadores, conselhos e prestação de contas.</p></div>
+  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Governos</span><p>Fortalecimento de sistemas de informação educacional (EMIS), interoperabilidade e governança de dados; transição de sistemas críticos com conformidade (LGPD).</p></div>
+  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Indústria / privado</span><p>Arquitetura de dados em nuvem (BigQuery), ETL/ELT e Product Ownership — produtos de dados escaláveis, eficientes e prontos para operar.</p></div>
 
-  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Terceiro setor</span><p>Currículo de Computação, pensamento computacional e formação docente (BNCC).</p></div>
-  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Governos</span><p>Políticas de educação digital, avaliação de programas e educação profissional (EPT).</p></div>
-  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Indústria / privado</span><p>Material e conteúdo didático, inclusive PNLD, com produção assistida por IA.</p></div>
+  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Terceiro setor</span><p>Desenho e escala de programas de Computação e pensamento computacional, com formação docente e foco em equidade de acesso.</p></div>
+  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Governos</span><p>Políticas de educação digital, avaliação de programas e educação profissional (EPT), alinhadas à BNCC e ao fortalecimento das redes.</p></div>
+  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Indústria / privado</span><p>Material e conteúdo didático (inclusive PNLD) com produção assistida por IA — qualidade editorial com velocidade de entrega.</p></div>
 
-  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Terceiro setor</span><p>Pilotos e prototipação de IA para programas educacionais; learning analytics e telemetria.</p></div>
-  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Governos</span><p>IA responsável, salvaguardas e explicabilidade; modelagem preditiva e de cenários.</p></div>
-  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Indústria / privado</span><p>Motores de IA generativa: RAG híbrido, rubricas, ontologias e validação determinística.</p></div>
+  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Terceiro setor</span><p>Pilotos e prototipação de IA de baixo custo para programas educacionais; learning analytics e telemetria para evidenciar o que funciona.</p></div>
+  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Governos</span><p>IA responsável, salvaguardas e explicabilidade; modelagem preditiva e de cenários para mitigar risco e apoiar a decisão pública.</p></div>
+  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Indústria / privado</span><p>Motores de IA generativa prontos para produto — RAG híbrido, rubricas, ontologias e validação determinística (mitigação de alucinações).</p></div>
 </div>
 
 Veja os **[cases]({{ '/projects/' | relative_url }})**, as **[publicações]({{ '/publications/' | relative_url }})** e o **[CV]({{ '/cv/' | relative_url }})**.
