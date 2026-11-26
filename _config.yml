@@ -9,7 +9,7 @@ last_name: Guimarães
 contact_note: >
   Melhor contato por e-mail para consultorias, bancas e projetos.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Carlos Artur Guimarães — especialista em governança de dados educacionais (EMIS) e IA generativa aplicada à educação pública. Arquitetura de dados, interoperabilidade, pipelines de IA e Product Ownership em sistemas de larga escala.
+  Carlos Artur Guimarães — especialista técnico em governança de dados educacionais (EMIS) e IA generativa aplicada. Consultoria para organismos multilaterais, terceiro setor e instituições privadas, com histórico verificável em projetos do MEC, UNESCO, Banco Mundial, BID e OEI.
 footer_text: >
   Governança de dados · Educação pública · IA aplicada.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> + <a href="https://github.com/alshedivat/al-folio">al-folio</a>, no <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
