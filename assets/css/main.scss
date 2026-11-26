@@ -55,3 +55,7 @@
 /* tabelas dos cases: compactas e sem rolagem horizontal desnecessária */
 .post table { font-size: 0.9rem; }
 .post table td, .post table th { padding: 0.3rem 0.6rem; }
+
+/* case meta line + audience tag */
+.case-meta{font-family:var(--mono,ui-monospace,monospace);font-size:.72rem;letter-spacing:.02em;opacity:.72;margin:.1rem 0 1.1rem;line-height:1.5}
+.case-meta b{color:var(--c,#DC2A17)}

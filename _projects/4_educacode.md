@@ -1,35 +1,31 @@
 ---
 layout: page
 title: OEI · Recife — EducaCode
-description: Arquitetura curricular e tecnológica para Computação na rede municipal.
+description: Da diretriz municipal ao currículo de Computação, com formação, recursos e indicadores de progresso.
 img: assets/img/case_educacode.png
 logo: assets/img/logos/oei.png
 importance: 1
 theme: t2
-category: educação digital
+audience: Governos
 ---
 
-**Período.** 2024–2025 · Consultor (Fase I, Projeto OEI/BRA/22/003) · OEI / Prefeitura do Recife.
+<p class="case-meta" style="--c:#1b1b4d"><b>Educação</b> (com componente de Inovação) · Governos · 2024–2025 · Consultor — Fase I do Projeto OEI BRA/22/003, para a OEI e a Prefeitura do Recife</p>
 
-**Contexto.** Política municipal de **educação digital** no Recife — clubes de programação, cultura digital, pensamento computacional, robótica e STEAM na rede municipal.
+**Contexto.** A política municipal de educação digital do Recife reúne clubes de programação, cultura digital, pensamento computacional, robótica e STEAM.
 
-**Desafio.** Converter diretrizes em currículo, formação, recursos e avaliação que efetivamente cheguem à escola e sejam acompanháveis por dados.
+**Problema.** Fazer as diretrizes **chegarem à escola** como currículo, formação docente, recursos e avaliação — de forma acompanhável por dados.
 
-**Arquitetura curricular e decisões técnicas.**
+**O que fiz.**
 
-- Estruturação curricular e tecnológica do EducaCode (produtos **P1–P6**).
-- Desenho do **Framework RECIFE** (Raízes culturais, Educação ética, Colaboração, Inovação, Foco integral, Engajamento comunitário).
-- **Learning analytics, rubricas, portfólio digital e indicadores** (IPPC — Índice de Progresso em Pensamento Computacional; TPCT).
+- **Estrutura curricular e tecnológica** em seis produtos (P1 a P6).
+- **Framework RECIFE**, com seis pilares: raízes culturais, educação ética, colaboração, inovação, foco integral e engajamento comunitário.
+- **Avaliação e evidência:** learning analytics, rubricas, portfólio digital e indicadores, incluindo o **Índice de Progresso em Pensamento Computacional (IPPC)** e o TPCT.
+- **Trilhas formativas** para professores, articuladas aos recursos e plataformas da rede.
 
-**Stack.** Moodle/EducaRec, Scratch Junior, micro:bit, Tinkercad, Scratch, Python, Arduino, Fritzing, Teachable Machine e Power BI.
+**Entregas.** Matriz curricular, framework, trilhas de formação, modelo de avaliação e indicadores e apresentações de resultados.
 
-**Entregáveis.** Seis produtos (P1–P6): matriz curricular, framework, trilhas formativas, modelo de avaliação/indicadores e apresentações de resultados.
+**Escala.** 40 escolas · 50 clubes de programação
 
-**Escala (documentada).**
+**Stack.** Moodle/EducaRec · Scratch Jr · Scratch · micro:bit · Tinkercad · Arduino · Fritzing · Python · Teachable Machine · Power BI
 
-| Indicador | Valor |
-|---|---|
-| Escolas | 40 |
-| Clubes de programação | 50 |
-
-**Em uma frase.** Estruturei uma política municipal de educação digital que une currículo, formação, recursos, avaliação e indicadores para ampliar o acesso a letramentos computacionais.
+**Síntese.** Uma política de educação digital vira prática quando **currículo, formação, recurso e indicador são desenhados juntos** — com um índice próprio para medir progresso.

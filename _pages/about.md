@@ -2,15 +2,15 @@
 layout: about
 title: sobre
 permalink: /
-subtitle: <strong>Ciência de Dados</strong> e <strong>IA</strong> aplicadas à educação pública · Governança de dados (EMIS) · Consultoria para terceiro setor, governos e setor privado
+subtitle: <strong>Ciência de Dados e IA para a educação pública</strong>, com governança desde a origem do dado
 
 profile:
   align: right
   image: prof_pic.png
   image_circular: false
   more_info: >
-    <p>Ciência de Dados · IA · Governança (EMIS)</p>
-    <p>Consultorias · assessorias · bancas</p>
+    <p>Ciência de Dados · IA aplicada · Governança (EMIS)</p>
+    <p>Consultorias · assessorias técnicas · bancas</p>
     <p>MEC · UNESCO · Banco Mundial · BID · OEI</p>
 
 selected_papers: false
@@ -26,73 +26,94 @@ latest_posts:
 <style>
 .vlist{display:grid;gap:11px;margin:.3rem 0 .4rem}
 .v{border-left:4px solid var(--c);padding:7px 0 7px 13px}
-.v b{display:block;font-size:.97rem}
-.v span{font-size:.87rem;opacity:.78}
-.mx-cap{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;opacity:.55;margin:.2rem 0 .6rem}
-.mx{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-.mc{border:1px solid rgba(127,127,127,.3);border-top:3px solid var(--c);border-radius:9px;padding:12px 13px}
-.mc .mt{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:var(--c);display:block}
-.mc .ma{font-weight:700;font-size:.82rem;display:block;margin:2px 0 5px}
-.mc p{font-size:.79rem;opacity:.82;line-height:1.35;margin:0}
-.cgroup{margin:.5rem 0}
-.cgroup .cl{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin-bottom:5px}
-.chips{display:flex;flex-wrap:wrap;gap:6px}
-.chips span{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;border:1px solid rgba(127,127,127,.28);border-radius:999px;padding:3px 9px;opacity:.82}
-.cgroup{margin:.35rem 0}
-@media(max-width:820px){.mx{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.mx{grid-template-columns:1fr}}
+.v b{display:block;font-size:.95rem}
+.v span{font-size:.86rem;opacity:.78}
+.mintro{font-size:.9rem;opacity:.82;margin:.2rem 0 .1rem}
+.mintro small{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.05em;text-transform:uppercase;opacity:.6;display:block;margin-top:3px}
+.mq{font-size:.98rem;font-weight:700;border-left:4px solid var(--c);padding-left:11px;margin:1.3rem 0 .05rem}
+.mqq{font-style:italic;opacity:.72;font-size:.86rem;padding-left:15px;margin:0 0 .5rem}
+.mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mcell{border:1px solid rgba(127,127,127,.28);border-top:3px solid var(--c);border-radius:9px;padding:12px 13px;display:flex;flex-direction:column}
+.mcell .pub{font-family:var(--mono,ui-monospace,monospace);font-size:.58rem;letter-spacing:.06em;text-transform:uppercase;color:var(--c)}
+.mcell .q{font-style:italic;font-size:.79rem;opacity:.82;margin:3px 0 6px}
+.mcell p{font-size:.78rem;opacity:.84;line-height:1.35;margin:0 0 7px}
+.mcell a{margin-top:auto;font-family:var(--mono,ui-monospace,monospace);font-size:.66rem;color:var(--c);text-decoration:none;border-top:1px solid rgba(127,127,127,.2);padding-top:6px}
+.mcell a:hover{opacity:.75}
+.ct{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:10px 18px;margin:.3rem 0}
+.cx b{font-size:.83rem}
+.cx span{display:block;font-size:.74rem;opacity:.7;line-height:1.4;margin-top:1px}
+@media(max-width:820px){.mgrid{grid-template-columns:1fr}}
 </style>
 
-Sou **Carlos Artur Guimarães**, especialista em **Ciência de Dados e IA aplicadas à educação pública**, com base sólida em **governança de dados (EMIS)**. Presto consultoria para **organismos multilaterais, terceiro setor, governos e instituições privadas**, com histórico verificável em projetos do **MEC/SEB, UNESCO, Banco Mundial, BID e OEI** — da engenharia de dados e interoperabilidade à IA responsável.
+Ajudo governos, organismos multilaterais, organizações do terceiro setor e empresas a transformar **dados educacionais em decisão**, e a decisão em política que funciona na escala de uma rede de ensino. São mais de **15 anos** entre tecnologia educacional, governança de dados e políticas públicas: comecei na coordenação de EAD do IMD/UFRN, passei por produtos de dados para seis redes estaduais e pela transição técnica de um sistema nacional de gestão escolar no MEC, e hoje construo motores de IA generativa para material didático.
 
-Meu diferencial é transformar três vetores de formação em um método técnico: a **Filosofia** dá o rigor crítico e as salvaguardas; a **Gestão de Políticas Públicas**, a governança e a avaliação; a **Ciência de Dados e a IA**, a engenharia que faz tudo funcionar em escala.
+Meu método parte de uma premissa: **IA confiável depende de dado governado, e dado governado depende de saber quem decide, com qual evidência e sob quais salvaguardas.** Por isso cada projeto articula três camadas. A **engenharia** cobre pipelines, modelos e painéis. A **governança** cobre papéis, qualidade, interoperabilidade e LGPD. A **avaliação** cobre os indicadores que mostram se a política chega à escola.
 
-## Formação
+## Três formações, um método
 
 <div class="vlist">
   <div class="v" style="--c:#5A5A72">
-    <b>Filosofia (UFRN) — pensamento crítico e ética</b>
-    <span>A ponte para a educação e para a <strong>ética da tecnologia</strong>: epistemologia e salvaguardas que hoje ancoram a governança de dados e a IA responsável.</span>
+    <b>Filosofia · Licenciatura, UFRN</b>
+    <span>Epistemologia e ética aplicadas à tecnologia: critérios de evidência, explicabilidade e limites de uso, que viram <strong>salvaguardas concretas</strong> em projetos de IA.</span>
   </div>
   <div class="v" style="--c:#DC2A17">
-    <b>Gestão de Políticas Públicas (UFRN) — governança e avaliação</b>
-    <span>Desenho, <strong>governança e avaliação</strong> de políticas e programas educacionais; evidências para decisão e fortalecimento institucional.</span>
+    <b>Gestão de Políticas Públicas · Bacharelado, UFRN</b>
+    <span>Desenho, governança e avaliação de programas: teoria da mudança, indicadores, arranjos institucionais e <strong>fortalecimento de capacidades</strong> no setor público.</span>
   </div>
   <div class="v" style="--c:#1b1b4d">
-    <b>Ciência de Dados e IA — o foco técnico</b>
-    <span>Ciência de Dados (UNIVESP) · Residência em IA (Eldorado/PUC-Campinas · PBIA) · MBA em Redes · Mestrado em Tecnologias Educacionais (PPGITE/UFRN). <strong>Engenharia de dados, analytics e IA generativa</strong> aplicados à educação.</span>
+    <b>Tecnologia, Dados e IA</b>
+    <span>Mestrado em Inovação em Tecnologias Educacionais (PPGITE/UFRN, 2025) · Tecnologia em Ciência de Dados (UNIVESP, em curso) · Residência em IA (Instituto Eldorado/PUC-Campinas · PBIA) · MBA em Redes de Computadores (ESAB). A base técnica: <strong>engenharia de dados, modelagem estatística, analytics e IA generativa</strong> aplicados a sistemas educacionais.</span>
   </div>
 </div>
 
-Na prática: pipelines de dados (ETL/ELT) em **GCP BigQuery** e Apache Parquet; modelos preditivos em **Python/R**; painéis em **Looker/Power BI**; governança com **DAMA-DMBOK, ISO/IEC 38500, COBIT, LGPD e e-PING**; e motores de IA generativa com **RAG híbrido (BGE-m3, reranking)**, validação determinística (**Pydantic/JSON Schema**) e salvaguardas.
+## Consultoria: onde posso ajudar
 
-## Consultoria — uma matriz de atuação
+<p class="mintro">Três frentes, três públicos. Cada célula parte de um problema recorrente e aponta um projeto em que já resolvi algo parecido.<small>linhas = frentes · colunas = terceiro setor · governos · indústria/setor privado</small></p>
 
-<p class="mx-cap">temas (linhas) × públicos (colunas: terceiro setor · governos · indústria/setor privado)</p>
-<div class="mx">
-  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Terceiro setor</span><p>Indicadores de impacto, dashboards e monitoramento de programas — dados confiáveis para doadores, conselhos e prestação de contas.</p></div>
-  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Governos</span><p>Fortalecimento de sistemas de informação educacional (EMIS), interoperabilidade e governança de dados; transição de sistemas críticos com conformidade (LGPD).</p></div>
-  <div class="mc" style="--c:#DC2A17"><span class="mt">Transformação Digital</span><span class="ma">Indústria / privado</span><p>Arquitetura de dados em nuvem (BigQuery), ETL/ELT e Product Ownership — produtos de dados escaláveis, eficientes e prontos para operar.</p></div>
+<div style="--c:#DC2A17">
+  <p class="mq">Transformação Digital</p>
+  <p class="mqq">Seus sistemas conversam entre si? E alguém sabe quem responde por cada dado?</p>
+  <div class="mgrid">
+    <div class="mcell"><span class="pub">Terceiro setor</span><span class="q">"O financiador pergunta pelo impacto, e a resposta está espalhada em planilhas."</span><p>Base única, catálogo de indicadores e painéis de monitoramento para conselhos, doadores e prestação de contas — com a rotina de uso que faz o painel ser consultado.</p><a href="{{ '/projects/2_sigae/' | relative_url }}">→ Instituto Unibanco · SIGAE</a></div>
+    <div class="mcell"><span class="pub">Governos</span><span class="q">"Precisamos migrar um sistema crítico sem parar a operação."</span><p>Fortalecimento de sistemas de informação educacional (EMIS): matriz de governança, critérios de prontidão, interoperabilidade (e-PING) e conformidade com a LGPD, inclusive o RIPD.</p><a href="{{ '/projects/1_mec/' | relative_url }}">→ MEC · UNESCO · SGP 2.0</a></div>
+    <div class="mcell"><span class="pub">Indústria / privado</span><span class="q">"Os dados existem, mas não viram produto."</span><p>Arquitetura de dados em nuvem (BigQuery, Parquet), pipelines ETL/ELT e Product Ownership para produtos de dados escaláveis, com custo previsível e prontos para operar.</p><a href="{{ '/projects/2_sigae/' | relative_url }}">→ Instituto Unibanco · SIGAE</a></div>
+  </div>
+</div>
 
-  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Terceiro setor</span><p>Desenho e escala de programas de Computação e pensamento computacional, com formação docente e foco em equidade de acesso.</p></div>
-  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Governos</span><p>Políticas de educação digital, avaliação de programas e educação profissional (EPT), alinhadas à BNCC e ao fortalecimento das redes.</p></div>
-  <div class="mc" style="--c:#1b1b4d"><span class="mt">Educação</span><span class="ma">Indústria / privado</span><p>Material e conteúdo didático (inclusive PNLD) com produção assistida por IA — qualidade editorial com velocidade de entrega.</p></div>
+<div style="--c:#1b1b4d">
+  <p class="mq">Educação</p>
+  <p class="mqq">A política está escrita. Ela está chegando à sala de aula?</p>
+  <div class="mgrid">
+    <div class="mcell"><span class="pub">Terceiro setor</span><span class="q">"Queremos levar Computação a mais escolas sem perder qualidade."</span><p>Desenho e escala de programas de pensamento computacional, com formação docente baseada em evidência e foco em equidade de acesso.</p><a href="{{ '/projects/' | relative_url }}">→ Brasscom · Tomara (EPT) · PENSA-RN</a></div>
+    <div class="mcell"><span class="pub">Governos</span><span class="q">"Precisamos transformar a BNCC Computação em currículo, formação e indicador."</span><p>Políticas de educação digital, avaliação de programas (inclusive de redução da evasão) e educação profissional (EPT), com acompanhamento por dados.</p><a href="{{ '/projects/4_educacode/' | relative_url }}">→ OEI · Recife · EducaCode</a></div>
+    <div class="mcell"><span class="pub">Indústria / privado</span><span class="q">"Precisamos de uma coleção aprovável no PNLD, dentro do prazo."</span><p>Material didático com produção assistida por IA e governança editorial: alinhamento à BNCC rastreável, revisão estruturada e velocidade sem abrir mão da qualidade.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · TRILHA-IA</a></div>
+  </div>
+</div>
 
-  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Terceiro setor</span><p>Pilotos e prototipação de IA de baixo custo para programas educacionais; learning analytics e telemetria para evidenciar o que funciona.</p></div>
-  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Governos</span><p>IA responsável, salvaguardas e explicabilidade; modelagem preditiva e de cenários para mitigar risco e apoiar a decisão pública.</p></div>
-  <div class="mc" style="--c:#5A5A72"><span class="mt">Inovação</span><span class="ma">Indústria / privado</span><p>Motores de IA generativa prontos para produto — RAG híbrido, rubricas, ontologias e validação determinística (mitigação de alucinações).</p></div>
+<div style="--c:#0E7C86">
+  <p class="mq">Inovação</p>
+  <p class="mqq">Antes de escalar a IA, alguém testou se ela é útil, segura e explicável?</p>
+  <div class="mgrid">
+    <div class="mcell"><span class="pub">Terceiro setor</span><span class="q">"Precisamos provar que o piloto funciona antes de pedir mais recursos."</span><p>Pilotos de IA de baixo custo, learning analytics e telemetria (xAPI) que geram evidência de aprendizagem e de uso desde o primeiro ciclo.</p><a href="{{ '/projects/4_educacode/' | relative_url }}">→ EducaCode (índice IPPC) · IMD/UFRN</a></div>
+    <div class="mcell"><span class="pub">Governos</span><span class="q">"Precisamos decidir hoje olhando para 2030 ou 2050."</span><p>Modelagem preditiva e de cenários, IA responsável e explicabilidade, para antecipar riscos (como a evasão) e sustentar a decisão pública com método defensável.</p><a href="{{ '/projects/3_goias/' | relative_url }}">→ Instituto Sapien · Goiás 2050</a></div>
+    <div class="mcell"><span class="pub">Indústria / privado</span><span class="q">"Nosso produto de IA generativa alucina, e não conseguimos auditar."</span><p>Motores de IA generativa prontos para produto: RAG híbrido, ontologias, rubricas de avaliação e validação determinística de saída.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · TRILHA-IA</a></div>
+  </div>
 </div>
 
 Veja os **[cases]({{ '/projects/' | relative_url }})**, as **[publicações]({{ '/publications/' | relative_url }})** e o **[CV]({{ '/cv/' | relative_url }})**.
 
 ## Competências técnicas
 
-<div class="cgroup"><div class="cl">Ciência de Dados &amp; analytics</div><div class="chips"><span>Python · R · SQL</span><span>GCP BigQuery</span><span>Power BI · Looker</span><span>modelagem preditiva</span><span>learning analytics</span></div></div>
-
-<div class="cgroup"><div class="cl">Governança de dados</div><div class="chips"><span>DAMA-DMBOK</span><span>LGPD</span><span>ISO/IEC 38500 · COBIT</span><span>EMIS · interoperabilidade</span></div></div>
-
-<div class="cgroup"><div class="cl">IA generativa</div><div class="chips"><span>LLMs open-weight</span><span>RAG híbrido (BGE-m3)</span><span>LoRA/QLoRA</span><span>Pydantic · JSON Schema</span><span>IA responsável</span></div></div>
-
-<div class="cgroup"><div class="cl">Educação &amp; currículo</div><div class="chips"><span>BNCC Computação</span><span>pensamento computacional</span><span>formação docente · EPT</span><span>SCORM · xAPI · H5P</span></div></div>
+<div class="ct">
+  <div class="cx"><b>Engenharia de dados</b><span>Python (Pandas) · SQL avançado · R · GCP BigQuery · Apache Parquet · pipelines ETL/ELT · integração de microdados governamentais · migração de sistemas legados · prontidão operacional</span></div>
+  <div class="cx"><b>Estatística, modelagem e avaliação</b><span>Scikit-learn · modelagem preditiva (risco de evasão) · séries temporais (Holt, ARIMA, combinação ponderada) · cenários de longo prazo · learning analytics · índices e indicadores compostos · avaliação de programas e políticas</span></div>
+  <div class="cx"><b>Visualização e BI</b><span>Looker · Power BI · painéis executivos para secretarias e redes · painéis territoriais (município · região · dimensão) · catálogo de indicadores</span></div>
+  <div class="cx"><b>Fontes e bases</b><span>IBGE · PNAD · CAGED · RAIS · IDEB · IPEA · IMB-GO · OCDE/PISA · PNUD · Banco Mundial · análise territorial por município e região de planejamento</span></div>
+  <div class="cx"><b>IA generativa e engenharia de LLMs</b><span>LLMs open-weight · pipelines multietapa multimodelo · RAG híbrido (BGE-m3, denso + esparso BM25, reranking Cross-Encoder) · sqlite-vec · ontologias controladas · LoRA/QLoRA · prompt engineering · Pydantic · JSON Schema (validação determinística) · rubricas de saída · mitigação de alucinações · IA responsável</span></div>
+  <div class="cx"><b>Governança de dados e de TI</b><span>DAMA-DMBOK · ISO/IEC 38500 · COBIT 2019 · ITIL 4 · LGPD · Relatório de Impacto (RIPD) · e-PING · interoperabilidade · EMIS · matriz de riscos · critérios de prontidão · pontos de controle</span></div>
+  <div class="cx"><b>Produto e gestão de projetos</b><span>Product Ownership · backlog e priorização · PMBOK 7 · gestão por sprints · BPMN 2.0 · tradução de demanda de gestão em requisito técnico · formação de gestores em dados e indicadores</span></div>
+  <div class="cx"><b>Educação digital e currículo</b><span>BNCC Computação · pensamento computacional · formação docente · EPT · STEAM · PNLD · desenho curricular · rubricas e portfólio digital</span></div>
+  <div class="cx"><b>Tecnologia educacional e plataformas</b><span>Moodle · H5P · SCORM · cmi5 · xAPI · Scratch · Scratch Jr · micro:bit · Arduino · Tinkercad · Fritzing · Teachable Machine · jogos digitais educacionais · EAD em larga escala</span></div>
+</div>
 
 **Disponível para consultorias individuais, assessorias técnicas e bancas.** [carlosarturguimaraes@protonmail.com](mailto:carlosarturguimaraes@protonmail.com)

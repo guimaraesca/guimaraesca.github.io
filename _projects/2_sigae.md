@@ -1,43 +1,43 @@
 ---
 layout: page
 title: Instituto Unibanco — SIGAE
-description: Engenharia de dados e Product Ownership de um produto de dados para gestão educacional em redes estaduais.
+description: "Produto de dados para gestão educacional em seis redes estaduais: pipelines, indicadores, painéis e modelo de risco de evasão."
 img: assets/img/case_sigae.png
 logo: assets/img/logos/unibanco.png
 importance: 2
 theme: t1
-category: governança de dados
+audience: Terceiro setor
 ---
 
-> **Nota de governança de dados.** Visão de alto nível, respeitando o sigilo do produto e das redes parceiras.
+<p class="case-meta" style="--c:#DC2A17"><b>Transformação Digital</b> (com componente de Inovação) · Terceiro setor, em parceria com governos estaduais · 2023–2025 · Analista de Dados Sênior e Product Owner</p>
 
-**Período.** 2023–2025 · Analista de Dados Sênior e Product Owner (vínculo CLT) · Instituto Unibanco.
+> Visão de alto nível, respeitando o sigilo do produto e das redes parceiras.
 
-**Contexto.** O **SIGAE** é um sistema de apoio à gestão educacional em redes estaduais, integrando produto digital, dados, indicadores, acompanhamento pedagógico e rotinas de gestão.
+**Contexto.** O **SIGAE** apoia a gestão educacional em seis redes estaduais (CE, ES, GO, MG, PI, RS). Ele combina produto digital, dados, indicadores, acompanhamento pedagógico e rotinas de gestão.
 
-**Desafio.** Sustentar, em nuvem e em escala, um produto de dados público confiável — equilibrando as necessidades de seis redes com qualidade, governança e capacidade técnica de entrega.
+**Problema.** Seis redes com sistemas, bases e culturas de dados diferentes precisavam de indicadores **comparáveis e confiáveis** — que fossem de fato usados por secretarias, regionais e escolas.
 
-**Engenharia de dados e decisões técnicas.**
+**O que fiz.**
 
-- **Pipelines ETL/ELT em GCP BigQuery**, processando microdados governamentais particionados em **Apache Parquet** de alta performance.
-- **Modelos preditivos** em **Python** (Pandas, Scikit-learn) e **R** para previsão precoce de **risco de evasão escolar**.
-- Painéis executivos em **Looker** e **Power BI** para secretários de estado e gestores de rede.
-- **Product Ownership**: backlog, priorização, catálogo de indicadores e tradução de demandas das redes em requisitos técnicos.
-- **Formação técnica de gestores** em governança de dados e indicadores educacionais.
+- **Engenharia de dados:** construí pipelines **ETL/ELT em GCP BigQuery** sobre microdados governamentais em **Apache Parquet**.
+- **Modelo preditivo:** desenvolvi um modelo de identificação precoce de **risco de evasão** em **Python (Pandas, Scikit-learn)** e **R**.
+- **Painéis executivos:** criei painéis em **Looker** e **Power BI** para secretários e gestores de rede.
+- **Product Ownership:** fiz gestão de backlog e priorização, mantive o catálogo de indicadores e traduzi as demandas das redes em requisitos técnicos.
+- **Adoção:** conduzi a formação técnica de gestores em governança de dados e indicadores educacionais.
 
-**Entregáveis.** Pipelines de dados; catálogo de indicadores e dashboards; modelo de risco de evasão; trilhas de formação; rotinas de adoção por secretarias, regionais e escolas.
+**Entregas.** Pipelines de dados, catálogo de indicadores, painéis, modelo de risco de evasão, trilhas formativas e rotinas de adoção para secretarias, regionais e escolas.
 
-**Escala do ambiente (documentada).**
+**Escala do programa** *(dados do programa, não resultados individuais).*
 
 | Indicador | Valor |
 |---|---|
 | Redes estaduais (CE, ES, GO, MG, PI, RS) | 6 |
-| Escolas | 3 mil+ |
+| Escolas | 3.000+ |
 | Usuários | ~120 mil |
 | Gestores públicos formados | 50+ |
 
-**Reconhecimento.** "Profissional destaque Data Driven" (2024).
+**Reconhecimento.** Profissional destaque Data Driven, Instituto Unibanco (2024).
 
-**Stack.** GCP BigQuery · Apache Parquet · Python (Pandas, Scikit-learn) · R · SQL avançado · Looker · Power BI.
+**Stack.** GCP BigQuery · Apache Parquet · Python (Pandas, Scikit-learn) · R · SQL avançado · Looker · Power BI
 
-*A escala descreve o programa; não é atribuída como resultado individual.*
+**Síntese.** Um produto de dados só gera valor quando vira **rotina de gestão**. Por isso a engenharia, o modelo e a formação foram tratados como uma única entrega.

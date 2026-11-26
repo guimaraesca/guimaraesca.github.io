@@ -1,27 +1,27 @@
 ---
 layout: page
 title: IMD/UFRN — Tecnologia educacional e jogos
-description: EAD, GameLab, jogos digitais, pensamento computacional e formação docente.
+description: Nove anos de EAD em escala, jogos digitais, pensamento computacional e formação docente — a base empírica do que faço hoje.
 img: assets/img/case_imd.png
 logo: assets/img/logos/ufrn.png
-importance: 3
-theme: t3
-category: educação digital
+importance: 1
+theme: t4
+audience: Base de origem
 ---
 
-**Período.** 2012–2021 · Coordenador de Tutoria e de Professores Mediadores · Instituto Metrópole Digital (IMD/UFRN).
+<p class="case-meta" style="--c:#5A5A72"><b>Base de origem</b> (alimenta Educação e Inovação) · 2012–2021 · Coordenador de Tutoria e de Professores Mediadores — IMD/UFRN; Coordenador de Projetos no GAMEDU (2014–2017)</p>
 
-**Contexto.** Tecnologia educacional, jogos digitais, pensamento computacional e formação docente para cursos técnicos e educação básica — a **base metodológica** que hoje aplico a dados e IA.
+**Contexto.** Tecnologia educacional, jogos digitais, pensamento computacional e formação docente em cursos técnicos e na educação básica. Foi aqui que se formou o **método** que hoje aplico com dados e IA.
 
-**O que construí.**
+**O que fiz.**
 
-- **Coordenação de tutoria e de professores mediadores** (EAD/Moodle) por quase uma década.
-- Produção e **gestão de material didático** para cursos técnicos EAD.
-- Atuação no **GameLab/GAMEDU** e em **8 edições do Desafio GamEdu** (2014–2021).
-- Pesquisa e publicações em pensamento computacional, jogos digitais, *learning analytics* e formação docente.
+- **EAD em escala:** coordenei a tutoria e os professores mediadores (Moodle) por quase uma década e produzi e geri material didático de cursos técnicos a distância.
+- **Jogos digitais:** coordenei projetos no **GameLab/GAMEDU** e participei de oito edições do **GamEdu Challenge** (2014–2021).
+- **Pesquisa:** estudei e publiquei sobre pensamento computacional, jogos digitais, learning analytics e formação docente, incluindo o **PENSA-RN** (Programa Norte-rio-grandense de Pensamento Computacional).
+- **Orientação (2019):** orientei um estudante do curso técnico cujo projeto, **Lucy**, recebeu menção honrosa num desafio do Google Play. *O reconhecimento é do estudante.*
 
-**Orientação (2019).** Orientou estudante do curso técnico do IMD/UFRN cujo projeto **Lucy** recebeu menção honrosa em desafio do Google Play. *O reconhecimento é da estudante.*
+**Desdobramentos.** Mestrado no PPGITE/UFRN (2025), com a dissertação *Integrando o pensamento computacional ao currículo por meio de formação docente baseada no desenvolvimento de jogos digitais*.
 
-**Produção associada.** Ver [publicações]({{ '/publications/' | relative_url }}) — incluindo *Arrow* (WIE/SBC, 2019) e os trabalhos do **PENSA-RN**.
+**Publicações relacionadas.** *Arrow* (WIE/SBC, 2019) · PENSA-RN (RBIE e EduComp/SBC, 2021) · revisão sistemática sobre learning analytics e predição de desempenho (Ctrl+E, 2020) — ver a [página de publicações]({{ '/publications/' | relative_url }}).
 
-**Em uma frase.** Minha base técnica vem de anos de experimentação aplicada com jogos, materiais digitais, formação docente e pesquisa — o rigor metodológico que hoje sustenta meu trabalho com dados e IA.
+**Síntese.** Antes dos dados e da IA veio a **sala de aula**: saber como professor e estudante usam a tecnologia é o que mantém meus modelos e painéis presos ao mundo real.
