@@ -20,6 +20,7 @@ nav_order: 1
 .ftab[aria-selected="true"]{background:var(--c);border-color:var(--c)}
 .ftab[aria-selected="true"] b,.ftab[aria-selected="true"] span{color:#fff;opacity:1}
 .ftab:focus-visible{outline:2px solid var(--c);outline-offset:2px}
+html[data-theme="dark"] .ftab[aria-selected="true"] b,html[data-theme="dark"] .ftab[aria-selected="true"] span{color:#14142b}
 .js .fpanel[hidden]{display:none}
 .fpanel{border-left:4px solid var(--c);padding:2px 0 4px 16px;margin:0 0 1.4rem;scroll-margin-top:80px}
 .js .fpanel h2{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
@@ -74,7 +75,7 @@ nav_order: 1
 .step span{font-size:.76rem;opacity:.75;line-height:1.4}
 .formats{font-size:.84rem;line-height:1.55;opacity:.88;margin:0 0 .4rem}
 .c-cta{font-size:.9rem;margin:0}
-@media(max-width:860px){.ftabs{grid-template-columns:1fr}.ftab span{display:none}.mgrid,.fproof{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr;gap:10px}}
+@media(max-width:860px){.ftabs{gap:6px}.ftab{padding:8px 9px}.ftab b{font-size:.8rem;line-height:1.2}.ftab span{display:none}.mgrid,.fproof{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr;gap:10px}}
 @media(max-width:520px){.ed{margin-left:0}.elist summary{grid-template-columns:80px 1fr 14px}}
 @media(prefers-reduced-motion:reduce){.pz{transition:none}}
 </style>
