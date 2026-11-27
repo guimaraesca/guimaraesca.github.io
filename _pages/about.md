@@ -31,10 +31,10 @@ latest_posts:
 .btn-p:hover,.btn-s:hover{opacity:.85}
 .aud{font-family:var(--mono,ui-monospace,monospace);font-size:.62rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin-left:4px}
 .olabel{font-family:var(--mono,ui-monospace,monospace);font-size:.62rem;letter-spacing:.09em;text-transform:uppercase;opacity:.55;margin:0 0 6px}
-.orgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:7px;margin:0 0 1.3rem}
-.orgs a{display:block;height:46px;background:#fff;border:1px solid rgba(127,127,127,.25);border-radius:8px;padding:6px 9px;transition:transform .15s ease,box-shadow .15s ease}
+.orgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px;margin:0 0 1.3rem}
+.orgs a{display:flex;align-items:center;justify-content:center;height:70px;background:#fff;border:1px solid rgba(127,127,127,.22);border-radius:9px;padding:7px 9px;transition:transform .15s ease,box-shadow .15s ease}
 .orgs a:hover{transform:translateY(-2px);box-shadow:0 4px 10px rgba(0,0,0,.15)}
-.orgs img{width:100%;height:100%;object-fit:contain}
+.orgs img{height:calc(50px / var(--sq,1));width:auto;max-width:100%;max-height:100%;object-fit:contain}
 .post article h2.sec{font-size:1.1rem;font-weight:700;margin:1.3rem 0 .6rem;padding-top:.8rem;border-top:1px solid rgba(127,127,127,.18);clear:both}
 .axis{margin:.3rem 0 .2rem}
 .axis-band{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#5A5A72,#DC2A17,#1b1b4d);color:#fff;font-size:.8rem;font-weight:600;padding:8px 14px;border-radius:9px 9px 0 0}
@@ -64,6 +64,7 @@ latest_posts:
 @media(max-width:860px){.axis-cols{grid-template-columns:1fr}.axis-band{flex-direction:column;gap:3px;text-align:center}
  .traj{grid-template-columns:1fr;gap:9px;padding-left:20px}.traj::before{left:5px;right:auto;top:4px;bottom:4px;width:2px;height:auto;background:linear-gradient(180deg,#5A5A72,#DC2A17,#0E7C86)}
  .traj .y{height:auto}.traj .d{position:absolute;left:-20px;top:2px;margin:0}}
+@media(max-width:520px){.orgs{grid-template-columns:repeat(3,1fr);gap:6px}.orgs a{height:58px;padding:5px 7px}.orgs img{height:calc(42px / var(--sq,1))}}
 @media(prefers-reduced-motion:reduce){.orgs a{transition:none}}
 </style>
 
@@ -86,7 +87,7 @@ latest_posts:
   {%- for e in site.data.experiences -%}{%- if target == "" and e.orgs contains key -%}
     {%- if e.theme == "t4" -%}{%- assign target = "#trajetoria" -%}{%- else -%}{%- assign slug = e.name | slugify: "latin" -%}{%- assign target = "/consultoria/#e-" | append: slug | relative_url -%}{%- endif -%}
   {%- endif -%}{%- endfor -%}
-  <a href="{{ target }}" title="{{ org.name }}"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></a>
+  <a href="{{ target }}" title="{{ org.name }}" style="--sq:{{ org.sq }}"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></a>
 {%- endfor -%}
 </div>
 

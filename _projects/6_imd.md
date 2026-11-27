@@ -7,7 +7,7 @@ logo: assets/img/logos/ufrn.png
 importance: 1
 theme: t4
 audience: Base de origem
-orgs: [ufrn]
+orgs: [imd, ufrn]
 ---
 
 {% include accent-dark.liquid %}

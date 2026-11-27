@@ -34,9 +34,9 @@ html[data-theme="dark"] .ftab[aria-selected="true"] b,html[data-theme="dark"] .f
 /* provas */
 .fproof{display:grid;grid-template-columns:1fr 1fr;gap:6px 22px}
 .sub{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.09em;text-transform:uppercase;opacity:.55;margin:0 0 2px}
-.crow{display:grid;grid-template-columns:84px 1fr;gap:12px;align-items:center;text-decoration:none;color:inherit;padding:7px 0;border-top:1px solid rgba(127,127,127,.15);scroll-margin-top:80px}
+.crow{display:grid;grid-template-columns:104px 1fr;gap:12px;align-items:center;text-decoration:none;color:inherit;padding:7px 0;border-top:1px solid rgba(127,127,127,.15);scroll-margin-top:80px}
 .sub + .crow{border-top:0}
-.pz{position:relative;width:84px;aspect-ratio:1/1;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center;padding:12px 17px;background:#fff;-webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;transition:transform .18s ease,filter .2s ease}
+.pz{position:relative;width:104px;aspect-ratio:1/1;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center;padding:13px 17px;background:#fff;-webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;transition:transform .18s ease,filter .2s ease}
 .crow:hover .pz{transform:translateY(-4px) rotate(-3deg) scale(1.05);filter:drop-shadow(0 8px 11px rgba(0,0,0,.26))}
 .pz .ring{position:absolute;inset:0;pointer-events:none;-webkit-mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;mask:url("/assets/img/piece.svg") center/100% 100% no-repeat;box-shadow:inset 0 0 0 2.5px var(--c)}
 .pz img{max-width:100%;max-height:100%;min-height:0;object-fit:contain}
@@ -49,12 +49,12 @@ html[data-theme="dark"] .ftab[aria-selected="true"] b,html[data-theme="dark"] .f
 .elist{list-style:none;margin:0;padding:0}
 .elist li{scroll-margin-top:80px}
 .elist li + li{border-top:1px solid rgba(127,127,127,.12)}
-.elist summary{display:grid;grid-template-columns:96px 1fr 14px;gap:10px;align-items:center;padding:6px 0;cursor:pointer;list-style:none}
+.elist summary{display:grid;grid-template-columns:132px 1fr 14px;gap:10px;align-items:center;padding:6px 0;cursor:pointer;list-style:none}
 .elist summary::-webkit-details-marker{display:none}
 .elist summary::after{content:"+";font-family:var(--mono,ui-monospace,monospace);color:var(--c);text-align:center;transition:transform .2s ease}
 .elist details[open] summary::after{transform:rotate(45deg)}
-.syms{display:flex;gap:4px;height:38px}
-.sym{flex:1 1 0;min-width:0;height:38px;border-radius:8px;background:#fff;border:1px solid rgba(127,127,127,.25);display:flex;align-items:center;justify-content:center;padding:5px 6px;overflow:hidden}
+.syms{display:flex;gap:5px;height:50px}
+.sym{flex:1 1 0;min-width:0;height:50px;border-radius:8px;background:#fff;border:1px solid rgba(127,127,127,.25);display:flex;align-items:center;justify-content:center;padding:4px 5px;overflow:hidden}
 .sym img{max-width:100%;max-height:100%;object-fit:contain}
 .sym i{font-size:1.1rem;color:var(--c)}
 .en{display:block;font-weight:600;font-size:.8rem;line-height:1.2}
@@ -62,7 +62,7 @@ html[data-theme="dark"] .ftab[aria-selected="true"] b,html[data-theme="dark"] .f
 .er{display:block;font-size:.72rem;opacity:.72;line-height:1.35;margin-top:1px}
 .er b{font-weight:600;color:var(--c)}
 .elist summary:hover .en,.elist details[open] .en{color:var(--c)}
-.ed{margin:0 0 8px 106px;padding:7px 10px;border-left:2px solid var(--c);background:rgba(127,127,127,.06);border-radius:0 8px 8px 0;font-size:.76rem;line-height:1.5}
+.ed{margin:0 0 8px 142px;padding:7px 10px;border-left:2px solid var(--c);background:rgba(127,127,127,.06);border-radius:0 8px 8px 0;font-size:.76rem;line-height:1.5}
 .ed p{margin:0 0 3px}
 .cvl{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.05em;text-transform:uppercase}
 /* modo de trabalho */
@@ -76,7 +76,7 @@ html[data-theme="dark"] .ftab[aria-selected="true"] b,html[data-theme="dark"] .f
 .formats{font-size:.84rem;line-height:1.55;opacity:.88;margin:0 0 .4rem}
 .c-cta{font-size:.9rem;margin:0}
 @media(max-width:860px){.ftabs{gap:6px}.ftab{padding:8px 9px}.ftab b{font-size:.8rem;line-height:1.2}.ftab span{display:none}.mgrid,.fproof{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr;gap:10px}}
-@media(max-width:520px){.ed{margin-left:0}.elist summary{grid-template-columns:80px 1fr 14px}}
+@media(max-width:520px){.ed{margin-left:0}.elist summary{grid-template-columns:108px 1fr 14px}}
 @media(prefers-reduced-motion:reduce){.pz{transition:none}}
 </style>
 
