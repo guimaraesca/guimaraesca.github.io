@@ -44,7 +44,7 @@ nav_order: 2
 
 {%- assign themes = "t1~Transformação Digital~sistemas, dados e governança~#DC2A17;t2~Educação~política, currículo e formação~#1b1b4d;t3~Inovação~IA, modelagem e cenários~#0E7C86;t4~Base de origem~EAD, docência e jogos digitais~#5A5A72" | split: ";" -%}
 
-<p class="pz-intro">Projetos e vínculos agrupados pelas frentes da <a href="{{ '/consultoria/' | relative_url }}">consultoria</a>. Os cases, em forma de peça, abrem a página completa; as experiências levam ao CV. Cada item indica o público atendido.</p>
+<p class="pz-intro">Os cases, em forma de peça, abrem a página completa; as experiências levam ao CV. Veja também a <a href="{{ '/consultoria/' | relative_url }}">consultoria</a>.</p>
 
 <nav class="pz-nav" aria-label="Frentes">
 {%- for tt in themes -%}{%- assign tp = tt | split: "~" -%}
