@@ -1,6 +1,6 @@
-# Blocos da faixa de instituições (home). span = colunas na grade de 12 (desktop)
+# Blocos da faixa de instituições (home). span = colunas na grade de 12 (desktop); os logos se distribuem pela largura do bloco
+- {key: gov, label: "Governos e secretarias", span: 9}
+- {key: ter, label: "Terceiro setor", span: 3}
 - {key: multi, label: "Organismos multilaterais", span: 5}
-- {key: gov, label: "Governos e secretarias de educação", span: 7}
-- {key: priv, label: "Setor privado", span: 8}
-- {key: ter, label: "Terceiro setor", span: 4, wide: true}
-- {key: acad, label: "Universidades e pesquisa", span: 8}
+- {key: priv, label: "Setor privado", span: 7}
+- {key: acad, label: "Universidades e pesquisa", span: 12}

@@ -23,7 +23,9 @@ latest_posts:
 {% include accent-dark.liquid %}
 
 <style>
-.lead{font-size:1.02rem;line-height:1.66;margin:.2rem 0 .9rem}
+.kicker{font-size:1.28rem;font-weight:700;line-height:1.3;margin:.1rem 0 .55rem;letter-spacing:-.01em}
+.kicker em{font-style:normal;color:#DC2A17}
+.lead{font-size:.98rem;line-height:1.65;margin:0 0 .65rem}
 .svc{display:grid;grid-template-columns:1fr 1fr;gap:9px 16px;margin:0 0 1rem}
 .svc div{display:grid;grid-template-columns:30px 1fr;gap:9px;align-items:start}
 .svc i{font-size:1.05rem;color:#DC2A17;text-align:center;padding-top:3px}
@@ -41,24 +43,30 @@ latest_posts:
 .ogrid{display:grid;grid-template-columns:repeat(12,1fr);gap:10px}
 .og{grid-column:span var(--span);border:1px solid rgba(127,127,127,.22);border-radius:11px;padding:8px 9px 9px}
 .og p{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;opacity:.6;margin:0 0 6px}
-.og .tiles{display:grid;grid-template-columns:repeat(var(--span),1fr);gap:7px}
-.og a{display:flex;align-items:center;justify-content:center;height:74px;background:#fff;border:1px solid rgba(127,127,127,.2);border-radius:9px;padding:6px 8px;transition:transform .15s ease,box-shadow .15s ease}
-.og a.w{grid-column:span 2}
+.og .tiles{display:flex;gap:7px}
+.og a{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;height:78px;background:#fff;border:1px solid rgba(127,127,127,.2);border-radius:9px;padding:6px 8px;text-decoration:none;transition:transform .15s ease,box-shadow .15s ease}
+.og a.w{flex-grow:2}
 .og a:hover{transform:translateY(-2px);box-shadow:0 5px 12px rgba(0,0,0,.16)}
-.og img{height:calc(70px / var(--sq,1));width:auto;max-width:100%;max-height:100%;object-fit:contain}
-.og.cta{display:flex;flex-direction:column;justify-content:center;gap:6px;border-style:dashed;padding:12px 14px}
-.og.cta b{font-size:.9rem}
-.og.cta span{font-size:.76rem;opacity:.72;line-height:1.4}
-.og.cta a{all:unset;cursor:pointer;font-family:var(--mono,ui-monospace,monospace);font-size:.72rem;color:#DC2A17}
+.og img{height:calc(72px / var(--sq,1));width:auto;max-width:100%;max-height:100%;min-height:0;object-fit:contain}
+.og a.t img{max-height:calc(100% - 15px)}
+.og a .tg{font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;font-weight:700;letter-spacing:.06em;color:#1b1b4d;line-height:1}
+.olink{font-size:.78rem;opacity:.75;margin:.5rem 0 0}
 /* formação */
-.axis{margin:.3rem 0 .2rem}
-.axis-band{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#5A5A72,#DC2A17,#1b1b4d);color:#fff;font-size:.8rem;font-weight:600;padding:8px 14px;border-radius:9px 9px 0 0}
-.axis-band small{font-family:var(--mono,ui-monospace,monospace);font-weight:400;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
-.axis-cols{display:grid;grid-template-columns:repeat(3,1fr)}
-.axis-col{border:1px solid rgba(127,127,127,.25);border-top:5px solid var(--c);padding:11px 14px}
-.axis-col b{display:block;font-size:.92rem}
-.axis-col em{display:block;font-style:normal;font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin:2px 0 5px}
-.axis-col span{display:block;font-size:.79rem;opacity:.78;line-height:1.45}
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.ec{border:1px solid rgba(127,127,127,.22);border-radius:12px;padding:14px 15px 13px;display:flex;flex-direction:column;gap:7px;position:relative;overflow:hidden}
+.ec::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--c)}
+.ec .hd{display:flex;align-items:center;gap:10px}
+.ec .ic{flex:none;width:38px;height:38px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:var(--c);color:#fff;font-size:1rem}
+.ec h3{font-size:.98rem;font-weight:700;margin:0;line-height:1.2}
+.ec h3 small{display:block;font-family:var(--mono,ui-monospace,monospace);font-weight:400;font-size:.6rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin-top:2px}
+.ec ul{list-style:none;margin:0;padding:0;display:grid;gap:4px}
+.ec li{display:flex;justify-content:space-between;gap:8px;font-size:.76rem;line-height:1.3;padding:4px 8px;border-radius:6px;background:rgba(127,127,127,.08)}
+.ec li em{font-style:normal;font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;opacity:.7;white-space:nowrap}
+.ec .gv{font-size:.78rem;line-height:1.45;opacity:.82;margin:0;padding-top:6px;border-top:1px dashed rgba(127,127,127,.3)}
+.ec .gv b{color:var(--c)}
+.axis-note{display:flex;align-items:center;gap:10px;margin:10px 0 0;font-size:.78rem}
+.axis-note::before,.axis-note::after{content:"";flex:1;height:2px;background:linear-gradient(90deg,#5A5A72,#DC2A17,#1b1b4d);border-radius:2px;opacity:.55}
+.axis-note span{font-family:var(--mono,ui-monospace,monospace);font-size:.64rem;letter-spacing:.07em;text-transform:uppercase;opacity:.75;white-space:nowrap}
 /* trajetória por fases */
 .phases{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
 .ph{position:relative;padding:0 14px 0 0}
@@ -83,14 +91,18 @@ latest_posts:
 .cx b{font-size:.82rem}
 .cx span{display:block;font-size:.75rem;opacity:.72;line-height:1.45;margin-top:2px}
 .foot{font-size:.9rem;margin:.6rem 0 0}
-@media(max-width:991px){.og{grid-column:span 12}.og .tiles{grid-template-columns:repeat(auto-fill,minmax(92px,1fr))}.og.cta{grid-column:span 12}}
-@media(max-width:860px){.svc{grid-template-columns:1fr}.axis-cols,.phases{grid-template-columns:1fr}.axis-band{flex-direction:column;gap:3px;text-align:center}
+@media(max-width:991px){.og{grid-column:span 12}.og .tiles{flex-wrap:wrap}.og a{flex:1 0 84px}.og a.w{flex:2 0 172px}}
+@media(max-width:860px){.svc{grid-template-columns:1fr}.edu,.phases{grid-template-columns:1fr}.axis-note span{white-space:normal;text-align:center}
  .ph,.ph + .ph{padding:0 0 12px;border-left:0}.ph .bar{border-radius:4px!important}}
-@media(max-width:520px){.og .tiles{grid-template-columns:repeat(4,1fr);gap:5px}.og a{height:56px;padding:4px 5px}.og img{height:calc(52px / var(--sq,1))}}
+@media(max-width:520px){.og .tiles{gap:5px}.og a{flex:1 0 70px;height:60px;padding:4px 5px}.og a.w{flex:2 0 145px}.og img{height:calc(56px / var(--sq,1))}}
 @media(prefers-reduced-motion:reduce){.og a{transition:none}}
 </style>
 
-<p class="lead">Consultor técnico em <strong>Ciência de Dados, governança de dados e IA aplicadas à educação pública</strong>. Apoio governos, organismos multilaterais, terceiro setor e empresas em projetos que precisam transformar dado educacional em decisão — com arquitetura confiável, responsabilidade clara sobre cada dado e indicadores que mostram se a mudança chega à escola.</p>
+<p class="kicker">Dados educacionais confiáveis, decisões defensáveis e <em>IA que pode ser auditada</em>.</p>
+
+<p class="lead">Sou consultor técnico em <strong>Ciência de Dados, governança de dados e IA aplicadas à educação pública</strong>. Atuo no ponto que costuma ficar sem dono — entre quem desenha a política, quem opera o sistema e quem presta contas do resultado: diagnostico onde a informação se perde, desenho a arquitetura e as regras de responsabilidade sobre cada dado, implanto junto das equipes e defino os indicadores que mostram se a mudança chegou à escola.</p>
+
+<p class="lead">Esse método foi testado em projetos com <strong>MEC, UNESCO, Banco Mundial, BID e OEI</strong>, redes estaduais e municipais, terceiro setor e coleções do PNLD — e apoiado em mais de uma década de atuação dentro da educação pública, que segue sendo a régua do que é viável.</p>
 
 <div class="svc">
   <div><i class="fa-solid fa-sitemap" aria-hidden="true"></i><p><b>Governança de dados e EMIS</b><span>Diagnóstico de maturidade (DAMA-DMBOK, ISO/IEC 38500), papéis e responsabilidades, LGPD e interoperabilidade.</span></p></div>
@@ -125,44 +137,62 @@ latest_posts:
         {%- if e.theme == "t4" -%}{%- assign target = "#trajetoria" -%}{%- else -%}{%- assign slug = e.name | slugify: "latin" -%}{%- assign target = "/consultoria/#e-" | append: slug | relative_url -%}{%- endif -%}
       {%- endif -%}{%- endfor -%}
       {%- if target == "" -%}{%- assign target = "#trajetoria" -%}{%- endif -%}
-      <a href="{{ target }}" title="{{ org.name }}" style="--sq:{{ org.sq }}"{% if org.sq >= 1.75 or g.wide %} class="w"{% endif %}><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></a>
+      {%- capture cls -%}{% if org.sq >= 1.75 or g.wide %}w{% endif %}{% if org.tag %} t{% endif %}{%- endcapture -%}
+      <a href="{{ target }}" title="{{ org.name }}" style="--sq:{{ org.sq }}" class="{{ cls | strip }}"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy">{% if org.tag %}<span class="tg">{{ org.tag }}</span>{% endif %}</a>
       {%- endif -%}
     {%- endfor -%}
     </div>
   </div>
 {%- endfor -%}
-  <div class="og cta" style="--span:4"><b>Projetos por frente</b><span>Transformação Digital, Educação e Inovação: cada logo leva ao case ou à experiência correspondente.</span><a href="{{ '/consultoria/' | relative_url }}">ver consultoria →</a></div>
 </div>
+<p class="olink">Cada logo leva ao case, à experiência ou ao período correspondente. Projetos por frente na <a href="{{ '/consultoria/' | relative_url }}">consultoria</a>.</p>
 
 <h2 class="sec">Formação</h2>
 
-<div class="axis">
-  <div class="axis-band"><span>Educação pública · evidência · ética · governança</span><small>eixo transversal</small></div>
-  <div class="axis-cols">
-    <div class="axis-col" style="--c:#5A5A72"><b>Filosofia</b><em>Licenciatura · UFRN</em><span>Epistemologia e ética aplicadas à tecnologia: critérios de evidência, explicabilidade e limites de uso que se tornam salvaguardas em projetos de IA.</span></div>
-    <div class="axis-col" style="--c:#DC2A17"><b>Gestão de Políticas Públicas</b><em>Bacharelado · UFRN</em><span>Teoria da mudança, indicadores, arranjos institucionais, avaliação de programas e fortalecimento de capacidades no setor público.</span></div>
-    <div class="axis-col" style="--c:#1b1b4d"><b>Tecnologia, Dados e IA</b><em>Mestrado PPGITE · Ciência de Dados UNIVESP · Residência em IA · MBA</em><span>Engenharia de dados, modelagem estatística, analytics e IA generativa aplicados a sistemas educacionais.</span></div>
+<div class="edu">
+  <div class="ec" style="--c:#5A5A72">
+    <div class="hd"><span class="ic"><i class="fa-solid fa-scale-balanced" aria-hidden="true"></i></span><h3>Filosofia<small>evidência e ética</small></h3></div>
+    <ul><li>Licenciatura · UFRN <em>2005–2008</em></li></ul>
+    <p class="gv"><b>Na consultoria:</b> critérios de evidência, explicabilidade e limites de uso que viram salvaguardas em projetos de IA.</p>
+  </div>
+  <div class="ec" style="--c:#DC2A17">
+    <div class="hd"><span class="ic"><i class="fa-solid fa-landmark" aria-hidden="true"></i></span><h3>Políticas Públicas<small>desenho e avaliação</small></h3></div>
+    <ul><li>Bacharelado em Gestão de Políticas Públicas · UFRN <em>2012–2018</em></li></ul>
+    <p class="gv"><b>Na consultoria:</b> teoria da mudança, indicadores, arranjos institucionais e avaliação de programas.</p>
+  </div>
+  <div class="ec" style="--c:#1b1b4d">
+    <div class="hd"><span class="ic"><i class="fa-solid fa-microchip" aria-hidden="true"></i></span><h3>Tecnologia, Dados e IA<small>engenharia e modelagem</small></h3></div>
+    <ul>
+      <li>Mestrado · PPGITE/UFRN <em>2025</em></li>
+      <li>Residência em IA · Eldorado/PUC-Campinas <em>em curso</em></li>
+      <li>Bacharelado em Ciência de Dados · UNIVESP <em>em curso</em></li>
+      <li>MBA em Redes de Computadores · ESAB <em>2013</em></li>
+    </ul>
+    <p class="gv"><b>Na consultoria:</b> engenharia de dados, modelagem estatística, analytics e IA generativa.</p>
   </div>
 </div>
+<p class="axis-note"><span>Eixo comum: educação pública · evidência · ética · governança</span></p>
 
 <h2 class="sec" id="trajetoria">Trajetória</h2>
 
 <div class="phases">
   <div class="ph" style="--c:#5A5A72">
     <div class="bar"></div><span class="yr">2009 — 2021</span>
-    <h3>Docência e educação a distância</h3>
+    <h3>Sala de aula, EAD e gestão pública</h3>
     <ul>
       <li><em>2009–2014</em><p><b>CENEP-RN</b> <span>· professor da rede estadual</span></p></li>
       <li><em>2012–2021</em><p><b><a href="{{ '/projects/6_imd/' | relative_url }}">IMD/UFRN</a></b> <span>· coordenação de tutoria e de mediadores; GameLab e Desafio GamEdu</span></p></li>
       <li><em>2013–2015</em><p><b>UNIFACEX</b> <span>· docência em TI e Computação</span></p></li>
+      <li><em>2014</em><p><b>SMS Natal</b> <span>· bolsista em gestão de políticas públicas (Mesa do SUS)</span></p></li>
       <li><em>2018–2021</em><p><b>IFRN</b> <span>· mediação e coordenação de tutoria EAD</span></p></li>
       <li><em>2019</em><p><b>Kroton · Pitágoras</b> <span>· coordenação geral de polo</span></p></li>
     </ul>
   </div>
   <div class="ph" style="--c:#1b1b4d">
-    <div class="bar"></div><span class="yr">2021 — 2025</span>
+    <div class="bar"></div><span class="yr">2020 — 2025</span>
     <h3>Dados, produto e política educacional</h3>
     <ul>
+      <li><em>2020–2021</em><p><b>SmartMetropolis · IMD</b> <span>· analista de dados educacionais (índice IEST)</span></p></li>
       <li><em>2021–2022</em><p><b>HUB-UnB · Ebserh</b> <span>· TIC e ensino, via UNESCO</span></p></li>
       <li><em>2021–2026</em><p><b>Brasscom</b> <span>· Escola Digital e Conectada</span></p></li>
       <li><em>2022</em><p><b>MEC · Banco Mundial</b> <span>· STEAM e avaliação do PNLD</span></p></li>
@@ -178,7 +208,8 @@ latest_posts:
       <li><em>2025</em><p><b><a href="{{ '/projects/5_trilhaia/' | relative_url }}">Hachura · ImagiMaker</a></b> <span>· TRILHA-IA, PNLD 2027</span></p></li>
       <li><em>2025</em><p><b>Tomara</b> <span>· dados educacionais e EPT</span></p></li>
       <li><em>2025–2026</em><p><b><a href="{{ '/projects/3_goias/' | relative_url }}">Instituto Sapien</a></b> <span>· Goiás 2050</span></p></li>
-      <li><em>2026–2027</em><p><b>SEPLAG-CE · OEI/SEDUC-RS</b> <span>· BID e redução da evasão</span></p></li>
+      <li><em>2026–2027</em><p><b>SEPLAG-CE · BID</b> <span>· Ceará Mais Digital</span></p></li>
+      <li><em>2026–2027</em><p><b>OEI · SEDUC-RS</b> <span>· redução da evasão escolar</span></p></li>
     </ul>
   </div>
 </div>

@@ -149,6 +149,12 @@ cv:
         summary: Jogos digitais, pensamento computacional e formação docente; 8 edições do Desafio GamEdu.
         highlights:
           - "Orientou estudante do IMD/UFRN cujo projeto Lucy recebeu menção honrosa do Google Play (2019); o reconhecimento é da estudante."
+      - company: SmartMetropolis · IMD/UFRN
+        position: Analista de Dados Educacionais (bolsista)
+        location: Natal, RN
+        start_date: 2020
+        end_date: 2021
+        summary: Índice de Educação Socioterritorial (IEST) no projeto SmartMetropolis.
       - company: IFRN
         position: Professor Mediador e Coordenador de tutoria (EAD)
         location: Natal, RN
@@ -164,6 +170,12 @@ cv:
         location: Natal, RN
         start_date: 2013
         end_date: 2015
+      - company: SMS Natal · Prefeitura do Natal
+        position: Bolsista em Gestão de Políticas Públicas
+        location: Natal, RN
+        start_date: 2014
+        end_date: 2014
+        summary: Mapeamento de processos e suporte técnico à Mesa do SUS.
       - company: CENEP-RN · SEEC-RN
         position: Professor da rede estadual
         location: Natal, RN

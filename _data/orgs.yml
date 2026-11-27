@@ -6,10 +6,11 @@ bid:        {name: "BID", logo: assets/img/logos/bid.png, sq: 1.61, group: multi
 oei:        {name: "OEI", logo: assets/img/logos/oei.png, sq: 0.88, group: multi}
 mec:        {name: "MEC", logo: assets/img/logos/mec.png, sq: 1.0, group: gov}
 ebserh:     {name: "Ebserh", logo: assets/img/logos/ebserh.png, sq: 2.01, group: gov}
-ceara:      {name: "Governo do Ceará", logo: assets/img/logos/ceara.png, sq: 0.86, group: gov}
-rs:         {name: "Governo do RS", logo: assets/img/logos/rs.png, sq: 0.87, group: gov}
-recife:     {name: "Prefeitura do Recife", logo: assets/img/logos/recife.png, sq: 1.19, group: gov}
-rn:         {name: "Governo do RN", logo: assets/img/logos/rn.png, sq: 0.98, group: gov}
+ceara:      {name: "SEPLAG-CE · Governo do Ceará", tag: "SEPLAG", logo: assets/img/logos/ceara.png, sq: 0.86, group: gov}
+rs:         {name: "SEDUC-RS · Governo do RS", tag: "SEDUC", logo: assets/img/logos/rs.png, sq: 0.87, group: gov}
+recife:     {name: "SME Recife · Prefeitura do Recife", tag: "SME", logo: assets/img/logos/recife.png, sq: 1.19, group: gov}
+rn:         {name: "SEEC-RN · Governo do RN", tag: "SEEC", logo: assets/img/logos/rn.png, sq: 0.98, group: gov}
+sms_natal:  {name: "SMS Natal · Prefeitura do Natal", logo: assets/img/logos/sms_natal.png, sq: 1.83, group: gov}
 brasscom:   {name: "Brasscom", logo: assets/img/logos/brasscom.png, sq: 1.94, group: priv}
 tomara:     {name: "Tomara! Educação e Cultura", logo: assets/img/logos/tomara.png, sq: 0.99, group: priv}
 hachura:    {name: "Hachura", logo: assets/img/logos/hachura.png, sq: 0.88, group: priv}
@@ -20,6 +21,7 @@ unibanco:   {name: "Instituto Unibanco", logo: assets/img/logos/unibanco.png, sq
 sapien:     {name: "Instituto Sapien", logo: assets/img/logos/sapien.png, sq: 1.56, group: ter}
 ufrn:       {name: "UFRN", logo: assets/img/logos/ufrn.png, sq: 1.78, group: acad}
 imd:        {name: "IMD/UFRN", logo: assets/img/logos/imd.png, sq: 2.28, group: acad}
+smartmetropolis: {name: "SmartMetropolis · IMD/UFRN", logo: assets/img/logos/smartmetropolis.png, sq: 1.96, group: acad}
 unb:        {name: "UnB", logo: assets/img/logos/unb.png, sq: 1.04, group: acad}
 ifrn:       {name: "IFRN", logo: assets/img/logos/ifrn.png, sq: 0.85, group: acad}
 gamedu:     {name: "Desafio GamEdu", logo: assets/img/logos/gamedu.png, sq: 1.89, group: acad}
