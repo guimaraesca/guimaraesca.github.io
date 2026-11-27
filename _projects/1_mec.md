@@ -7,6 +7,7 @@ logo: assets/img/logos/mec.png
 importance: 1
 theme: t1
 audience: Governos
+orgs: [mec, unesco]
 ---
 
 <p class="case-meta" style="--c:#DC2A17"><b>Transformação Digital</b> · Governos · 2025–2026 · Consultor de Governança e Product Owner — MEC/SEB via UNESCO (Projeto 914BRZ1159)</p>

@@ -7,6 +7,8 @@ nav: true
 nav_order: 1
 ---
 
+{% include accent-dark.liquid %}
+
 <style>
 .c-lead{font-size:1.01rem;line-height:1.72;margin:0 0 1rem}
 .c-front{border-top:1px solid rgba(127,127,127,.2);padding-top:1.3rem;margin-top:2rem}
@@ -103,7 +105,7 @@ nav_order: 1
       <li>MEC · Banco Mundial — STEAM e PNLD (2022)</li>
       <li>Tomara — dados e EPT (2025) · Brasscom — Escola Digital e Conectada (2021–2026)</li></ul></div>
     <div class="exp-g" style="--c:#0E7C86"><b>Inovação</b><ul>
-      <li><a href="{{ '/projects/5_trilhaia/' | relative_url }}">Hachura · PNLD 2027 — TRILHA-IA</a> (2025–2026)</li>
+      <li><a href="{{ '/projects/5_trilhaia/' | relative_url }}">Hachura · PNLD 2027 — TRILHA-IA</a> (2025)</li>
       <li><a href="{{ '/projects/3_goias/' | relative_url }}">Instituto Sapien — Goiás 2050</a> (2025–2026)</li></ul></div>
     <div class="exp-g" style="--c:#5A5A72"><b>Base de origem</b><ul>
       <li>CENEP-RN · rede estadual — docência (2009–2014)</li>

@@ -7,6 +7,7 @@ logo: assets/img/logos/sapien.png
 importance: 2
 theme: t3
 audience: Terceiro setor
+orgs: [sapien]
 ---
 
 <p class="case-meta" style="--c:#0E7C86"><b>Inovação</b> · Terceiro setor, a serviço do planejamento público · 2025–2026 · Frente de Capital Humano e painéis analíticos — projeto Goiás 2050</p>

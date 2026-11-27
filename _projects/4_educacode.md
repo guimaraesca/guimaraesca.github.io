@@ -7,7 +7,10 @@ logo: assets/img/logos/oei.png
 importance: 1
 theme: t2
 audience: Governos
+orgs: [oei, recife]
 ---
+
+{% include accent-dark.liquid %}
 
 <p class="case-meta" style="--c:#1b1b4d"><b>Educação</b> (com componente de Inovação) · Governos · 2024–2025 · Consultor — Fase I do Projeto OEI BRA/22/003, para a OEI e a Prefeitura do Recife</p>
 

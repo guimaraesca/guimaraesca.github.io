@@ -21,6 +21,8 @@ latest_posts:
   enabled: false
 ---
 
+{% include accent-dark.liquid %}
+
 <style>
 .lead{font-size:1.02rem;line-height:1.7;margin:.2rem 0 1rem}
 .axis{margin:.5rem 0 .2rem}

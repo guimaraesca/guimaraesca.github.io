@@ -7,6 +7,7 @@ logo: assets/img/logos/unibanco.png
 importance: 2
 theme: t1
 audience: Terceiro setor
+orgs: [unibanco]
 ---
 
 <p class="case-meta" style="--c:#DC2A17"><b>Transformação Digital</b> (com componente de Inovação) · Terceiro setor, em parceria com governos estaduais · 2023–2025 · Analista de Dados Sênior e Product Owner</p>

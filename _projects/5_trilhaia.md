@@ -7,9 +7,10 @@ logo: assets/img/logos/hachura.png
 importance: 1
 theme: t3
 audience: Setor privado
+orgs: [hachura]
 ---
 
-<p class="case-meta" style="--c:#0E7C86"><b>Inovação</b> · Setor privado (editorial) · 2025–2026 · Editor Geral — Hachura Estúdio, coleção Educação Digital (PNLD 2027)</p>
+<p class="case-meta" style="--c:#0E7C86"><b>Inovação</b> · Setor privado (editorial) · 2025 · Editor Geral — Hachura Estúdio, coleção Educação Digital (PNLD 2027)</p>
 
 > Artefatos e dados de produção estão sob confidencialidade editorial; o case mostra o método.
 

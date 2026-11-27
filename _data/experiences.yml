@@ -1,62 +1,94 @@
-# Experiências exibidas na página de cases (as que não têm página própria)
+# Experiências exibidas na página de cases (as que não têm página própria).
+# orgs: chaves de _data/orgs.yml, exibidas juntas; icon: símbolo quando não há logo.
 - name: SEPLAG-CE · Ceará Mais Digital
   period: 2026–2027
   theme: t1
   audience: Governos
-  role: Consultor em Tecnologias Digitais e Educação Digital (via BID/EGPCE)
-  logo: assets/img/logos/ceara.png
+  role: Consultor em Tecnologias Digitais e Educação Digital
+  orgs: [ceara, bid]
+  details: >-
+    Programa estadual financiado pelo BID e executado com a Escola de Gestão Pública do Ceará (EGPCE).
+    Frentes: Alfabetização Digital Básica e capacitação de servidores em tecnologias digitais.
 - name: HUB-UnB · Ebserh
   period: 2021–2022
   theme: t1
   audience: Governos
-  role: Consultor em TIC e ensino na Rede Ebserh (via UNESCO)
-  logo: assets/img/logos/ebserh.png
+  role: Consultor em TIC e ensino na Rede Ebserh
+  orgs: [unb, ebserh]
+  details: >-
+    Consultoria contratada via UNESCO, junto ao HUB-UnB, sobre o uso de tecnologias da informação
+    no ensino da Rede Ebserh, que reúne os hospitais universitários federais.
 - name: OEI · SEDUC-RS
   period: 2026–2027
   theme: t2
   audience: Governos
   role: Avaliação da política de redução da evasão escolar
-  logo: assets/img/logos/rs.png
+  orgs: [rs, oei]
+  details: >-
+    Apoio ao projeto Proteção à Trajetória do Estudante, da rede estadual gaúcha, com foco em
+    permanência escolar e redução da evasão.
 - name: MEC · Banco Mundial
   period: "2022"
   theme: t2
   audience: Governos
   role: Consultor e avaliador em STEAM e PNLD
-  logo: assets/img/logos/worldbank.png
+  orgs: [mec, worldbank]
+  details: >-
+    Consultoria à Secretaria de Educação Básica (SEB/MEC), via Banco Mundial, no eixo STEAM dos
+    itinerários formativos do Novo Ensino Médio, somada à avaliação de obras do PNLD.
 - name: Tomara Educação e Cultura
   period: "2025"
   theme: t2
   audience: Terceiro setor
   role: Analista de Dados e Especialista em EPT
   icon: fa-solid fa-chart-line
+  details: >-
+    Organização de bases educacionais, construção de dashboards e análises de política pública,
+    com ênfase em Educação Profissional e Tecnológica.
 - name: Brasscom
   period: 2021–2026
   theme: t2
   audience: Setor privado
-  role: Escola Digital e Conectada (patrocínio Intuit)
-  logo: assets/img/logos/brasscom.png
+  role: Escola Digital e Conectada
+  orgs: [brasscom]
+  details: >-
+    Programa com patrocínio da Intuit: itinerários de programação e mídias digitais e
+    material de apoio ao professor.
 - name: CENEP-RN · SEEC-RN
   period: 2009–2014
   theme: t4
   role: Professor da rede estadual do Rio Grande do Norte
-  logo: assets/img/logos/rn.png
+  orgs: [rn]
+  details: >-
+    Início da trajetória: docência na rede estadual potiguar. Dali surgiu o grupo de estudos que
+    inspirou o livro <a href="/colossus/">Colossus</a>.
 - name: UNIFACEX
   period: 2013–2015
   theme: t4
   role: Professor de ensino superior (TI/Computação)
-  logo: assets/img/logos/unifacex.png
+  orgs: [unifacex]
+  details: >-
+    Disciplinas de Tecnologia da Informação e Computação em cursos de graduação, em Natal.
 - name: GAMEDU · IMD/UFRN
   period: 2014–2017
   theme: t4
   role: Coordenador de Projetos em jogos digitais
   icon: fa-solid fa-gamepad
+  details: >-
+    Jogos digitais, pensamento computacional e formação docente no Instituto Metrópole Digital,
+    incluindo as edições do Desafio GamEdu. Detalhes no <a href="/projects/6_imd/">case IMD/UFRN</a>.
 - name: IFRN
   period: 2018–2021
   theme: t4
   role: Professor Mediador e Coordenador de tutoria (EAD)
-  logo: assets/img/logos/ifrn.png
+  orgs: [ifrn]
+  details: >-
+    Mediação pedagógica e coordenação de tutoria em cursos a distância do Instituto Federal do
+    Rio Grande do Norte.
 - name: Kroton · Pitágoras
   period: "2019"
   theme: t4
   role: Coordenador Geral de Polo (Natal/RN)
   icon: fa-solid fa-building-columns
+  details: >-
+    Coordenação geral de um polo de educação a distância da Faculdade Pitágoras em Natal.

@@ -96,7 +96,7 @@ cv:
         position: Editor Geral — coleção "Educação Digital" (PNLD 2027)
         location: PJ
         start_date: 2025
-        end_date: 2026
+        end_date: 2025
         summary: Concepção do TRILHA-IA — pipeline de IA generativa com schema, ontologia, rubrica e RAG sob governança editorial.
         highlights:
           - "Pipeline de 7 estágios, JSON Schema de 28 campos, rubrica RV-DIA de 10 dimensões, RAG."

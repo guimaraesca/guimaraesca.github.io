@@ -15,6 +15,8 @@ profile:
     <p>MEC · UNESCO · World Bank · IDB · OEI</p>
 ---
 
+{% include accent-dark.liquid %}
+
 <style>
 .lead{font-size:1.02rem;line-height:1.65;margin:.2rem 0 .9rem}
 .msh-top{background:linear-gradient(90deg,#5A5A72,#DC2A17,#1b1b4d);color:#fff;font-weight:600;font-size:.82rem;text-align:center;padding:9px 12px;border-radius:9px 9px 0 0}

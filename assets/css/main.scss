@@ -67,6 +67,3 @@
 /* blocos largos nunca extrapolam a coluna */
 .post article .mgrid, .post article .msh, .post article .epe, .post article .ct, .post article .tl { max-width: 100%; }
 
-/* tema escuro: acentos escuros (azul-marinho e cinza) ganham versão legível */
-html[data-theme="dark"] [style*="#1b1b4d"] { --c: #8c9bff; --acc: #8c9bff; }
-html[data-theme="dark"] [style*="#5A5A72"] { --c: #b4b4cc; --acc: #b4b4cc; }

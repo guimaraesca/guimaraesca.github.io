@@ -1,0 +1,19 @@
+# Instituições exibidas na página de cases (ordem = ordem da faixa de logos)
+mec:       {name: "MEC", logo: assets/img/logos/mec.png}
+unesco:    {name: "UNESCO", logo: assets/img/logos/unesco.png}
+worldbank: {name: "Banco Mundial", logo: assets/img/logos/worldbank.png}
+bid:       {name: "BID", logo: assets/img/logos/bid.png}
+oei:       {name: "OEI", logo: assets/img/logos/oei.png}
+ceara:     {name: "Governo do Ceará", logo: assets/img/logos/ceara.png}
+rs:        {name: "Governo do RS", logo: assets/img/logos/rs.png}
+recife:    {name: "Prefeitura do Recife", logo: assets/img/logos/recife.png}
+rn:        {name: "Governo do RN", logo: assets/img/logos/rn.png}
+ebserh:    {name: "Ebserh", logo: assets/img/logos/ebserh.png}
+unb:       {name: "UnB", logo: assets/img/logos/unb.png}
+unibanco:  {name: "Instituto Unibanco", logo: assets/img/logos/unibanco.png}
+sapien:    {name: "Instituto Sapien", logo: assets/img/logos/sapien.png}
+brasscom:  {name: "Brasscom", logo: assets/img/logos/brasscom.png}
+hachura:   {name: "Hachura", logo: assets/img/logos/hachura.png}
+ufrn:      {name: "UFRN", logo: assets/img/logos/ufrn.png}
+ifrn:      {name: "IFRN", logo: assets/img/logos/ifrn.png}
+unifacex:  {name: "UNIFACEX", logo: assets/img/logos/unifacex.png}

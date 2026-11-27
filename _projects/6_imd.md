@@ -7,7 +7,10 @@ logo: assets/img/logos/ufrn.png
 importance: 1
 theme: t4
 audience: Base de origem
+orgs: [ufrn]
 ---
+
+{% include accent-dark.liquid %}
 
 <p class="case-meta" style="--c:#5A5A72"><b>Base de origem</b> (alimenta Educação e Inovação) · 2012–2021 · Coordenador de Tutoria e de Professores Mediadores — IMD/UFRN; Coordenador de Projetos no GAMEDU (2014–2017)</p>
 
