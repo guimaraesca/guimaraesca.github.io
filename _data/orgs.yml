@@ -14,7 +14,7 @@ unibanco:  {name: "Instituto Unibanco", logo: assets/img/logos/unibanco.png, sq:
 sapien:    {name: "Instituto Sapien", logo: assets/img/logos/sapien.png, sq: 1.56}
 brasscom:  {name: "Brasscom", logo: assets/img/logos/brasscom.png, sq: 1.94}
 hachura:   {name: "Hachura", logo: assets/img/logos/hachura.png, sq: 0.88}
-imagimaker:{name: "ImagiMaker", logo: assets/img/logos/imagimaker.png, sq: 1.22}
+imagimaker: {name: "ImagiMaker", logo: assets/img/logos/imagimaker.png, sq: 1.22}
 ufrn:      {name: "UFRN", logo: assets/img/logos/ufrn.png, sq: 1.78}
 imd:       {name: "IMD/UFRN", logo: assets/img/logos/imd.png, sq: 2.28}
 gamedu:    {name: "Desafio GamEdu", logo: assets/img/logos/gamedu.png, sq: 1.89}
