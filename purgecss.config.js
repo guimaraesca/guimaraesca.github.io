@@ -3,7 +3,8 @@ module.exports = {
   css: ["_site/assets/css/*.css"],
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
-  safelist: [
+  safelist: {
+    standard: [
     "collapse",
     "collapsing",
     "show",
@@ -23,5 +24,8 @@ module.exports = {
     // and page chrome (scroll-progress bar, ToC) bleeds through a zoomed image.
     "medium-zoom-overlay",
     "medium-zoom-image--opened",
-  ],
+    ],
+    // acentos por tema definidos via style="--c:..." (tema escuro clareia azul-marinho e cinza)
+    greedy: [/1b1b4d/i, /5a5a72/i],
+  },
 };
