@@ -65,7 +65,7 @@ latest_posts:
 @media(max-width:860px){.axis-cols{grid-template-columns:1fr}.axis-band{flex-direction:column;gap:3px;text-align:center}
  .traj{grid-template-columns:1fr;gap:9px;padding-left:20px}.traj::before{left:5px;right:auto;top:4px;bottom:4px;width:2px;height:auto;background:linear-gradient(180deg,#5A5A72,#DC2A17,#0E7C86)}
  .traj .y{height:auto}.traj .d{position:absolute;left:-20px;top:2px;margin:0}}
-@media(max-width:520px){.orgs{grid-template-columns:repeat(3,1fr);gap:6px}.orgs a{height:58px;padding:5px 7px}.orgs img{height:calc(50px / var(--sq,1))}}
+@media(max-width:520px){.orgs{grid-template-columns:repeat(4,1fr);gap:5px}.orgs a{height:50px;padding:4px 5px;border-radius:7px}.orgs img{height:calc(46px / var(--sq,1))}}
 @media(prefers-reduced-motion:reduce){.orgs a{transition:none}}
 </style>
 
