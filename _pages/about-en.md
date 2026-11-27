@@ -83,7 +83,7 @@ profile:
   <div class="mgrid">
     <div class="mcell"><span class="pub">Third sector</span><span class="q">"We want to bring Computing to more schools without losing quality."</span><p>Design and scaling of computational-thinking programs, with evidence-based teacher education and a focus on equity of access.</p><a href="{{ '/projects/' | relative_url }}">→ Brasscom · Tomara · PENSA-RN</a></div>
     <div class="mcell"><span class="pub">Governments</span><span class="q">"We need to turn the Computing curriculum into curriculum, training and indicators."</span><p>Digital-education policy, program evaluation (including dropout reduction) and vocational education, tracked by data.</p><a href="{{ '/projects/4_educacode/' | relative_url }}">→ OEI · Recife · EducaCode</a></div>
-    <div class="mcell"><span class="pub">Industry / private</span><span class="q">"We need a textbook that passes the national review, on time."</span><p>Didactic material with AI-assisted production and editorial governance: traceable curriculum alignment, structured review and speed without losing quality.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · TRILHA-IA</a></div>
+    <div class="mcell"><span class="pub">Industry / private</span><span class="q">"We need a textbook that passes the national review, on time."</span><p>Didactic material with AI-assisted production and editorial governance: traceable curriculum alignment, structured review and speed without losing quality.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · ImagiMaker — TRILHA-IA</a></div>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ profile:
   <div class="mgrid">
     <div class="mcell"><span class="pub">Third sector</span><span class="q">"We need to prove the pilot works before asking for more funding."</span><p>Low-cost AI pilots, learning analytics and telemetry (xAPI) that produce evidence of learning and use from the first cycle.</p><a href="{{ '/projects/4_educacode/' | relative_url }}">→ EducaCode (IPPC index) · IMD/UFRN</a></div>
     <div class="mcell"><span class="pub">Governments</span><span class="q">"We must decide today while looking to 2030 or 2050."</span><p>Predictive and scenario modeling, responsible AI and explainability, to anticipate risks (such as dropout) and support public decisions with a defensible method.</p><a href="{{ '/projects/3_goias/' | relative_url }}">→ Instituto Sapien · Goiás 2050</a></div>
-    <div class="mcell"><span class="pub">Industry / private</span><span class="q">"Our generative-AI product hallucinates, and we cannot audit it."</span><p>Production-ready generative-AI engines: hybrid RAG, ontologies, evaluation rubrics and deterministic output validation.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · TRILHA-IA</a></div>
+    <div class="mcell"><span class="pub">Industry / private</span><span class="q">"Our generative-AI product hallucinates, and we cannot audit it."</span><p>Production-ready generative-AI engines: hybrid RAG, ontologies, evaluation rubrics and deterministic output validation.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · ImagiMaker — TRILHA-IA</a></div>
   </div>
 </div>
 

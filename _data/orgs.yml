@@ -14,6 +14,7 @@ unibanco:  {name: "Instituto Unibanco", logo: assets/img/logos/unibanco.png}
 sapien:    {name: "Instituto Sapien", logo: assets/img/logos/sapien.png}
 brasscom:  {name: "Brasscom", logo: assets/img/logos/brasscom.png}
 hachura:   {name: "Hachura", logo: assets/img/logos/hachura.png}
+imagimaker: {name: "ImagiMaker", logo: assets/img/logos/imagimaker.png}
 ufrn:      {name: "UFRN", logo: assets/img/logos/ufrn.png}
 ifrn:      {name: "IFRN", logo: assets/img/logos/ifrn.png}
 unifacex:  {name: "UNIFACEX", logo: assets/img/logos/unifacex.png}

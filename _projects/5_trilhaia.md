@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Hachura · PNLD 2027 — TRILHA-IA
+title: Hachura · ImagiMaker — TRILHA-IA
 description: Motor de IA generativa com RAG híbrido, validação determinística e governança editorial para livro didático.
 img: assets/img/case_trilhaia.png
 logo: assets/img/logos/hachura.png
 importance: 1
 theme: t3
 audience: Setor privado
-orgs: [hachura]
+orgs: [hachura, imagimaker]
 ---
 
-<p class="case-meta" style="--c:#0E7C86"><b>Inovação</b> · Setor privado (editorial) · 2025 · Editor Geral — Hachura Estúdio, coleção Educação Digital (PNLD 2027)</p>
+<p class="case-meta" style="--c:#0E7C86"><b>Inovação</b> · Setor privado (editorial) · 2025 · Editor Geral — Hachura Estúdio, coleção Educação Digital da editora ImagiMaker (PNLD 2027)</p>
 
 > Artefatos e dados de produção estão sob confidencialidade editorial; o case mostra o método.
 

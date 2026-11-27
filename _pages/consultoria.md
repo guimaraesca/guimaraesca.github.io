@@ -62,7 +62,7 @@ nav_order: 1
   <div class="mgrid">
     <div class="mcell"><span class="pub">Terceiro setor</span><span class="q">"Queremos levar Computação a mais escolas sem perder qualidade."</span><p>Desenho e escala de programas de pensamento computacional, com formação docente baseada em evidência e atenção à equidade.</p><a href="{{ '/projects/' | relative_url }}">→ Brasscom · Tomara (EPT) · PENSA-RN</a></div>
     <div class="mcell"><span class="pub">Governos</span><span class="q">"Precisamos transformar a BNCC Computação em currículo, formação e indicador."</span><p>Políticas de educação digital, avaliação de programas — inclusive de redução da evasão — e educação profissional (EPT), acompanhadas por evidência.</p><a href="{{ '/projects/4_educacode/' | relative_url }}">→ OEI · Recife · EducaCode</a></div>
-    <div class="mcell"><span class="pub">Setor privado</span><span class="q">"Precisamos de uma coleção aprovável no PNLD, dentro do prazo."</span><p>Material didático com produção assistida por IA e governança editorial: aderência à BNCC rastreável, revisão estruturada e agilidade sem perda de qualidade.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · TRILHA-IA</a></div>
+    <div class="mcell"><span class="pub">Setor privado</span><span class="q">"Precisamos de uma coleção aprovável no PNLD, dentro do prazo."</span><p>Material didático com produção assistida por IA e governança editorial: aderência à BNCC rastreável, revisão estruturada e agilidade sem perda de qualidade.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · ImagiMaker — TRILHA-IA</a></div>
   </div>
 </section>
 
@@ -74,7 +74,7 @@ nav_order: 1
   <div class="mgrid">
     <div class="mcell"><span class="pub">Terceiro setor</span><span class="q">"Precisamos provar que o piloto funciona antes de pedir mais recursos."</span><p>Pilotos de baixo custo, learning analytics e telemetria (xAPI) que produzem evidência de aprendizagem e de uso já no primeiro ciclo.</p><a href="{{ '/projects/4_educacode/' | relative_url }}">→ EducaCode (índice IPPC) · IMD/UFRN</a></div>
     <div class="mcell"><span class="pub">Governos</span><span class="q">"Precisamos decidir hoje olhando para 2030 ou 2050."</span><p>Modelagem preditiva e de cenários, IA responsável e explicabilidade, para antecipar riscos e sustentar a decisão pública com método defensável.</p><a href="{{ '/projects/3_goias/' | relative_url }}">→ Instituto Sapien · Goiás 2050</a></div>
-    <div class="mcell"><span class="pub">Setor privado</span><span class="q">"Nosso produto de IA generativa alucina, e não conseguimos auditar."</span><p>Motores generativos prontos para produção: RAG híbrido, ontologias, rubricas de avaliação e validação determinística de saída.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · TRILHA-IA</a></div>
+    <div class="mcell"><span class="pub">Setor privado</span><span class="q">"Nosso produto de IA generativa alucina, e não conseguimos auditar."</span><p>Motores generativos prontos para produção: RAG híbrido, ontologias, rubricas de avaliação e validação determinística de saída.</p><a href="{{ '/projects/5_trilhaia/' | relative_url }}">→ Hachura · ImagiMaker — TRILHA-IA</a></div>
   </div>
 </section>
 
@@ -105,7 +105,7 @@ nav_order: 1
       <li>MEC · Banco Mundial — STEAM e PNLD (2022)</li>
       <li>Tomara — dados e EPT (2025) · Brasscom — Escola Digital e Conectada (2021–2026)</li></ul></div>
     <div class="exp-g" style="--c:#0E7C86"><b>Inovação</b><ul>
-      <li><a href="{{ '/projects/5_trilhaia/' | relative_url }}">Hachura · PNLD 2027 — TRILHA-IA</a> (2025)</li>
+      <li><a href="{{ '/projects/5_trilhaia/' | relative_url }}">Hachura · ImagiMaker — TRILHA-IA</a> (2025)</li>
       <li><a href="{{ '/projects/3_goias/' | relative_url }}">Instituto Sapien — Goiás 2050</a> (2025–2026)</li></ul></div>
     <div class="exp-g" style="--c:#5A5A72"><b>Base de origem</b><ul>
       <li>CENEP-RN · rede estadual — docência (2009–2014)</li>
