@@ -1,5 +1,5 @@
 <style>
-/* tema escuro: acentos azul-marinho e cinza ganham versão legível (inline para não ser removido pelo PurgeCSS) */
-html[data-theme="dark"] [style*="#1b1b4d"]{--c:#8c9bff;--acc:#8c9bff}
-html[data-theme="dark"] [style*="#5A5A72"]{--c:#b4b4cc;--acc:#b4b4cc}
+/* tema escuro: acentos azul-marinho e cinza ganham versão legível (inline: o PurgeCSS removia a regra; !important: vence o style="--c" do elemento) */
+html[data-theme="dark"] [style*="#1b1b4d"]{--c:#8c9bff!important;--acc:#8c9bff!important}
+html[data-theme="dark"] [style*="#5A5A72"]{--c:#b4b4cc!important;--acc:#b4b4cc!important}
 </style>

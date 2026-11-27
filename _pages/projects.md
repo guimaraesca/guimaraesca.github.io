@@ -56,7 +56,7 @@ nav_order: 2
 .ed .cvl{font-family:var(--mono,ui-monospace,monospace);font-size:.62rem;letter-spacing:.05em;text-transform:uppercase}
 .scale-note{font-size:.74rem;opacity:.6;margin-top:.4rem}
 @media(max-width:860px){.panels{column-count:1}}
-@media(max-width:520px){.elist summary{grid-template-columns:84px 1fr 14px}.elist summary .pub{display:none}.ed{margin-left:0}.orgs{grid-template-columns:repeat(auto-fill,minmax(80px,1fr))}}
+@media(max-width:520px){.elist summary{grid-template-columns:84px 1fr 14px}.elist summary > span:nth-child(3){display:none}.ed{margin-left:0}.orgs{grid-template-columns:repeat(auto-fill,minmax(80px,1fr))}}
 @media(prefers-reduced-motion:reduce){.pz,.orgs .lg{transition:none}}
 </style>
 {% include accent-dark.liquid %}
@@ -70,7 +70,7 @@ nav_order: 2
 {%- for o in site.data.orgs -%}
   {%- assign key = o[0] -%}{%- assign org = o[1] -%}{%- assign target = "" -%}
   {%- for p in site.projects -%}{%- if target == "" and p.orgs contains key -%}{%- assign target = "c-" | append: p.slug -%}{%- endif -%}{%- endfor -%}
-  {%- for e in site.data.experiences -%}{%- if target == "" and e.orgs contains key -%}{%- assign target = "e-" | append: e.name | slugify -%}{%- endif -%}{%- endfor -%}
+  {%- for e in site.data.experiences -%}{%- if target == "" and e.orgs contains key -%}{%- assign target = "e-" | append: e.name | slugify: "latin" -%}{%- endif -%}{%- endfor -%}
   <a href="#{{ target }}" title="{{ org.name }}"><span class="lg"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></span><span class="on">{{ org.name }}</span></a>
 {%- endfor -%}
 </div>
@@ -99,7 +99,7 @@ nav_order: 2
   <p class="sub">Experiências</p>
   <ul class="elist">
   {%- for e in es -%}
-    <li id="e-{{ e.name | slugify }}"><details>
+    <li id="e-{{ e.name | slugify: "latin" }}"><details>
       <summary>
         <span class="syms">{%- if e.orgs -%}{%- for k in e.orgs -%}{%- assign org = site.data.orgs[k] -%}<span class="sym"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></span>{%- endfor -%}{%- else -%}<span class="sym"><i class="{{ e.icon }}" aria-hidden="true"></i></span>{%- endif -%}</span>
         <span class="etx"><span class="en">{{ e.name }}<em>{{ e.period }}</em></span><span class="er">{{ e.role }}</span></span>
@@ -118,7 +118,7 @@ nav_order: 2
 
 <script>
 (function(){
-  function openHash(){var el=location.hash&&document.getElementById(location.hash.slice(1));if(!el)return;var d=el.querySelector('details');if(d){d.open=true;}}
+  function openHash(){var el=location.hash&&document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!el)return;var d=el.querySelector('details');if(d){d.open=true;}}
   window.addEventListener('hashchange',openHash);openHash();
 })();
 </script>
