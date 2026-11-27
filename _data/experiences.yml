@@ -41,7 +41,7 @@
   theme: t2
   audience: Terceiro setor
   role: Analista de Dados e Especialista em EPT
-  icon: fa-solid fa-chart-line
+  orgs: [tomara]
   details: >-
     Organização de bases educacionais, construção de dashboards e análises de política pública,
     com ênfase em Educação Profissional e Tecnológica.
@@ -89,6 +89,6 @@
   period: "2019"
   theme: t4
   role: Coordenador Geral de Polo (Natal/RN)
-  icon: fa-solid fa-building-columns
+  orgs: [kroton]
   details: >-
     Coordenação geral de um polo de educação a distância da Faculdade Pitágoras em Natal.

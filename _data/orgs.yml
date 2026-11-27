@@ -1,22 +1,25 @@
-# Instituições da faixa de logos (home) e dos cases/experiências; sq = raiz da proporção largura/altura (ordem = ordem da faixa de logos)
-mec:       {name: "MEC", logo: assets/img/logos/mec.png, sq: 1.0}
-unesco:    {name: "UNESCO", logo: assets/img/logos/unesco.png, sq: 1.1}
-worldbank: {name: "Banco Mundial", logo: assets/img/logos/worldbank.png, sq: 2.25}
-bid:       {name: "BID", logo: assets/img/logos/bid.png, sq: 1.61}
-oei:       {name: "OEI", logo: assets/img/logos/oei.png, sq: 0.88}
-ceara:     {name: "Governo do Ceará", logo: assets/img/logos/ceara.png, sq: 0.86}
-rs:        {name: "Governo do RS", logo: assets/img/logos/rs.png, sq: 0.87}
-recife:    {name: "Prefeitura do Recife", logo: assets/img/logos/recife.png, sq: 1.19}
-rn:        {name: "Governo do RN", logo: assets/img/logos/rn.png, sq: 0.98}
-ebserh:    {name: "Ebserh", logo: assets/img/logos/ebserh.png, sq: 2.01}
-unb:       {name: "UnB", logo: assets/img/logos/unb.png, sq: 1.04}
-unibanco:  {name: "Instituto Unibanco", logo: assets/img/logos/unibanco.png, sq: 0.94}
-sapien:    {name: "Instituto Sapien", logo: assets/img/logos/sapien.png, sq: 1.56}
-brasscom:  {name: "Brasscom", logo: assets/img/logos/brasscom.png, sq: 1.94}
-hachura:   {name: "Hachura", logo: assets/img/logos/hachura.png, sq: 0.88}
-imagimaker: {name: "ImagiMaker", logo: assets/img/logos/imagimaker.png, sq: 1.22}
-ufrn:      {name: "UFRN", logo: assets/img/logos/ufrn.png, sq: 1.78}
-imd:       {name: "IMD/UFRN", logo: assets/img/logos/imd.png, sq: 2.28}
-gamedu:    {name: "Desafio GamEdu", logo: assets/img/logos/gamedu.png, sq: 1.89}
-ifrn:      {name: "IFRN", logo: assets/img/logos/ifrn.png, sq: 0.85}
-unifacex:  {name: "UNIFACEX", logo: assets/img/logos/unifacex.png, sq: 2.18}
+# Instituições (faixa da home e cases/experiências).
+# sq = raiz da proporção largura/altura do logo (equaliza o tamanho visual); group = bloco na home
+unesco:     {name: "UNESCO", logo: assets/img/logos/unesco.png, sq: 1.1, group: multi}
+worldbank:  {name: "Banco Mundial", logo: assets/img/logos/worldbank.png, sq: 2.25, group: multi}
+bid:        {name: "BID", logo: assets/img/logos/bid.png, sq: 1.61, group: multi}
+oei:        {name: "OEI", logo: assets/img/logos/oei.png, sq: 0.88, group: multi}
+mec:        {name: "MEC", logo: assets/img/logos/mec.png, sq: 1.0, group: gov}
+ebserh:     {name: "Ebserh", logo: assets/img/logos/ebserh.png, sq: 2.01, group: gov}
+ceara:      {name: "Governo do Ceará", logo: assets/img/logos/ceara.png, sq: 0.86, group: gov}
+rs:         {name: "Governo do RS", logo: assets/img/logos/rs.png, sq: 0.87, group: gov}
+recife:     {name: "Prefeitura do Recife", logo: assets/img/logos/recife.png, sq: 1.19, group: gov}
+rn:         {name: "Governo do RN", logo: assets/img/logos/rn.png, sq: 0.98, group: gov}
+brasscom:   {name: "Brasscom", logo: assets/img/logos/brasscom.png, sq: 1.94, group: priv}
+tomara:     {name: "Tomara! Educação e Cultura", logo: assets/img/logos/tomara.png, sq: 0.99, group: priv}
+hachura:    {name: "Hachura", logo: assets/img/logos/hachura.png, sq: 0.88, group: priv}
+imagimaker: {name: "ImagiMaker", logo: assets/img/logos/imagimaker.png, sq: 1.22, group: priv}
+kroton:     {name: "Kroton · Pitágoras", logo: assets/img/logos/kroton.png, sq: 1.39, group: priv}
+unifacex:   {name: "UNIFACEX", logo: assets/img/logos/unifacex.png, sq: 2.18, group: priv}
+unibanco:   {name: "Instituto Unibanco", logo: assets/img/logos/unibanco.png, sq: 0.94, group: ter}
+sapien:     {name: "Instituto Sapien", logo: assets/img/logos/sapien.png, sq: 1.56, group: ter}
+ufrn:       {name: "UFRN", logo: assets/img/logos/ufrn.png, sq: 1.78, group: acad}
+imd:        {name: "IMD/UFRN", logo: assets/img/logos/imd.png, sq: 2.28, group: acad}
+unb:        {name: "UnB", logo: assets/img/logos/unb.png, sq: 1.04, group: acad}
+ifrn:       {name: "IFRN", logo: assets/img/logos/ifrn.png, sq: 0.85, group: acad}
+gamedu:     {name: "Desafio GamEdu", logo: assets/img/logos/gamedu.png, sq: 1.89, group: acad}
