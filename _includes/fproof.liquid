@@ -1,0 +1,30 @@
+{%- comment -%} Provas de uma frente: cases (peças) + experiências (expansíveis). Parâmetro: tid {%- endcomment -%}
+{%- assign cs = site.projects | where: "theme", include.tid | sort: "importance" -%}
+{%- assign es = site.data.experiences | where: "theme", include.tid -%}
+<div class="fproof">
+  <div class="fcases">
+    <p class="sub">Cases</p>
+    {%- for p in cs -%}
+    <a class="crow" id="c-{{ p.slug }}" href="{{ p.url | relative_url }}" aria-label="Abrir case: {{ p.title }}">
+      <span class="pz{% if p.orgs.size > 1 %} duo{% endif %}"><span class="ring"></span>{%- for k in p.orgs -%}{%- assign org = site.data.orgs[k] -%}{% unless forloop.first %}<i></i>{% endunless %}<img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy">{%- endfor -%}</span>
+      <span class="ctx"><span class="ctl">{{ p.title }}</span><span class="cd">{{ p.description }}</span>{% if p.audience %}<span class="pub">{{ p.audience }}</span>{% endif %}</span>
+    </a>
+    {%- endfor -%}
+  </div>
+  {%- if es.size > 0 -%}
+  <div class="fexps">
+    <p class="sub">Outras experiências</p>
+    <ul class="elist">
+    {%- for e in es -%}
+      <li id="e-{{ e.name | slugify: 'latin' }}"><details>
+        <summary>
+          <span class="syms">{%- if e.orgs -%}{%- for k in e.orgs -%}{%- assign org = site.data.orgs[k] -%}<span class="sym"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></span>{%- endfor -%}{%- else -%}<span class="sym"><i class="{{ e.icon }}" aria-hidden="true"></i></span>{%- endif -%}</span>
+          <span class="etx"><span class="en">{{ e.name }}<em>{{ e.period }}</em></span><span class="er">{{ e.role }}{% if e.audience %} · <b>{{ e.audience }}</b>{% endif %}</span></span>
+        </summary>
+        <div class="ed"><p>{{ e.details }}</p><a class="cvl" href="{{ '/cv/' | relative_url }}">ver no CV →</a></div>
+      </details></li>
+    {%- endfor -%}
+    </ul>
+  </div>
+  {%- endif -%}
+</div>

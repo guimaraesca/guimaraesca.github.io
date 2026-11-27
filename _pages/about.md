@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>Ciência de Dados · IA aplicada · Governança (EMIS)</p>
     <p>Consultorias · assessorias técnicas · bancas</p>
-    <p>MEC · UNESCO · Banco Mundial · BID · OEI</p>
 
 selected_papers: false
 social: true
@@ -24,43 +23,74 @@ latest_posts:
 {% include accent-dark.liquid %}
 
 <style>
-.lead{font-size:1.02rem;line-height:1.7;margin:.2rem 0 1rem}
-.axis{margin:.5rem 0 .2rem}
-.axis-band{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#5A5A72,#DC2A17,#1b1b4d);color:#fff;font-size:.8rem;font-weight:600;padding:9px 14px;border-radius:9px 9px 0 0}
+.lead{font-size:1.02rem;line-height:1.68;margin:.2rem 0 .9rem}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.2rem 0 1.2rem}
+.btn-p,.btn-s{display:inline-block;font-family:var(--mono,ui-monospace,monospace);font-size:.74rem;letter-spacing:.03em;padding:8px 15px;border-radius:999px;text-decoration:none!important}
+.btn-p{background:#DC2A17;color:#fff!important}
+.btn-s{border:1.5px solid #DC2A17;color:#DC2A17!important}
+.btn-p:hover,.btn-s:hover{opacity:.85}
+.aud{font-family:var(--mono,ui-monospace,monospace);font-size:.62rem;letter-spacing:.07em;text-transform:uppercase;opacity:.6;margin-left:4px}
+.olabel{font-family:var(--mono,ui-monospace,monospace);font-size:.62rem;letter-spacing:.09em;text-transform:uppercase;opacity:.55;margin:0 0 6px}
+.orgs{display:grid;grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:7px;margin:0 0 1.3rem}
+.orgs a{display:block;height:46px;background:#fff;border:1px solid rgba(127,127,127,.25);border-radius:8px;padding:6px 9px;transition:transform .15s ease,box-shadow .15s ease}
+.orgs a:hover{transform:translateY(-2px);box-shadow:0 4px 10px rgba(0,0,0,.15)}
+.orgs img{width:100%;height:100%;object-fit:contain}
+.post article h2.sec{font-size:1.1rem;font-weight:700;margin:1.3rem 0 .6rem;padding-top:.8rem;border-top:1px solid rgba(127,127,127,.18);clear:both}
+.axis{margin:.3rem 0 .2rem}
+.axis-band{display:flex;justify-content:space-between;align-items:center;background:linear-gradient(90deg,#5A5A72,#DC2A17,#1b1b4d);color:#fff;font-size:.8rem;font-weight:600;padding:8px 14px;border-radius:9px 9px 0 0}
 .axis-band small{font-family:var(--mono,ui-monospace,monospace);font-weight:400;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
 .axis-cols{display:grid;grid-template-columns:repeat(3,1fr)}
-.axis-col{border:1px solid rgba(127,127,127,.25);border-top:5px solid var(--c);padding:13px 15px;position:relative}
-.axis-col b{display:block;font-size:.93rem}
-.axis-col em{display:block;font-style:normal;font-family:var(--mono,ui-monospace,monospace);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin:2px 0 6px}
-.axis-col span{display:block;font-size:.8rem;opacity:.78;line-height:1.45}
-.epe{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:.4rem 0}
-.epe .ep{border-left:4px solid var(--c);padding:4px 0 4px 13px}
-.epe .ep b{display:block;font-size:.94rem;margin-bottom:3px}
-.epe .ep span{font-size:.84rem;opacity:.8;line-height:1.5}
-.fronts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:.7rem 0 .9rem}
-.front{display:block;border:1px solid rgba(127,127,127,.28);border-top:4px solid var(--c);border-radius:10px;padding:13px 15px;text-decoration:none;color:inherit;transition:transform .15s ease,border-color .15s ease}
-.front:hover{transform:translateY(-3px);border-color:var(--c)}
-.front b{display:block;font-size:.95rem;color:var(--c)}
-.front span{display:block;font-size:.8rem;opacity:.78;line-height:1.45;margin-top:4px}
-.cta-btn{display:inline-block;font-family:var(--mono,ui-monospace,monospace);font-size:.76rem;letter-spacing:.03em;background:#DC2A17;color:#fff!important;padding:9px 16px;border-radius:999px;text-decoration:none}
-.cta-btn:hover{opacity:.88}
-.ct{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px 20px;margin:.4rem 0}
-.cx b{font-size:.84rem}
-.cx span{display:block;font-size:.76rem;opacity:.72;line-height:1.45;margin-top:2px}
-.tl{border-left:2px solid rgba(127,127,127,.3);margin:.5rem 0;padding-left:18px;display:grid;gap:10px}
-.tl .tli{position:relative;font-size:.88rem;line-height:1.45}
-.tl .tli::before{content:"";position:absolute;left:-24px;top:6px;width:10px;height:10px;border-radius:50%;background:#DC2A17}
-.tl .tli .y{display:inline-block;min-width:88px;font-family:var(--mono,ui-monospace,monospace);font-weight:600;font-size:.74rem;color:#DC2A17}
-@media(max-width:860px){.axis-cols,.epe,.fronts{grid-template-columns:1fr}.axis-band{border-radius:9px 9px 0 0;flex-direction:column;gap:3px;text-align:center}}
+.axis-col{border:1px solid rgba(127,127,127,.25);border-top:5px solid var(--c);padding:11px 14px}
+.axis-col b{display:block;font-size:.92rem}
+.axis-col em{display:block;font-style:normal;font-family:var(--mono,ui-monospace,monospace);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin:2px 0 5px}
+.axis-col span{display:block;font-size:.79rem;opacity:.78;line-height:1.45}
+.traj{list-style:none;margin:.2rem 0 .4rem;padding:0;display:grid;grid-template-columns:repeat(8,1fr);position:relative}
+.traj::before{content:"";position:absolute;left:0;right:0;top:27px;height:2px;background:linear-gradient(90deg,#5A5A72 0 45%,#DC2A17 70%,#0E7C86)}
+.traj li{position:relative;padding:0 8px 0 0}
+.traj .y{display:block;font-family:var(--mono,ui-monospace,monospace);font-size:.66rem;font-weight:700;color:var(--c,#DC2A17);height:20px}
+.traj .d{display:block;width:12px;height:12px;border-radius:50%;background:var(--c,#DC2A17);border:2px solid var(--global-bg-color,#fff);margin:0 0 7px;position:relative}
+.traj b{display:block;font-size:.78rem;line-height:1.2}
+.traj span.t{display:block;font-size:.7rem;opacity:.7;line-height:1.35;margin-top:2px}
+.traj a{color:inherit}
+.ct-wrap{margin:.9rem 0 .6rem;border:1px solid rgba(127,127,127,.22);border-radius:10px;padding:0 14px}
+.ct-wrap summary{cursor:pointer;font-weight:600;font-size:.9rem;padding:10px 0;list-style:none}
+.ct-wrap summary::-webkit-details-marker{display:none}
+.ct-wrap summary::after{content:" +";color:#DC2A17;font-family:var(--mono,ui-monospace,monospace)}
+.ct-wrap[open] summary::after{content:" −"}
+.ct{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:10px 20px;padding:0 0 12px}
+.cx b{font-size:.82rem}
+.cx span{display:block;font-size:.75rem;opacity:.72;line-height:1.45;margin-top:2px}
+.foot{font-size:.9rem;margin:.6rem 0 0}
+@media(max-width:860px){.axis-cols{grid-template-columns:1fr}.axis-band{flex-direction:column;gap:3px;text-align:center}
+ .traj{grid-template-columns:1fr;gap:9px;padding-left:20px}.traj::before{left:5px;right:auto;top:4px;bottom:4px;width:2px;height:auto;background:linear-gradient(180deg,#5A5A72,#DC2A17,#0E7C86)}
+ .traj .y{height:auto}.traj .d{position:absolute;left:-20px;top:2px;margin:0}}
+@media(prefers-reduced-motion:reduce){.orgs a{transition:none}}
 </style>
 
-<p class="lead">Antes dos dados e dos algoritmos, veio a sala de aula. Comecei em 2009 como professor no <strong>CENEP-RN</strong>, na rede estadual do Rio Grande do Norte, e dediquei mais de uma década à docência — na coordenação de tutoria e de professores mediadores do Instituto Metrópole Digital (IMD/UFRN), no IFRN e na UNIFACEX. Foi ali que aprendi como estudantes e docentes realmente se relacionam com a tecnologia, e essa vivência continua sendo a régua de tudo o que construo. Vieram depois os produtos de informação para seis redes estaduais no Instituto Unibanco, a transição técnica de um sistema nacional de gestão escolar no MEC e, agora, motores de IA generativa para livros didáticos do PNLD.</p>
+<p class="lead">Comecei em 2009 como professor da rede estadual do Rio Grande do Norte e passei mais de uma década entre sala de aula, tutoria e coordenação de cursos a distância. Hoje uno <strong>Ciência de Dados, governança e IA</strong> para ajudar governos, organismos multilaterais, terceiro setor e empresas a transformar evidência educacional em decisão — e decisão em política que funciona na escala de uma rede de ensino. A premissa: <strong>IA confiável requer dado governado.</strong></p>
 
-<p class="lead">Hoje apoio governos, organismos multilaterais, organizações do terceiro setor e empresas a converter evidência educacional em decisão — e decisão em política capaz de funcionar na escala de uma rede de ensino. O método parte de uma premissa exigente: <strong>IA confiável requer dado governado, e dado governado requer clareza sobre quem decide, com qual evidência e sob quais salvaguardas.</strong> Cada projeto articula, portanto, três camadas que raramente dialogam: a <strong>engenharia</strong>, responsável por pipelines, modelos preditivos e painéis; a <strong>governança</strong>, que define papéis, qualidade, interoperabilidade e conformidade com a LGPD; e a <strong>avaliação</strong>, que estabelece indicadores capazes de mostrar, sem autoengano, se a mudança alcança a escola.</p>
+<div class="hero-cta">
+  <a class="btn-p" href="{{ '/consultoria/' | relative_url }}">Consultoria →</a>
+  <a class="btn-s" href="mailto:carlosarturguimaraes@protonmail.com">Contato</a>
+  <a class="btn-s" href="{{ '/cv/' | relative_url }}">CV</a>
+  <span class="aud">governos · terceiro setor · setor privado</span>
+</div>
 
-<p class="lead">Três formações sustentam esse percurso. Cada uma oferece profundidade própria — critérios de evidência e limites éticos, desenho e avaliação de programas, engenharia e modelagem estatística — e todas convergem para um mesmo eixo: a educação pública.</p>
+<p class="olabel">Instituições com quem trabalhei</p>
+<div class="orgs">
+{%- for o in site.data.orgs -%}
+  {%- assign key = o[0] -%}{%- assign org = o[1] -%}{%- assign target = "" -%}
+  {%- for p in site.projects -%}{%- if target == "" and p.orgs contains key -%}
+    {%- if p.theme == "t4" -%}{%- assign target = p.url | relative_url -%}{%- else -%}{%- assign target = "/consultoria/#c-" | append: p.slug | relative_url -%}{%- endif -%}
+  {%- endif -%}{%- endfor -%}
+  {%- for e in site.data.experiences -%}{%- if target == "" and e.orgs contains key -%}
+    {%- if e.theme == "t4" -%}{%- assign target = "#trajetoria" -%}{%- else -%}{%- assign slug = e.name | slugify: "latin" -%}{%- assign target = "/consultoria/#e-" | append: slug | relative_url -%}{%- endif -%}
+  {%- endif -%}{%- endfor -%}
+  <a href="{{ target }}" title="{{ org.name }}"><img src="{{ org.logo | relative_url }}" alt="{{ org.name }}" loading="lazy"></a>
+{%- endfor -%}
+</div>
 
-## Formação
+<h2 class="sec">Formação</h2>
 
 <div class="axis">
   <div class="axis-band"><span>Educação pública · evidência · ética · governança</span><small>eixo transversal</small></div>
@@ -71,28 +101,21 @@ latest_posts:
   </div>
 </div>
 
-## Ensino, pesquisa e extensão
+<h2 class="sec" id="trajetoria">Trajetória</h2>
 
-<div class="epe">
-  <div class="ep" style="--c:#5A5A72"><b>Ensino</b><span>Professor da rede estadual no CENEP-RN (2009–2014); coordenação de tutoria e de professores mediadores no IMD/UFRN (2012–2021); docência no IFRN e na UNIFACEX; coordenação de polo na Faculdade Pitágoras.</span></div>
-  <div class="ep" style="--c:#DC2A17"><b>Pesquisa</b><span>Mestrado no PPGITE/UFRN sobre pensamento computacional e jogos digitais; artigos na RBIE (Qualis A2), no WIE, no EduComp e no Ctrl+E; participação no PENSA-RN, programa estadual de formação docente.</span></div>
-  <div class="ep" style="--c:#1b1b4d"><b>Extensão</b><span>EducaCode, no Recife; Escola Digital e Conectada, com a Brasscom; Desafio GamEdu; e o livro aberto <a href="{{ '/colossus/' | relative_url }}"><strong>Colossus</strong></a>, nascido do grupo de estudos do CENEP-RN.</span></div>
-</div>
+<ol class="traj">
+  <li style="--c:#5A5A72"><span class="y">2009–2014</span><i class="d"></i><b>CENEP-RN</b><span class="t">Professor da rede estadual (SEEC-RN)</span></li>
+  <li style="--c:#5A5A72"><span class="y">2012–2021</span><i class="d"></i><b><a href="{{ '/projects/6_imd/' | relative_url }}">IMD/UFRN</a></b><span class="t">Tutoria, mediadores, GameLab e GamEdu</span></li>
+  <li style="--c:#5A5A72"><span class="y">2013–2021</span><i class="d"></i><b>UNIFACEX · IFRN</b><span class="t">Docência superior e coordenação de tutoria EAD</span></li>
+  <li style="--c:#1b1b4d"><span class="y">2021–2026</span><i class="d"></i><b>Brasscom</b><span class="t">Escola Digital e Conectada</span></li>
+  <li style="--c:#DC2A17"><span class="y">2023–2025</span><i class="d"></i><b>Instituto Unibanco</b><span class="t">Product Owner do SIGAE</span></li>
+  <li style="--c:#DC2A17"><span class="y">2025</span><i class="d"></i><b>MEC · UNESCO · PNLD</b><span class="t">SGP 2.0, TRILHA-IA, Goiás 2050 e defesa do mestrado</span></li>
+  <li style="--c:#0E7C86"><span class="y">2026–2027</span><i class="d"></i><b>Ceará · RS</b><span class="t">SEPLAG-CE via BID e OEI/SEDUC-RS</span></li>
+  <li style="--c:#0E7C86"><span class="y">2026–2027</span><i class="d"></i><b>Residência em IA</b><span class="t">Instituto Eldorado / PUC-Campinas</span></li>
+</ol>
 
-## Consultoria
-
-<p class="lead">Atuo em três frentes — Transformação Digital, Educação e Inovação — para três públicos: terceiro setor, governos e setor privado. Cada frente parte de problemas recorrentes e se apoia em projetos já entregues. A apresentação completa, com a matriz de atuação, o modo de trabalho e as experiências que a sustentam, está na página dedicada.</p>
-
-<div class="fronts">
-  <a class="front" style="--c:#DC2A17" href="{{ '/consultoria/' | relative_url }}#transformacao-digital"><b>Transformação Digital</b><span>Sistemas que conversam, papéis definidos e arquitetura de dados confiável.</span></a>
-  <a class="front" style="--c:#1b1b4d" href="{{ '/consultoria/' | relative_url }}#educacao"><b>Educação</b><span>Da diretriz oficial ao currículo, à formação docente e ao indicador.</span></a>
-  <a class="front" style="--c:#0E7C86" href="{{ '/consultoria/' | relative_url }}#inovacao"><b>Inovação</b><span>IA útil, segura e auditável, com pilotos que geram evidência.</span></a>
-</div>
-
-<a class="cta-btn" href="{{ '/consultoria/' | relative_url }}">Conheça a consultoria →</a>
-
-## Competências técnicas
-
+<details class="ct-wrap">
+<summary>Competências técnicas</summary>
 <div class="ct">
   <div class="cx"><b>Engenharia de dados</b><span>Python (Pandas) · SQL avançado · R · GCP BigQuery · Apache Parquet · pipelines ETL/ELT · microdados governamentais · migração de sistemas legados</span></div>
   <div class="cx"><b>Estatística, modelagem e avaliação</b><span>Scikit-learn · modelagem preditiva (risco de evasão) · séries temporais (Holt, ARIMA) · cenários de longo prazo · learning analytics · indicadores compostos</span></div>
@@ -103,18 +126,6 @@ latest_posts:
   <div class="cx"><b>Produto e projetos</b><span>Product Ownership · backlog e priorização · PMBOK 7 · sprints · BPMN 2.0 · formação de gestores</span></div>
   <div class="cx"><b>Currículo e plataformas</b><span>BNCC Computação · pensamento computacional · EPT · STEAM · PNLD · Moodle · H5P · SCORM · cmi5 · xAPI · Scratch · micro:bit · Arduino</span></div>
 </div>
+</details>
 
-## Linha do tempo
-
-<div class="tl">
-  <div class="tli"><span class="y">2008</span>Licenciatura em Filosofia (UFRN)</div>
-  <div class="tli"><span class="y">2009–2014</span>Professor da rede estadual — CENEP-RN (SEEC-RN)</div>
-  <div class="tli"><span class="y">2012–2021</span>IMD/UFRN — tutoria, professores mediadores, GameLab e Desafio GamEdu</div>
-  <div class="tli"><span class="y">2018</span>Bacharelado em Gestão de Políticas Públicas (UFRN)</div>
-  <div class="tli"><span class="y">2021–2026</span>Brasscom — Escola Digital e Conectada</div>
-  <div class="tli"><span class="y">2023–2025</span>Instituto Unibanco — Product Owner do SIGAE</div>
-  <div class="tli"><span class="y">2025</span>Mestrado (PPGITE/UFRN) · MEC/UNESCO (SGP 2.0) · PNLD 2027 (TRILHA-IA) · Goiás 2050</div>
-  <div class="tli"><span class="y">2026–2027</span>SEPLAG-CE · OEI/SEDUC-RS · Residência em IA (Eldorado/PUC-Campinas)</div>
-</div>
-
-**Disponível para consultorias individuais, assessorias técnicas e bancas.** [carlosarturguimaraes@protonmail.com](mailto:carlosarturguimaraes@protonmail.com) · <a href="{{ '/en/' | relative_url }}">🌐 English</a>
+<p class="foot"><strong>Disponível para consultorias, assessorias técnicas e bancas.</strong> <a href="mailto:carlosarturguimaraes@protonmail.com">carlosarturguimaraes@protonmail.com</a> · <a href="{{ '/en/' | relative_url }}">🌐 English</a></p>

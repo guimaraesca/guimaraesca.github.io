@@ -3,7 +3,7 @@ layout: page
 title: colossus
 permalink: /colossus/
 description: Colossus — memorial pedagógico sobre pensamento computacional na Educação Básica (BNCC-Computação).
-nav: true
+nav: false
 nav_order: 4
 ---
 

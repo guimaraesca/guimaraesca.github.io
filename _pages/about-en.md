@@ -97,6 +97,6 @@ profile:
   </div>
 </div>
 
-See the **[cases]({{ '/projects/' | relative_url }})**, **[publications]({{ '/publications/' | relative_url }})** and **[CV]({{ '/cv/' | relative_url }})**.
+See the **[consulting & cases]({{ '/consultoria/' | relative_url }})**, **[publications]({{ '/publications/' | relative_url }})** and **[CV]({{ '/cv/' | relative_url }})**.
 
 **Available for individual consultancies, technical advisory and thesis committees.** [carlosarturguimaraes@protonmail.com](mailto:carlosarturguimaraes@protonmail.com) · <a href="{{ '/' | relative_url }}">🌐 Português</a>
